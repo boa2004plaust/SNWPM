@@ -1,0 +1,2475 @@
+The current dataset is : ../../data/raw_data/Case_1_2_Training.npy
+orignal training data (2, 256, 15000, 72)
+Xtrain data (15000, 2, 72, 256)
+The current dataset is : ../../data/raw_data/Case_1_2_Training_Label.npy
+orignal training label (2, 15000)
+Ytrain data (15000, 2)
+TrainX data shape: (30000, 2, 72, 256)
+TrainY data shape: (30000, 2)
+Run 0 | Epoch : 1/200, lr: 0.009999, loss_avg: 234.366409
+Run 0 | Test Orig Epoch : 1/200, Score_CDF90: 14.788145, Score_MSE: 11.566936
+Run 0 | Test Aug1 Epoch : 1/200, Score_CDF90: 15.075425, Score_MSE: 10.172379
+Run 0 | Test Aug2 Epoch : 1/200, Score_CDF90: 15.496465, Score_MSE: 11.805175
+### Model saved! Best test MSE: 11.566936.
+Run 0 | Epoch : 2/200, lr: 0.009998, loss_avg: 8.169984
+Run 0 | Test Orig Epoch : 2/200, Score_CDF90: 68.721268, Score_MSE: 63.287487
+Run 0 | Epoch : 3/200, lr: 0.009994, loss_avg: 5.058404
+Run 0 | Test Orig Epoch : 3/200, Score_CDF90: 5.490579, Score_MSE: 3.557787
+Run 0 | Test Aug1 Epoch : 3/200, Score_CDF90: 6.558216, Score_MSE: 4.415712
+Run 0 | Test Aug2 Epoch : 3/200, Score_CDF90: 6.307531, Score_MSE: 3.914874
+### Model saved! Best test MSE: 3.557787.
+Run 0 | Epoch : 4/200, lr: 0.009990, loss_avg: 4.261891
+Run 0 | Test Orig Epoch : 4/200, Score_CDF90: 6.465480, Score_MSE: 4.583769
+Run 0 | Epoch : 5/200, lr: 0.009985, loss_avg: 3.131029
+Run 0 | Test Orig Epoch : 5/200, Score_CDF90: 6.084313, Score_MSE: 3.429987
+Run 0 | Test Aug1 Epoch : 5/200, Score_CDF90: 8.401312, Score_MSE: 5.043470
+Run 0 | Test Aug2 Epoch : 5/200, Score_CDF90: 6.723543, Score_MSE: 3.860909
+### Model saved! Best test MSE: 3.429987.
+Run 0 | Epoch : 6/200, lr: 0.009978, loss_avg: 2.460550
+Run 0 | Test Orig Epoch : 6/200, Score_CDF90: 2.229174, Score_MSE: 1.291500
+Run 0 | Test Aug1 Epoch : 6/200, Score_CDF90: 3.216397, Score_MSE: 1.960209
+Run 0 | Test Aug2 Epoch : 6/200, Score_CDF90: 2.991041, Score_MSE: 1.665711
+### Model saved! Best test MSE: 1.291500.
+Run 0 | Epoch : 7/200, lr: 0.009970, loss_avg: 1.821198
+Run 0 | Test Orig Epoch : 7/200, Score_CDF90: 3.151303, Score_MSE: 2.126582
+Run 0 | Epoch : 8/200, lr: 0.009961, loss_avg: 1.892174
+Run 0 | Test Orig Epoch : 8/200, Score_CDF90: 4.865194, Score_MSE: 2.748072
+Run 0 | Epoch : 9/200, lr: 0.009950, loss_avg: 1.347014
+Run 0 | Test Orig Epoch : 9/200, Score_CDF90: 9.172955, Score_MSE: 7.384781
+Run 0 | Epoch : 10/200, lr: 0.009938, loss_avg: 1.468674
+Run 0 | Test Orig Epoch : 10/200, Score_CDF90: 5.658442, Score_MSE: 4.082678
+Run 0 | Epoch : 11/200, lr: 0.009926, loss_avg: 1.392922
+Run 0 | Test Orig Epoch : 11/200, Score_CDF90: 2.119967, Score_MSE: 1.279297
+Run 0 | Test Aug1 Epoch : 11/200, Score_CDF90: 2.910780, Score_MSE: 1.796850
+Run 0 | Test Aug2 Epoch : 11/200, Score_CDF90: 2.658582, Score_MSE: 1.556109
+### Model saved! Best test MSE: 1.279297.
+Run 0 | Epoch : 12/200, lr: 0.009911, loss_avg: 1.474725
+Run 0 | Test Orig Epoch : 12/200, Score_CDF90: 4.584122, Score_MSE: 3.003440
+Run 0 | Epoch : 13/200, lr: 0.009896, loss_avg: 1.105725
+Run 0 | Test Orig Epoch : 13/200, Score_CDF90: 4.985180, Score_MSE: 3.536262
+Run 0 | Epoch : 14/200, lr: 0.009880, loss_avg: 0.965067
+Run 0 | Test Orig Epoch : 14/200, Score_CDF90: 2.072789, Score_MSE: 1.182544
+Run 0 | Test Aug1 Epoch : 14/200, Score_CDF90: 3.655750, Score_MSE: 2.248805
+Run 0 | Test Aug2 Epoch : 14/200, Score_CDF90: 2.585152, Score_MSE: 1.493084
+### Model saved! Best test MSE: 1.182544.
+Run 0 | Epoch : 15/200, lr: 0.009862, loss_avg: 1.123376
+Run 0 | Test Orig Epoch : 15/200, Score_CDF90: 3.770983, Score_MSE: 2.298455
+Run 0 | Epoch : 16/200, lr: 0.009843, loss_avg: 0.992394
+Run 0 | Test Orig Epoch : 16/200, Score_CDF90: 5.562490, Score_MSE: 3.608890
+Run 0 | Epoch : 17/200, lr: 0.009823, loss_avg: 0.973915
+Run 0 | Test Orig Epoch : 17/200, Score_CDF90: 3.337420, Score_MSE: 1.998455
+Run 0 | Epoch : 18/200, lr: 0.009801, loss_avg: 0.841510
+Run 0 | Test Orig Epoch : 18/200, Score_CDF90: 2.666874, Score_MSE: 1.471624
+Run 0 | Epoch : 19/200, lr: 0.009779, loss_avg: 0.859673
+Run 0 | Test Orig Epoch : 19/200, Score_CDF90: 2.372135, Score_MSE: 1.281554
+Run 0 | Epoch : 20/200, lr: 0.009755, loss_avg: 0.754322
+Run 0 | Test Orig Epoch : 20/200, Score_CDF90: 3.416664, Score_MSE: 2.174357
+Run 0 | Epoch : 21/200, lr: 0.009730, loss_avg: 0.885781
+Run 0 | Test Orig Epoch : 21/200, Score_CDF90: 1.932498, Score_MSE: 1.134670
+Run 0 | Test Aug1 Epoch : 21/200, Score_CDF90: 2.617305, Score_MSE: 1.472993
+Run 0 | Test Aug2 Epoch : 21/200, Score_CDF90: 2.414415, Score_MSE: 1.388006
+### Model saved! Best test MSE: 1.134670.
+Run 0 | Epoch : 22/200, lr: 0.009704, loss_avg: 0.699202
+Run 0 | Test Orig Epoch : 22/200, Score_CDF90: 2.492612, Score_MSE: 1.386676
+Run 0 | Epoch : 23/200, lr: 0.009677, loss_avg: 0.651526
+Run 0 | Test Orig Epoch : 23/200, Score_CDF90: 4.993152, Score_MSE: 3.135658
+Run 0 | Epoch : 24/200, lr: 0.009649, loss_avg: 0.663620
+Run 0 | Test Orig Epoch : 24/200, Score_CDF90: 4.412743, Score_MSE: 2.380292
+Run 0 | Epoch : 25/200, lr: 0.009619, loss_avg: 0.688459
+Run 0 | Test Orig Epoch : 25/200, Score_CDF90: 15.990878, Score_MSE: 12.375888
+Run 0 | Epoch : 26/200, lr: 0.009589, loss_avg: 0.604114
+Run 0 | Test Orig Epoch : 26/200, Score_CDF90: 7.303937, Score_MSE: 5.676222
+Run 0 | Epoch : 27/200, lr: 0.009557, loss_avg: 0.620730
+Run 0 | Test Orig Epoch : 27/200, Score_CDF90: 4.563781, Score_MSE: 2.677663
+Run 0 | Epoch : 28/200, lr: 0.009524, loss_avg: 0.616027
+Run 0 | Test Orig Epoch : 28/200, Score_CDF90: 3.535259, Score_MSE: 1.911568
+Run 0 | Epoch : 29/200, lr: 0.009490, loss_avg: 0.676226
+Run 0 | Test Orig Epoch : 29/200, Score_CDF90: 3.328746, Score_MSE: 1.850937
+Run 0 | Epoch : 30/200, lr: 0.009455, loss_avg: 0.671536
+Run 0 | Test Orig Epoch : 30/200, Score_CDF90: 3.062193, Score_MSE: 1.927496
+Run 0 | Epoch : 31/200, lr: 0.009419, loss_avg: 0.461236
+Run 0 | Test Orig Epoch : 31/200, Score_CDF90: 2.213444, Score_MSE: 1.306571
+Run 0 | Epoch : 32/200, lr: 0.009382, loss_avg: 0.482642
+Run 0 | Test Orig Epoch : 32/200, Score_CDF90: 4.000141, Score_MSE: 2.407058
+Run 0 | Epoch : 33/200, lr: 0.009343, loss_avg: 0.559141
+Run 0 | Test Orig Epoch : 33/200, Score_CDF90: 1.871072, Score_MSE: 1.139454
+Run 0 | Epoch : 34/200, lr: 0.009304, loss_avg: 0.573600
+Run 0 | Test Orig Epoch : 34/200, Score_CDF90: 1.043249, Score_MSE: 0.609465
+Run 0 | Test Aug1 Epoch : 34/200, Score_CDF90: 1.616855, Score_MSE: 0.933331
+Run 0 | Test Aug2 Epoch : 34/200, Score_CDF90: 1.492627, Score_MSE: 0.843036
+### Model saved! Best test MSE: 0.609465.
+Run 0 | Epoch : 35/200, lr: 0.009263, loss_avg: 0.382860
+Run 0 | Test Orig Epoch : 35/200, Score_CDF90: 0.987535, Score_MSE: 0.563389
+Run 0 | Test Aug1 Epoch : 35/200, Score_CDF90: 1.595083, Score_MSE: 0.936619
+Run 0 | Test Aug2 Epoch : 35/200, Score_CDF90: 1.471267, Score_MSE: 0.833073
+### Model saved! Best test MSE: 0.563389.
+Run 0 | Epoch : 36/200, lr: 0.009222, loss_avg: 0.553461
+Run 0 | Test Orig Epoch : 36/200, Score_CDF90: 3.291406, Score_MSE: 1.897848
+Run 0 | Epoch : 37/200, lr: 0.009179, loss_avg: 0.379697
+Run 0 | Test Orig Epoch : 37/200, Score_CDF90: 1.511739, Score_MSE: 0.889101
+Run 0 | Epoch : 38/200, lr: 0.009135, loss_avg: 0.461089
+Run 0 | Test Orig Epoch : 38/200, Score_CDF90: 3.372590, Score_MSE: 2.296519
+Run 0 | Epoch : 39/200, lr: 0.009091, loss_avg: 0.432982
+Run 0 | Test Orig Epoch : 39/200, Score_CDF90: 2.022620, Score_MSE: 1.064106
+Run 0 | Epoch : 40/200, lr: 0.009045, loss_avg: 0.409507
+Run 0 | Test Orig Epoch : 40/200, Score_CDF90: 1.978377, Score_MSE: 1.197255
+Run 0 | Epoch : 41/200, lr: 0.008998, loss_avg: 0.432935
+Run 0 | Test Orig Epoch : 41/200, Score_CDF90: 2.330969, Score_MSE: 1.452144
+Run 0 | Epoch : 42/200, lr: 0.008951, loss_avg: 0.388438
+Run 0 | Test Orig Epoch : 42/200, Score_CDF90: 1.847298, Score_MSE: 1.044106
+Run 0 | Epoch : 43/200, lr: 0.008902, loss_avg: 0.303730
+Run 0 | Test Orig Epoch : 43/200, Score_CDF90: 2.230303, Score_MSE: 1.375924
+Run 0 | Epoch : 44/200, lr: 0.008853, loss_avg: 0.269363
+Run 0 | Test Orig Epoch : 44/200, Score_CDF90: 3.079792, Score_MSE: 1.851909
+Run 0 | Epoch : 45/200, lr: 0.008802, loss_avg: 0.368399
+Run 0 | Test Orig Epoch : 45/200, Score_CDF90: 0.874214, Score_MSE: 0.508078
+Run 0 | Test Aug1 Epoch : 45/200, Score_CDF90: 1.155799, Score_MSE: 0.674057
+Run 0 | Test Aug2 Epoch : 45/200, Score_CDF90: 1.282818, Score_MSE: 0.734329
+### Model saved! Best test MSE: 0.508078.
+Run 0 | Epoch : 46/200, lr: 0.008751, loss_avg: 0.409146
+Run 0 | Test Orig Epoch : 46/200, Score_CDF90: 1.695256, Score_MSE: 0.940796
+Run 0 | Epoch : 47/200, lr: 0.008698, loss_avg: 0.368025
+Run 0 | Test Orig Epoch : 47/200, Score_CDF90: 3.180749, Score_MSE: 2.002623
+Run 0 | Epoch : 48/200, lr: 0.008645, loss_avg: 0.282546
+Run 0 | Test Orig Epoch : 48/200, Score_CDF90: 1.646488, Score_MSE: 1.182482
+Run 0 | Epoch : 49/200, lr: 0.008591, loss_avg: 0.293596
+Run 0 | Test Orig Epoch : 49/200, Score_CDF90: 1.461242, Score_MSE: 0.933142
+Run 0 | Epoch : 50/200, lr: 0.008536, loss_avg: 0.312090
+Run 0 | Test Orig Epoch : 50/200, Score_CDF90: 0.726734, Score_MSE: 0.434944
+Run 0 | Test Aug1 Epoch : 50/200, Score_CDF90: 0.991570, Score_MSE: 0.577685
+Run 0 | Test Aug2 Epoch : 50/200, Score_CDF90: 1.163050, Score_MSE: 0.654770
+### Model saved! Best test MSE: 0.434944.
+Run 0 | Epoch : 51/200, lr: 0.008480, loss_avg: 0.294292
+Run 0 | Test Orig Epoch : 51/200, Score_CDF90: 2.911667, Score_MSE: 1.952164
+Run 0 | Epoch : 52/200, lr: 0.008423, loss_avg: 0.332722
+Run 0 | Test Orig Epoch : 52/200, Score_CDF90: 0.956807, Score_MSE: 0.518667
+Run 0 | Epoch : 53/200, lr: 0.008365, loss_avg: 0.313342
+Run 0 | Test Orig Epoch : 53/200, Score_CDF90: 1.536217, Score_MSE: 1.036660
+Run 0 | Epoch : 54/200, lr: 0.008307, loss_avg: 0.270908
+Run 0 | Test Orig Epoch : 54/200, Score_CDF90: 2.896086, Score_MSE: 1.846796
+Run 0 | Epoch : 55/200, lr: 0.008247, loss_avg: 0.293046
+Run 0 | Test Orig Epoch : 55/200, Score_CDF90: 2.958686, Score_MSE: 1.809406
+Run 0 | Epoch : 56/200, lr: 0.008187, loss_avg: 0.267405
+Run 0 | Test Orig Epoch : 56/200, Score_CDF90: 3.167736, Score_MSE: 2.000174
+Run 0 | Epoch : 57/200, lr: 0.008126, loss_avg: 0.274639
+Run 0 | Test Orig Epoch : 57/200, Score_CDF90: 0.886342, Score_MSE: 0.519111
+Run 0 | Epoch : 58/200, lr: 0.008065, loss_avg: 0.281583
+Run 0 | Test Orig Epoch : 58/200, Score_CDF90: 1.057509, Score_MSE: 0.637075
+Run 0 | Epoch : 59/200, lr: 0.008002, loss_avg: 0.204083
+Run 0 | Test Orig Epoch : 59/200, Score_CDF90: 1.804880, Score_MSE: 1.118632
+Run 0 | Epoch : 60/200, lr: 0.007939, loss_avg: 0.202625
+Run 0 | Test Orig Epoch : 60/200, Score_CDF90: 1.497082, Score_MSE: 1.075111
+Run 0 | Epoch : 61/200, lr: 0.007875, loss_avg: 0.222778
+Run 0 | Test Orig Epoch : 61/200, Score_CDF90: 0.703300, Score_MSE: 0.409031
+Run 0 | Test Aug1 Epoch : 61/200, Score_CDF90: 0.869986, Score_MSE: 0.507097
+Run 0 | Test Aug2 Epoch : 61/200, Score_CDF90: 1.090886, Score_MSE: 0.615030
+### Model saved! Best test MSE: 0.409031.
+Run 0 | Epoch : 62/200, lr: 0.007810, loss_avg: 0.236686
+Run 0 | Test Orig Epoch : 62/200, Score_CDF90: 1.092924, Score_MSE: 0.719690
+Run 0 | Epoch : 63/200, lr: 0.007745, loss_avg: 0.231580
+Run 0 | Test Orig Epoch : 63/200, Score_CDF90: 0.865850, Score_MSE: 0.540681
+Run 0 | Epoch : 64/200, lr: 0.007679, loss_avg: 0.210951
+Run 0 | Test Orig Epoch : 64/200, Score_CDF90: 0.665790, Score_MSE: 0.399032
+Run 0 | Test Aug1 Epoch : 64/200, Score_CDF90: 1.145998, Score_MSE: 0.714324
+Run 0 | Test Aug2 Epoch : 64/200, Score_CDF90: 1.070536, Score_MSE: 0.613475
+### Model saved! Best test MSE: 0.399032.
+Run 0 | Epoch : 65/200, lr: 0.007612, loss_avg: 0.232783
+Run 0 | Test Orig Epoch : 65/200, Score_CDF90: 2.675885, Score_MSE: 2.066828
+Run 0 | Epoch : 66/200, lr: 0.007545, loss_avg: 0.173200
+Run 0 | Test Orig Epoch : 66/200, Score_CDF90: 1.390174, Score_MSE: 0.821363
+Run 0 | Epoch : 67/200, lr: 0.007477, loss_avg: 0.189096
+Run 0 | Test Orig Epoch : 67/200, Score_CDF90: 0.705292, Score_MSE: 0.429585
+Run 0 | Epoch : 68/200, lr: 0.007409, loss_avg: 0.216648
+Run 0 | Test Orig Epoch : 68/200, Score_CDF90: 2.528365, Score_MSE: 1.416098
+Run 0 | Epoch : 69/200, lr: 0.007340, loss_avg: 0.177037
+Run 0 | Test Orig Epoch : 69/200, Score_CDF90: 0.950399, Score_MSE: 0.559388
+Run 0 | Epoch : 70/200, lr: 0.007270, loss_avg: 0.185864
+Run 0 | Test Orig Epoch : 70/200, Score_CDF90: 0.723815, Score_MSE: 0.418464
+Run 0 | Epoch : 71/200, lr: 0.007200, loss_avg: 0.246185
+Run 0 | Test Orig Epoch : 71/200, Score_CDF90: 0.781126, Score_MSE: 0.469463
+Run 0 | Epoch : 72/200, lr: 0.007129, loss_avg: 0.185891
+Run 0 | Test Orig Epoch : 72/200, Score_CDF90: 0.719208, Score_MSE: 0.436538
+Run 0 | Epoch : 73/200, lr: 0.007058, loss_avg: 0.183837
+Run 0 | Test Orig Epoch : 73/200, Score_CDF90: 0.823664, Score_MSE: 0.502876
+Run 0 | Epoch : 74/200, lr: 0.006986, loss_avg: 0.168270
+Run 0 | Test Orig Epoch : 74/200, Score_CDF90: 1.163435, Score_MSE: 0.751268
+Run 0 | Epoch : 75/200, lr: 0.006913, loss_avg: 0.165454
+Run 0 | Test Orig Epoch : 75/200, Score_CDF90: 0.671145, Score_MSE: 0.392867
+Run 0 | Test Aug1 Epoch : 75/200, Score_CDF90: 0.957366, Score_MSE: 0.565503
+Run 0 | Test Aug2 Epoch : 75/200, Score_CDF90: 1.019527, Score_MSE: 0.582130
+### Model saved! Best test MSE: 0.392867.
+Run 0 | Epoch : 76/200, lr: 0.006841, loss_avg: 0.138926
+Run 0 | Test Orig Epoch : 76/200, Score_CDF90: 1.443952, Score_MSE: 1.025068
+Run 0 | Epoch : 77/200, lr: 0.006767, loss_avg: 0.203688
+Run 0 | Test Orig Epoch : 77/200, Score_CDF90: 1.492694, Score_MSE: 0.950490
+Run 0 | Epoch : 78/200, lr: 0.006694, loss_avg: 0.180783
+Run 0 | Test Orig Epoch : 78/200, Score_CDF90: 2.879080, Score_MSE: 2.180448
+Run 0 | Epoch : 79/200, lr: 0.006620, loss_avg: 0.148573
+Run 0 | Test Orig Epoch : 79/200, Score_CDF90: 0.792733, Score_MSE: 0.508412
+Run 0 | Epoch : 80/200, lr: 0.006545, loss_avg: 0.147613
+Run 0 | Test Orig Epoch : 80/200, Score_CDF90: 1.346702, Score_MSE: 0.844396
+Run 0 | Epoch : 81/200, lr: 0.006470, loss_avg: 0.127588
+Run 0 | Test Orig Epoch : 81/200, Score_CDF90: 1.842055, Score_MSE: 1.303891
+Run 0 | Epoch : 82/200, lr: 0.006395, loss_avg: 0.167182
+Run 0 | Test Orig Epoch : 82/200, Score_CDF90: 1.641955, Score_MSE: 0.947219
+Run 0 | Epoch : 83/200, lr: 0.006319, loss_avg: 0.154330
+Run 0 | Test Orig Epoch : 83/200, Score_CDF90: 1.732508, Score_MSE: 1.057753
+Run 0 | Epoch : 84/200, lr: 0.006243, loss_avg: 0.165701
+Run 0 | Test Orig Epoch : 84/200, Score_CDF90: 0.876697, Score_MSE: 0.528488
+Run 0 | Epoch : 85/200, lr: 0.006167, loss_avg: 0.125300
+Run 0 | Test Orig Epoch : 85/200, Score_CDF90: 0.620462, Score_MSE: 0.372891
+Run 0 | Test Aug1 Epoch : 85/200, Score_CDF90: 1.158104, Score_MSE: 0.739568
+Run 0 | Test Aug2 Epoch : 85/200, Score_CDF90: 0.991385, Score_MSE: 0.575899
+### Model saved! Best test MSE: 0.372891.
+Run 0 | Epoch : 86/200, lr: 0.006091, loss_avg: 0.118797
+Run 0 | Test Orig Epoch : 86/200, Score_CDF90: 0.636875, Score_MSE: 0.382806
+Run 0 | Epoch : 87/200, lr: 0.006014, loss_avg: 0.119605
+Run 0 | Test Orig Epoch : 87/200, Score_CDF90: 1.115949, Score_MSE: 0.663108
+Run 0 | Epoch : 88/200, lr: 0.005937, loss_avg: 0.115981
+Run 0 | Test Orig Epoch : 88/200, Score_CDF90: 0.694021, Score_MSE: 0.385495
+Run 0 | Epoch : 89/200, lr: 0.005860, loss_avg: 0.144373
+Run 0 | Test Orig Epoch : 89/200, Score_CDF90: 0.463754, Score_MSE: 0.276672
+Run 0 | Test Aug1 Epoch : 89/200, Score_CDF90: 0.703388, Score_MSE: 0.403130
+Run 0 | Test Aug2 Epoch : 89/200, Score_CDF90: 0.875429, Score_MSE: 0.488610
+### Model saved! Best test MSE: 0.276672.
+Run 0 | Epoch : 90/200, lr: 0.005782, loss_avg: 0.114767
+Run 0 | Test Orig Epoch : 90/200, Score_CDF90: 0.608711, Score_MSE: 0.329849
+Run 0 | Epoch : 91/200, lr: 0.005705, loss_avg: 0.136760
+Run 0 | Test Orig Epoch : 91/200, Score_CDF90: 1.330970, Score_MSE: 0.763564
+Run 0 | Epoch : 92/200, lr: 0.005627, loss_avg: 0.104438
+Run 0 | Test Orig Epoch : 92/200, Score_CDF90: 0.449087, Score_MSE: 0.261364
+Run 0 | Test Aug1 Epoch : 92/200, Score_CDF90: 0.739887, Score_MSE: 0.435859
+Run 0 | Test Aug2 Epoch : 92/200, Score_CDF90: 0.863194, Score_MSE: 0.476090
+### Model saved! Best test MSE: 0.261364.
+Run 0 | Epoch : 93/200, lr: 0.005549, loss_avg: 0.118831
+Run 0 | Test Orig Epoch : 93/200, Score_CDF90: 0.939021, Score_MSE: 0.536562
+Run 0 | Epoch : 94/200, lr: 0.005471, loss_avg: 0.109157
+Run 0 | Test Orig Epoch : 94/200, Score_CDF90: 0.429285, Score_MSE: 0.251367
+Run 0 | Test Aug1 Epoch : 94/200, Score_CDF90: 0.698588, Score_MSE: 0.394867
+Run 0 | Test Aug2 Epoch : 94/200, Score_CDF90: 0.852961, Score_MSE: 0.475681
+### Model saved! Best test MSE: 0.251367.
+Run 0 | Epoch : 95/200, lr: 0.005392, loss_avg: 0.104767
+Run 0 | Test Orig Epoch : 95/200, Score_CDF90: 0.577905, Score_MSE: 0.328159
+Run 0 | Epoch : 96/200, lr: 0.005314, loss_avg: 0.114767
+Run 0 | Test Orig Epoch : 96/200, Score_CDF90: 0.529348, Score_MSE: 0.324440
+Run 0 | Epoch : 97/200, lr: 0.005236, loss_avg: 0.109321
+Run 0 | Test Orig Epoch : 97/200, Score_CDF90: 0.771436, Score_MSE: 0.496648
+Run 0 | Epoch : 98/200, lr: 0.005157, loss_avg: 0.106302
+Run 0 | Test Orig Epoch : 98/200, Score_CDF90: 0.396170, Score_MSE: 0.227803
+Run 0 | Test Aug1 Epoch : 98/200, Score_CDF90: 0.550905, Score_MSE: 0.313296
+Run 0 | Test Aug2 Epoch : 98/200, Score_CDF90: 0.837768, Score_MSE: 0.458358
+### Model saved! Best test MSE: 0.227803.
+Run 0 | Epoch : 99/200, lr: 0.005079, loss_avg: 0.120860
+Run 0 | Test Orig Epoch : 99/200, Score_CDF90: 1.610268, Score_MSE: 0.943785
+Run 0 | Epoch : 100/200, lr: 0.005000, loss_avg: 0.107021
+Run 0 | Test Orig Epoch : 100/200, Score_CDF90: 0.757574, Score_MSE: 0.462962
+Run 0 | Epoch : 101/200, lr: 0.004921, loss_avg: 0.094952
+Run 0 | Test Orig Epoch : 101/200, Score_CDF90: 1.279368, Score_MSE: 0.829078
+Run 0 | Epoch : 102/200, lr: 0.004843, loss_avg: 0.090105
+Run 0 | Test Orig Epoch : 102/200, Score_CDF90: 0.702913, Score_MSE: 0.406467
+Run 0 | Epoch : 103/200, lr: 0.004764, loss_avg: 0.088505
+Run 0 | Test Orig Epoch : 103/200, Score_CDF90: 0.855747, Score_MSE: 0.518523
+Run 0 | Epoch : 104/200, lr: 0.004686, loss_avg: 0.092112
+Run 0 | Test Orig Epoch : 104/200, Score_CDF90: 0.454084, Score_MSE: 0.267753
+Run 0 | Epoch : 105/200, lr: 0.004608, loss_avg: 0.092826
+Run 0 | Test Orig Epoch : 105/200, Score_CDF90: 0.483310, Score_MSE: 0.273126
+Run 0 | Epoch : 106/200, lr: 0.004529, loss_avg: 0.074635
+Run 0 | Test Orig Epoch : 106/200, Score_CDF90: 0.423806, Score_MSE: 0.250643
+Run 0 | Epoch : 107/200, lr: 0.004451, loss_avg: 0.084956
+Run 0 | Test Orig Epoch : 107/200, Score_CDF90: 0.682772, Score_MSE: 0.434724
+Run 0 | Epoch : 108/200, lr: 0.004373, loss_avg: 0.075284
+Run 0 | Test Orig Epoch : 108/200, Score_CDF90: 0.434500, Score_MSE: 0.270109
+Run 0 | Epoch : 109/200, lr: 0.004295, loss_avg: 0.088533
+Run 0 | Test Orig Epoch : 109/200, Score_CDF90: 0.557203, Score_MSE: 0.327255
+Run 0 | Epoch : 110/200, lr: 0.004218, loss_avg: 0.080065
+Run 0 | Test Orig Epoch : 110/200, Score_CDF90: 0.644766, Score_MSE: 0.398476
+Run 0 | Epoch : 111/200, lr: 0.004140, loss_avg: 0.086214
+Run 0 | Test Orig Epoch : 111/200, Score_CDF90: 0.872964, Score_MSE: 0.498875
+Run 0 | Epoch : 112/200, lr: 0.004063, loss_avg: 0.072870
+Run 0 | Test Orig Epoch : 112/200, Score_CDF90: 0.404437, Score_MSE: 0.238231
+Run 0 | Epoch : 113/200, lr: 0.003986, loss_avg: 0.075823
+Run 0 | Test Orig Epoch : 113/200, Score_CDF90: 0.686411, Score_MSE: 0.436099
+Run 0 | Epoch : 114/200, lr: 0.003909, loss_avg: 0.068452
+Run 0 | Test Orig Epoch : 114/200, Score_CDF90: 0.454288, Score_MSE: 0.265519
+Run 0 | Epoch : 115/200, lr: 0.003833, loss_avg: 0.054767
+Run 0 | Test Orig Epoch : 115/200, Score_CDF90: 0.593361, Score_MSE: 0.402434
+Run 0 | Epoch : 116/200, lr: 0.003757, loss_avg: 0.071478
+Run 0 | Test Orig Epoch : 116/200, Score_CDF90: 0.421078, Score_MSE: 0.248285
+Run 0 | Epoch : 117/200, lr: 0.003681, loss_avg: 0.060663
+Run 0 | Test Orig Epoch : 117/200, Score_CDF90: 0.466229, Score_MSE: 0.278355
+Run 0 | Epoch : 118/200, lr: 0.003605, loss_avg: 0.059447
+Run 0 | Test Orig Epoch : 118/200, Score_CDF90: 0.353902, Score_MSE: 0.213283
+Run 0 | Test Aug1 Epoch : 118/200, Score_CDF90: 0.447724, Score_MSE: 0.264488
+Run 0 | Test Aug2 Epoch : 118/200, Score_CDF90: 0.799668, Score_MSE: 0.433895
+### Model saved! Best test MSE: 0.213283.
+Run 0 | Epoch : 119/200, lr: 0.003530, loss_avg: 0.059048
+Run 0 | Test Orig Epoch : 119/200, Score_CDF90: 0.435644, Score_MSE: 0.275689
+Run 0 | Epoch : 120/200, lr: 0.003455, loss_avg: 0.055573
+Run 0 | Test Orig Epoch : 120/200, Score_CDF90: 0.422822, Score_MSE: 0.246946
+Run 0 | Epoch : 121/200, lr: 0.003380, loss_avg: 0.064708
+Run 0 | Test Orig Epoch : 121/200, Score_CDF90: 0.442685, Score_MSE: 0.261364
+Run 0 | Epoch : 122/200, lr: 0.003306, loss_avg: 0.052638
+Run 0 | Test Orig Epoch : 122/200, Score_CDF90: 0.366204, Score_MSE: 0.206972
+Run 0 | Test Aug1 Epoch : 122/200, Score_CDF90: 0.405971, Score_MSE: 0.229176
+Run 0 | Test Aug2 Epoch : 122/200, Score_CDF90: 0.778929, Score_MSE: 0.428474
+### Model saved! Best test MSE: 0.206972.
+Run 0 | Epoch : 123/200, lr: 0.003233, loss_avg: 0.058604
+Run 0 | Test Orig Epoch : 123/200, Score_CDF90: 0.363816, Score_MSE: 0.218399
+Run 0 | Epoch : 124/200, lr: 0.003159, loss_avg: 0.061627
+Run 0 | Test Orig Epoch : 124/200, Score_CDF90: 0.411775, Score_MSE: 0.258883
+Run 0 | Epoch : 125/200, lr: 0.003087, loss_avg: 0.047410
+Run 0 | Test Orig Epoch : 125/200, Score_CDF90: 0.631216, Score_MSE: 0.411836
+Run 0 | Epoch : 126/200, lr: 0.003014, loss_avg: 0.049687
+Run 0 | Test Orig Epoch : 126/200, Score_CDF90: 0.389922, Score_MSE: 0.221366
+Run 0 | Epoch : 127/200, lr: 0.002942, loss_avg: 0.049864
+Run 0 | Test Orig Epoch : 127/200, Score_CDF90: 0.362995, Score_MSE: 0.199703
+Run 0 | Test Aug1 Epoch : 127/200, Score_CDF90: 0.397771, Score_MSE: 0.234643
+Run 0 | Test Aug2 Epoch : 127/200, Score_CDF90: 0.773670, Score_MSE: 0.411444
+### Model saved! Best test MSE: 0.199703.
+Run 0 | Epoch : 128/200, lr: 0.002871, loss_avg: 0.046958
+Run 0 | Test Orig Epoch : 128/200, Score_CDF90: 0.304382, Score_MSE: 0.183178
+Run 0 | Test Aug1 Epoch : 128/200, Score_CDF90: 0.442193, Score_MSE: 0.261062
+Run 0 | Test Aug2 Epoch : 128/200, Score_CDF90: 0.746736, Score_MSE: 0.405342
+### Model saved! Best test MSE: 0.183178.
+Run 0 | Epoch : 129/200, lr: 0.002800, loss_avg: 0.049315
+Run 0 | Test Orig Epoch : 129/200, Score_CDF90: 0.343566, Score_MSE: 0.194977
+Run 0 | Epoch : 130/200, lr: 0.002730, loss_avg: 0.049286
+Run 0 | Test Orig Epoch : 130/200, Score_CDF90: 0.373174, Score_MSE: 0.213935
+Run 0 | Epoch : 131/200, lr: 0.002660, loss_avg: 0.045273
+Run 0 | Test Orig Epoch : 131/200, Score_CDF90: 0.296107, Score_MSE: 0.168750
+Run 0 | Test Aug1 Epoch : 131/200, Score_CDF90: 0.374099, Score_MSE: 0.214353
+Run 0 | Test Aug2 Epoch : 131/200, Score_CDF90: 0.755494, Score_MSE: 0.402337
+### Model saved! Best test MSE: 0.168750.
+Run 0 | Epoch : 132/200, lr: 0.002591, loss_avg: 0.049776
+Run 0 | Test Orig Epoch : 132/200, Score_CDF90: 0.408274, Score_MSE: 0.238879
+Run 0 | Epoch : 133/200, lr: 0.002523, loss_avg: 0.044607
+Run 0 | Test Orig Epoch : 133/200, Score_CDF90: 0.277776, Score_MSE: 0.153028
+Run 0 | Test Aug1 Epoch : 133/200, Score_CDF90: 0.443970, Score_MSE: 0.259425
+Run 0 | Test Aug2 Epoch : 133/200, Score_CDF90: 0.724709, Score_MSE: 0.387801
+### Model saved! Best test MSE: 0.153028.
+Run 0 | Epoch : 134/200, lr: 0.002455, loss_avg: 0.041315
+Run 0 | Test Orig Epoch : 134/200, Score_CDF90: 0.313557, Score_MSE: 0.181147
+Run 0 | Epoch : 135/200, lr: 0.002388, loss_avg: 0.043784
+Run 0 | Test Orig Epoch : 135/200, Score_CDF90: 0.473171, Score_MSE: 0.298933
+Run 0 | Epoch : 136/200, lr: 0.002321, loss_avg: 0.038950
+Run 0 | Test Orig Epoch : 136/200, Score_CDF90: 0.386051, Score_MSE: 0.206865
+Run 0 | Epoch : 137/200, lr: 0.002255, loss_avg: 0.039903
+Run 0 | Test Orig Epoch : 137/200, Score_CDF90: 0.327186, Score_MSE: 0.201760
+Run 0 | Epoch : 138/200, lr: 0.002190, loss_avg: 0.037896
+Run 0 | Test Orig Epoch : 138/200, Score_CDF90: 0.395312, Score_MSE: 0.233188
+Run 0 | Epoch : 139/200, lr: 0.002125, loss_avg: 0.037590
+Run 0 | Test Orig Epoch : 139/200, Score_CDF90: 0.265761, Score_MSE: 0.150366
+Run 0 | Test Aug1 Epoch : 139/200, Score_CDF90: 0.381810, Score_MSE: 0.223300
+Run 0 | Test Aug2 Epoch : 139/200, Score_CDF90: 0.731180, Score_MSE: 0.384521
+### Model saved! Best test MSE: 0.150366.
+Run 0 | Epoch : 140/200, lr: 0.002061, loss_avg: 0.036911
+Run 0 | Test Orig Epoch : 140/200, Score_CDF90: 0.307970, Score_MSE: 0.181202
+Run 0 | Epoch : 141/200, lr: 0.001998, loss_avg: 0.036749
+Run 0 | Test Orig Epoch : 141/200, Score_CDF90: 0.255441, Score_MSE: 0.147287
+Run 0 | Test Aug1 Epoch : 141/200, Score_CDF90: 0.359052, Score_MSE: 0.206804
+Run 0 | Test Aug2 Epoch : 141/200, Score_CDF90: 0.711836, Score_MSE: 0.382592
+### Model saved! Best test MSE: 0.147287.
+Run 0 | Epoch : 142/200, lr: 0.001935, loss_avg: 0.038012
+Run 0 | Test Orig Epoch : 142/200, Score_CDF90: 0.395123, Score_MSE: 0.223183
+Run 0 | Epoch : 143/200, lr: 0.001874, loss_avg: 0.037124
+Run 0 | Test Orig Epoch : 143/200, Score_CDF90: 0.360427, Score_MSE: 0.184152
+Run 0 | Epoch : 144/200, lr: 0.001813, loss_avg: 0.032300
+Run 0 | Test Orig Epoch : 144/200, Score_CDF90: 0.234289, Score_MSE: 0.135409
+Run 0 | Test Aug1 Epoch : 144/200, Score_CDF90: 0.286496, Score_MSE: 0.164067
+Run 0 | Test Aug2 Epoch : 144/200, Score_CDF90: 0.710611, Score_MSE: 0.376054
+### Model saved! Best test MSE: 0.135409.
+Run 0 | Epoch : 145/200, lr: 0.001753, loss_avg: 0.035870
+Run 0 | Test Orig Epoch : 145/200, Score_CDF90: 0.377355, Score_MSE: 0.232925
+Run 0 | Epoch : 146/200, lr: 0.001693, loss_avg: 0.033667
+Run 0 | Test Orig Epoch : 146/200, Score_CDF90: 0.253571, Score_MSE: 0.145823
+Run 0 | Epoch : 147/200, lr: 0.001635, loss_avg: 0.029914
+Run 0 | Test Orig Epoch : 147/200, Score_CDF90: 0.493936, Score_MSE: 0.267176
+Run 0 | Epoch : 148/200, lr: 0.001577, loss_avg: 0.031807
+Run 0 | Test Orig Epoch : 148/200, Score_CDF90: 0.281091, Score_MSE: 0.169591
+Run 0 | Epoch : 149/200, lr: 0.001520, loss_avg: 0.029526
+Run 0 | Test Orig Epoch : 149/200, Score_CDF90: 0.343806, Score_MSE: 0.214531
+Run 0 | Epoch : 150/200, lr: 0.001464, loss_avg: 0.031025
+Run 0 | Test Orig Epoch : 150/200, Score_CDF90: 0.318697, Score_MSE: 0.198418
+Run 0 | Epoch : 151/200, lr: 0.001409, loss_avg: 0.024336
+Run 0 | Test Orig Epoch : 151/200, Score_CDF90: 0.317470, Score_MSE: 0.185430
+Run 0 | Epoch : 152/200, lr: 0.001355, loss_avg: 0.026608
+Run 0 | Test Orig Epoch : 152/200, Score_CDF90: 0.315125, Score_MSE: 0.171647
+Run 0 | Epoch : 153/200, lr: 0.001302, loss_avg: 0.026263
+Run 0 | Test Orig Epoch : 153/200, Score_CDF90: 0.326308, Score_MSE: 0.191908
+Run 0 | Epoch : 154/200, lr: 0.001249, loss_avg: 0.024817
+Run 0 | Test Orig Epoch : 154/200, Score_CDF90: 0.337677, Score_MSE: 0.209641
+Run 0 | Epoch : 155/200, lr: 0.001198, loss_avg: 0.025481
+Run 0 | Test Orig Epoch : 155/200, Score_CDF90: 0.220406, Score_MSE: 0.126786
+Run 0 | Test Aug1 Epoch : 155/200, Score_CDF90: 0.334017, Score_MSE: 0.190507
+Run 0 | Test Aug2 Epoch : 155/200, Score_CDF90: 0.702427, Score_MSE: 0.365959
+### Model saved! Best test MSE: 0.126786.
+Run 0 | Epoch : 156/200, lr: 0.001147, loss_avg: 0.025022
+Run 0 | Test Orig Epoch : 156/200, Score_CDF90: 0.260604, Score_MSE: 0.154512
+Run 0 | Epoch : 157/200, lr: 0.001098, loss_avg: 0.025391
+Run 0 | Test Orig Epoch : 157/200, Score_CDF90: 0.265828, Score_MSE: 0.157866
+Run 0 | Epoch : 158/200, lr: 0.001049, loss_avg: 0.024537
+Run 0 | Test Orig Epoch : 158/200, Score_CDF90: 0.275539, Score_MSE: 0.177160
+Run 0 | Epoch : 159/200, lr: 0.001002, loss_avg: 0.023346
+Run 0 | Test Orig Epoch : 159/200, Score_CDF90: 0.216793, Score_MSE: 0.121201
+Run 0 | Test Aug1 Epoch : 159/200, Score_CDF90: 0.262919, Score_MSE: 0.145376
+Run 0 | Test Aug2 Epoch : 159/200, Score_CDF90: 0.696575, Score_MSE: 0.365496
+### Model saved! Best test MSE: 0.121201.
+Run 0 | Epoch : 160/200, lr: 0.000955, loss_avg: 0.021075
+Run 0 | Test Orig Epoch : 160/200, Score_CDF90: 0.262051, Score_MSE: 0.157327
+Run 0 | Epoch : 161/200, lr: 0.000909, loss_avg: 0.021421
+Run 0 | Test Orig Epoch : 161/200, Score_CDF90: 0.205555, Score_MSE: 0.117411
+Run 0 | Test Aug1 Epoch : 161/200, Score_CDF90: 0.256209, Score_MSE: 0.146012
+Run 0 | Test Aug2 Epoch : 161/200, Score_CDF90: 0.695918, Score_MSE: 0.362395
+### Model saved! Best test MSE: 0.117411.
+Run 0 | Epoch : 162/200, lr: 0.000865, loss_avg: 0.021247
+Run 0 | Test Orig Epoch : 162/200, Score_CDF90: 0.263602, Score_MSE: 0.160603
+Run 0 | Epoch : 163/200, lr: 0.000821, loss_avg: 0.021056
+Run 0 | Test Orig Epoch : 163/200, Score_CDF90: 0.267801, Score_MSE: 0.171053
+Run 0 | Epoch : 164/200, lr: 0.000778, loss_avg: 0.020835
+Run 0 | Test Orig Epoch : 164/200, Score_CDF90: 0.224542, Score_MSE: 0.134159
+Run 0 | Epoch : 165/200, lr: 0.000737, loss_avg: 0.019773
+Run 0 | Test Orig Epoch : 165/200, Score_CDF90: 0.317562, Score_MSE: 0.174807
+Run 0 | Epoch : 166/200, lr: 0.000696, loss_avg: 0.019906
+Run 0 | Test Orig Epoch : 166/200, Score_CDF90: 0.235480, Score_MSE: 0.142227
+Run 0 | Epoch : 167/200, lr: 0.000657, loss_avg: 0.019505
+Run 0 | Test Orig Epoch : 167/200, Score_CDF90: 0.215162, Score_MSE: 0.118726
+Run 0 | Epoch : 168/200, lr: 0.000618, loss_avg: 0.017749
+Run 0 | Test Orig Epoch : 168/200, Score_CDF90: 0.193948, Score_MSE: 0.106927
+Run 0 | Test Aug1 Epoch : 168/200, Score_CDF90: 0.265932, Score_MSE: 0.149411
+Run 0 | Test Aug2 Epoch : 168/200, Score_CDF90: 0.683987, Score_MSE: 0.356181
+### Model saved! Best test MSE: 0.106927.
+Run 0 | Epoch : 169/200, lr: 0.000581, loss_avg: 0.017643
+Run 0 | Test Orig Epoch : 169/200, Score_CDF90: 0.183647, Score_MSE: 0.101689
+Run 0 | Test Aug1 Epoch : 169/200, Score_CDF90: 0.240112, Score_MSE: 0.133390
+Run 0 | Test Aug2 Epoch : 169/200, Score_CDF90: 0.684086, Score_MSE: 0.354521
+### Model saved! Best test MSE: 0.101689.
+Run 0 | Epoch : 170/200, lr: 0.000545, loss_avg: 0.017743
+Run 0 | Test Orig Epoch : 170/200, Score_CDF90: 0.214234, Score_MSE: 0.124674
+Run 0 | Epoch : 171/200, lr: 0.000510, loss_avg: 0.017202
+Run 0 | Test Orig Epoch : 171/200, Score_CDF90: 0.192837, Score_MSE: 0.107494
+Run 0 | Epoch : 172/200, lr: 0.000476, loss_avg: 0.017679
+Run 0 | Test Orig Epoch : 172/200, Score_CDF90: 0.199769, Score_MSE: 0.113450
+Run 0 | Epoch : 173/200, lr: 0.000443, loss_avg: 0.017615
+Run 0 | Test Orig Epoch : 173/200, Score_CDF90: 0.213793, Score_MSE: 0.124532
+Run 0 | Epoch : 174/200, lr: 0.000411, loss_avg: 0.016093
+Run 0 | Test Orig Epoch : 174/200, Score_CDF90: 0.186440, Score_MSE: 0.104365
+Run 0 | Epoch : 175/200, lr: 0.000381, loss_avg: 0.015922
+Run 0 | Test Orig Epoch : 175/200, Score_CDF90: 0.179858, Score_MSE: 0.096684
+Run 0 | Test Aug1 Epoch : 175/200, Score_CDF90: 0.223978, Score_MSE: 0.120842
+Run 0 | Test Aug2 Epoch : 175/200, Score_CDF90: 0.679943, Score_MSE: 0.350843
+### Model saved! Best test MSE: 0.096684.
+Run 0 | Epoch : 176/200, lr: 0.000351, loss_avg: 0.015234
+Run 0 | Test Orig Epoch : 176/200, Score_CDF90: 0.194453, Score_MSE: 0.108197
+Run 0 | Epoch : 177/200, lr: 0.000323, loss_avg: 0.014616
+Run 0 | Test Orig Epoch : 177/200, Score_CDF90: 0.186514, Score_MSE: 0.104342
+Run 0 | Epoch : 178/200, lr: 0.000296, loss_avg: 0.014758
+Run 0 | Test Orig Epoch : 178/200, Score_CDF90: 0.198545, Score_MSE: 0.109647
+Run 0 | Epoch : 179/200, lr: 0.000270, loss_avg: 0.014821
+Run 0 | Test Orig Epoch : 179/200, Score_CDF90: 0.235252, Score_MSE: 0.146428
+Run 0 | Epoch : 180/200, lr: 0.000245, loss_avg: 0.014264
+Run 0 | Test Orig Epoch : 180/200, Score_CDF90: 0.195837, Score_MSE: 0.111154
+Run 0 | Epoch : 181/200, lr: 0.000221, loss_avg: 0.014193
+Run 0 | Test Orig Epoch : 181/200, Score_CDF90: 0.205124, Score_MSE: 0.118430
+Run 0 | Epoch : 182/200, lr: 0.000199, loss_avg: 0.014588
+Run 0 | Test Orig Epoch : 182/200, Score_CDF90: 0.188164, Score_MSE: 0.104908
+Run 0 | Epoch : 183/200, lr: 0.000177, loss_avg: 0.013476
+Run 0 | Test Orig Epoch : 183/200, Score_CDF90: 0.174852, Score_MSE: 0.093568
+Run 0 | Test Aug1 Epoch : 183/200, Score_CDF90: 0.210937, Score_MSE: 0.111274
+Run 0 | Test Aug2 Epoch : 183/200, Score_CDF90: 0.679058, Score_MSE: 0.349932
+### Model saved! Best test MSE: 0.093568.
+Run 0 | Epoch : 184/200, lr: 0.000157, loss_avg: 0.013224
+Run 0 | Test Orig Epoch : 184/200, Score_CDF90: 0.184922, Score_MSE: 0.102958
+Run 0 | Epoch : 185/200, lr: 0.000138, loss_avg: 0.012922
+Run 0 | Test Orig Epoch : 185/200, Score_CDF90: 0.196514, Score_MSE: 0.112458
+Run 0 | Epoch : 186/200, lr: 0.000120, loss_avg: 0.012826
+Run 0 | Test Orig Epoch : 186/200, Score_CDF90: 0.180593, Score_MSE: 0.099443
+Run 0 | Epoch : 187/200, lr: 0.000104, loss_avg: 0.012762
+Run 0 | Test Orig Epoch : 187/200, Score_CDF90: 0.173208, Score_MSE: 0.092746
+Run 0 | Test Aug1 Epoch : 187/200, Score_CDF90: 0.214320, Score_MSE: 0.111366
+Run 0 | Test Aug2 Epoch : 187/200, Score_CDF90: 0.681255, Score_MSE: 0.349328
+### Model saved! Best test MSE: 0.092746.
+Run 0 | Epoch : 188/200, lr: 0.000089, loss_avg: 0.012593
+Run 0 | Test Orig Epoch : 188/200, Score_CDF90: 0.173784, Score_MSE: 0.093260
+Run 0 | Epoch : 189/200, lr: 0.000074, loss_avg: 0.012529
+Run 0 | Test Orig Epoch : 189/200, Score_CDF90: 0.175647, Score_MSE: 0.096401
+Run 0 | Epoch : 190/200, lr: 0.000062, loss_avg: 0.012153
+Run 0 | Test Orig Epoch : 190/200, Score_CDF90: 0.182642, Score_MSE: 0.101342
+Run 0 | Epoch : 191/200, lr: 0.000050, loss_avg: 0.012263
+Run 0 | Test Orig Epoch : 191/200, Score_CDF90: 0.184404, Score_MSE: 0.102217
+Run 0 | Epoch : 192/200, lr: 0.000039, loss_avg: 0.012189
+Run 0 | Test Orig Epoch : 192/200, Score_CDF90: 0.170542, Score_MSE: 0.091326
+Run 0 | Test Aug1 Epoch : 192/200, Score_CDF90: 0.205754, Score_MSE: 0.109653
+Run 0 | Test Aug2 Epoch : 192/200, Score_CDF90: 0.673887, Score_MSE: 0.349135
+### Model saved! Best test MSE: 0.091326.
+Run 0 | Epoch : 193/200, lr: 0.000030, loss_avg: 0.011724
+Run 0 | Test Orig Epoch : 193/200, Score_CDF90: 0.180633, Score_MSE: 0.098950
+Run 0 | Epoch : 194/200, lr: 0.000022, loss_avg: 0.011651
+Run 0 | Test Orig Epoch : 194/200, Score_CDF90: 0.171088, Score_MSE: 0.091344
+Run 0 | Epoch : 195/200, lr: 0.000015, loss_avg: 0.011663
+Run 0 | Test Orig Epoch : 195/200, Score_CDF90: 0.172368, Score_MSE: 0.093362
+Run 0 | Epoch : 196/200, lr: 0.000010, loss_avg: 0.011397
+Run 0 | Test Orig Epoch : 196/200, Score_CDF90: 0.169667, Score_MSE: 0.089823
+Run 0 | Test Aug1 Epoch : 196/200, Score_CDF90: 0.205060, Score_MSE: 0.107914
+Run 0 | Test Aug2 Epoch : 196/200, Score_CDF90: 0.673456, Score_MSE: 0.348168
+### Model saved! Best test MSE: 0.089823.
+Run 0 | Epoch : 197/200, lr: 0.000006, loss_avg: 0.011272
+Run 0 | Test Orig Epoch : 197/200, Score_CDF90: 0.171903, Score_MSE: 0.093171
+Run 0 | Epoch : 198/200, lr: 0.000002, loss_avg: 0.011552
+Run 0 | Test Orig Epoch : 198/200, Score_CDF90: 0.174864, Score_MSE: 0.095513
+Run 0 | Epoch : 199/200, lr: 0.000001, loss_avg: 0.011132
+Run 0 | Test Orig Epoch : 199/200, Score_CDF90: 0.174651, Score_MSE: 0.093383
+Run 0 | Epoch : 200/200, lr: 0.000000, loss_avg: 0.011191
+Run 0 | Test Orig Epoch : 200/200, Score_CDF90: 0.173801, Score_MSE: 0.094120
+Run 1 | Epoch : 1/200, lr: 0.009999, loss_avg: 333.502891
+Run 1 | Test Orig Epoch : 1/200, Score_CDF90: 11.868364, Score_MSE: 8.753005
+Run 1 | Test Aug1 Epoch : 1/200, Score_CDF90: 16.667292, Score_MSE: 10.711571
+Run 1 | Test Aug2 Epoch : 1/200, Score_CDF90: 13.232995, Score_MSE: 9.074188
+### Model saved! Best test MSE: 8.753005.
+Run 1 | Epoch : 2/200, lr: 0.009998, loss_avg: 17.305587
+Run 1 | Test Orig Epoch : 2/200, Score_CDF90: 9.810275, Score_MSE: 5.848934
+Run 1 | Test Aug1 Epoch : 2/200, Score_CDF90: 8.823066, Score_MSE: 5.350039
+Run 1 | Test Aug2 Epoch : 2/200, Score_CDF90: 9.380966, Score_MSE: 5.713004
+### Model saved! Best test MSE: 5.848934.
+Run 1 | Epoch : 3/200, lr: 0.009994, loss_avg: 15.090129
+Run 1 | Test Orig Epoch : 3/200, Score_CDF90: 10.783598, Score_MSE: 8.782277
+Run 1 | Epoch : 4/200, lr: 0.009990, loss_avg: 11.681961
+Run 1 | Test Orig Epoch : 4/200, Score_CDF90: 2.883549, Score_MSE: 1.707443
+Run 1 | Test Aug1 Epoch : 4/200, Score_CDF90: 4.195298, Score_MSE: 2.476792
+Run 1 | Test Aug2 Epoch : 4/200, Score_CDF90: 3.997156, Score_MSE: 2.315267
+### Model saved! Best test MSE: 1.707443.
+Run 1 | Epoch : 5/200, lr: 0.009985, loss_avg: 9.222129
+Run 1 | Test Orig Epoch : 5/200, Score_CDF90: 6.430863, Score_MSE: 5.187369
+Run 1 | Epoch : 6/200, lr: 0.009978, loss_avg: 10.059478
+Run 1 | Test Orig Epoch : 6/200, Score_CDF90: 4.920527, Score_MSE: 3.108616
+Run 1 | Epoch : 7/200, lr: 0.009970, loss_avg: 9.265888
+Run 1 | Test Orig Epoch : 7/200, Score_CDF90: 3.397547, Score_MSE: 2.121724
+Run 1 | Epoch : 8/200, lr: 0.009961, loss_avg: 7.838164
+Run 1 | Test Orig Epoch : 8/200, Score_CDF90: 7.540635, Score_MSE: 4.728007
+Run 1 | Epoch : 9/200, lr: 0.009950, loss_avg: 7.799487
+Run 1 | Test Orig Epoch : 9/200, Score_CDF90: 4.445734, Score_MSE: 3.051717
+Run 1 | Epoch : 10/200, lr: 0.009938, loss_avg: 9.405774
+Run 1 | Test Orig Epoch : 10/200, Score_CDF90: 4.816543, Score_MSE: 3.264827
+Run 1 | Epoch : 11/200, lr: 0.009926, loss_avg: 7.332465
+Run 1 | Test Orig Epoch : 11/200, Score_CDF90: 2.009448, Score_MSE: 1.265417
+Run 1 | Test Aug1 Epoch : 11/200, Score_CDF90: 3.851564, Score_MSE: 1.885884
+Run 1 | Test Aug2 Epoch : 11/200, Score_CDF90: 2.938021, Score_MSE: 1.720047
+### Model saved! Best test MSE: 1.265417.
+Run 1 | Epoch : 12/200, lr: 0.009911, loss_avg: 6.145083
+Run 1 | Test Orig Epoch : 12/200, Score_CDF90: 3.866790, Score_MSE: 2.657445
+Run 1 | Epoch : 13/200, lr: 0.009896, loss_avg: 5.714699
+Run 1 | Test Orig Epoch : 13/200, Score_CDF90: 4.624231, Score_MSE: 2.898804
+Run 1 | Epoch : 14/200, lr: 0.009880, loss_avg: 4.312687
+Run 1 | Test Orig Epoch : 14/200, Score_CDF90: 9.322764, Score_MSE: 6.813475
+Run 1 | Epoch : 15/200, lr: 0.009862, loss_avg: 4.032419
+Run 1 | Test Orig Epoch : 15/200, Score_CDF90: 2.505527, Score_MSE: 1.399506
+Run 1 | Epoch : 16/200, lr: 0.009843, loss_avg: 3.223518
+Run 1 | Test Orig Epoch : 16/200, Score_CDF90: 3.224575, Score_MSE: 1.989861
+Run 1 | Epoch : 17/200, lr: 0.009823, loss_avg: 3.908027
+Run 1 | Test Orig Epoch : 17/200, Score_CDF90: 4.142537, Score_MSE: 2.159538
+Run 1 | Epoch : 18/200, lr: 0.009801, loss_avg: 3.076106
+Run 1 | Test Orig Epoch : 18/200, Score_CDF90: 2.118813, Score_MSE: 1.335676
+Run 1 | Epoch : 19/200, lr: 0.009779, loss_avg: 2.816515
+Run 1 | Test Orig Epoch : 19/200, Score_CDF90: 2.185996, Score_MSE: 1.339895
+Run 1 | Epoch : 20/200, lr: 0.009755, loss_avg: 2.314505
+Run 1 | Test Orig Epoch : 20/200, Score_CDF90: 2.697097, Score_MSE: 1.532022
+Run 1 | Epoch : 21/200, lr: 0.009730, loss_avg: 2.099791
+Run 1 | Test Orig Epoch : 21/200, Score_CDF90: 2.863660, Score_MSE: 1.765047
+Run 1 | Epoch : 22/200, lr: 0.009704, loss_avg: 2.308296
+Run 1 | Test Orig Epoch : 22/200, Score_CDF90: 1.672675, Score_MSE: 1.078866
+Run 1 | Test Aug1 Epoch : 22/200, Score_CDF90: 1.893464, Score_MSE: 1.146872
+Run 1 | Test Aug2 Epoch : 22/200, Score_CDF90: 2.292910, Score_MSE: 1.392559
+### Model saved! Best test MSE: 1.078866.
+Run 1 | Epoch : 23/200, lr: 0.009677, loss_avg: 1.511132
+Run 1 | Test Orig Epoch : 23/200, Score_CDF90: 2.348071, Score_MSE: 1.443175
+Run 1 | Epoch : 24/200, lr: 0.009649, loss_avg: 1.780965
+Run 1 | Test Orig Epoch : 24/200, Score_CDF90: 2.281726, Score_MSE: 1.686138
+Run 1 | Epoch : 25/200, lr: 0.009619, loss_avg: 1.506566
+Run 1 | Test Orig Epoch : 25/200, Score_CDF90: 2.124368, Score_MSE: 1.389432
+Run 1 | Epoch : 26/200, lr: 0.009589, loss_avg: 1.439294
+Run 1 | Test Orig Epoch : 26/200, Score_CDF90: 1.603681, Score_MSE: 0.958549
+Run 1 | Test Aug1 Epoch : 26/200, Score_CDF90: 1.699201, Score_MSE: 0.969133
+Run 1 | Test Aug2 Epoch : 26/200, Score_CDF90: 1.985140, Score_MSE: 1.175356
+### Model saved! Best test MSE: 0.958549.
+Run 1 | Epoch : 27/200, lr: 0.009557, loss_avg: 1.410512
+Run 1 | Test Orig Epoch : 27/200, Score_CDF90: 2.377776, Score_MSE: 1.686920
+Run 1 | Epoch : 28/200, lr: 0.009524, loss_avg: 1.376949
+Run 1 | Test Orig Epoch : 28/200, Score_CDF90: 2.287930, Score_MSE: 1.251040
+Run 1 | Epoch : 29/200, lr: 0.009490, loss_avg: 1.159294
+Run 1 | Test Orig Epoch : 29/200, Score_CDF90: 3.096470, Score_MSE: 2.310071
+Run 1 | Epoch : 30/200, lr: 0.009455, loss_avg: 0.881984
+Run 1 | Test Orig Epoch : 30/200, Score_CDF90: 2.340760, Score_MSE: 1.454181
+Run 1 | Epoch : 31/200, lr: 0.009419, loss_avg: 0.900774
+Run 1 | Test Orig Epoch : 31/200, Score_CDF90: 1.587783, Score_MSE: 0.900946
+Run 1 | Test Aug1 Epoch : 31/200, Score_CDF90: 1.998334, Score_MSE: 1.200585
+Run 1 | Test Aug2 Epoch : 31/200, Score_CDF90: 2.004836, Score_MSE: 1.147689
+### Model saved! Best test MSE: 0.900946.
+Run 1 | Epoch : 32/200, lr: 0.009382, loss_avg: 0.978624
+Run 1 | Test Orig Epoch : 32/200, Score_CDF90: 1.734610, Score_MSE: 1.071980
+Run 1 | Epoch : 33/200, lr: 0.009343, loss_avg: 0.657843
+Run 1 | Test Orig Epoch : 33/200, Score_CDF90: 2.493780, Score_MSE: 1.525691
+Run 1 | Epoch : 34/200, lr: 0.009304, loss_avg: 0.640276
+Run 1 | Test Orig Epoch : 34/200, Score_CDF90: 2.485380, Score_MSE: 1.232663
+Run 1 | Epoch : 35/200, lr: 0.009263, loss_avg: 0.653054
+Run 1 | Test Orig Epoch : 35/200, Score_CDF90: 2.528826, Score_MSE: 1.553905
+Run 1 | Epoch : 36/200, lr: 0.009222, loss_avg: 0.714162
+Run 1 | Test Orig Epoch : 36/200, Score_CDF90: 1.977642, Score_MSE: 1.214955
+Run 1 | Epoch : 37/200, lr: 0.009179, loss_avg: 0.634591
+Run 1 | Test Orig Epoch : 37/200, Score_CDF90: 1.737574, Score_MSE: 1.132044
+Run 1 | Epoch : 38/200, lr: 0.009135, loss_avg: 0.570596
+Run 1 | Test Orig Epoch : 38/200, Score_CDF90: 2.386611, Score_MSE: 1.236074
+Run 1 | Epoch : 39/200, lr: 0.009091, loss_avg: 0.559637
+Run 1 | Test Orig Epoch : 39/200, Score_CDF90: 1.648043, Score_MSE: 0.896087
+Run 1 | Test Aug1 Epoch : 39/200, Score_CDF90: 1.571166, Score_MSE: 1.017241
+Run 1 | Test Aug2 Epoch : 39/200, Score_CDF90: 1.924740, Score_MSE: 1.083492
+### Model saved! Best test MSE: 0.896087.
+Run 1 | Epoch : 40/200, lr: 0.009045, loss_avg: 0.614896
+Run 1 | Test Orig Epoch : 40/200, Score_CDF90: 2.318677, Score_MSE: 1.470760
+Run 1 | Epoch : 41/200, lr: 0.008998, loss_avg: 0.710422
+Run 1 | Test Orig Epoch : 41/200, Score_CDF90: 2.988455, Score_MSE: 2.185090
+Run 1 | Epoch : 42/200, lr: 0.008951, loss_avg: 0.542993
+Run 1 | Test Orig Epoch : 42/200, Score_CDF90: 1.378727, Score_MSE: 0.754418
+Run 1 | Test Aug1 Epoch : 42/200, Score_CDF90: 1.856643, Score_MSE: 1.001063
+Run 1 | Test Aug2 Epoch : 42/200, Score_CDF90: 1.800093, Score_MSE: 1.004056
+### Model saved! Best test MSE: 0.754418.
+Run 1 | Epoch : 43/200, lr: 0.008902, loss_avg: 0.443728
+Run 1 | Test Orig Epoch : 43/200, Score_CDF90: 1.310530, Score_MSE: 0.739642
+Run 1 | Test Aug1 Epoch : 43/200, Score_CDF90: 1.501124, Score_MSE: 0.886725
+Run 1 | Test Aug2 Epoch : 43/200, Score_CDF90: 1.646409, Score_MSE: 0.939832
+### Model saved! Best test MSE: 0.739642.
+Run 1 | Epoch : 44/200, lr: 0.008853, loss_avg: 0.480080
+Run 1 | Test Orig Epoch : 44/200, Score_CDF90: 1.089422, Score_MSE: 0.673844
+Run 1 | Test Aug1 Epoch : 44/200, Score_CDF90: 1.713344, Score_MSE: 0.916222
+Run 1 | Test Aug2 Epoch : 44/200, Score_CDF90: 1.510522, Score_MSE: 0.888053
+### Model saved! Best test MSE: 0.673844.
+Run 1 | Epoch : 45/200, lr: 0.008802, loss_avg: 0.948285
+Run 1 | Test Orig Epoch : 45/200, Score_CDF90: 1.918615, Score_MSE: 1.197642
+Run 1 | Epoch : 46/200, lr: 0.008751, loss_avg: 0.631424
+Run 1 | Test Orig Epoch : 46/200, Score_CDF90: 3.513515, Score_MSE: 2.401716
+Run 1 | Epoch : 47/200, lr: 0.008698, loss_avg: 0.547037
+Run 1 | Test Orig Epoch : 47/200, Score_CDF90: 1.174347, Score_MSE: 0.694746
+Run 1 | Epoch : 48/200, lr: 0.008645, loss_avg: 0.471282
+Run 1 | Test Orig Epoch : 48/200, Score_CDF90: 1.718374, Score_MSE: 1.121715
+Run 1 | Epoch : 49/200, lr: 0.008591, loss_avg: 0.419214
+Run 1 | Test Orig Epoch : 49/200, Score_CDF90: 3.502856, Score_MSE: 2.304338
+Run 1 | Epoch : 50/200, lr: 0.008536, loss_avg: 0.426914
+Run 1 | Test Orig Epoch : 50/200, Score_CDF90: 1.045903, Score_MSE: 0.654113
+Run 1 | Test Aug1 Epoch : 50/200, Score_CDF90: 1.620254, Score_MSE: 0.937179
+Run 1 | Test Aug2 Epoch : 50/200, Score_CDF90: 1.508875, Score_MSE: 0.874154
+### Model saved! Best test MSE: 0.654113.
+Run 1 | Epoch : 51/200, lr: 0.008480, loss_avg: 0.380226
+Run 1 | Test Orig Epoch : 51/200, Score_CDF90: 1.381727, Score_MSE: 0.968511
+Run 1 | Epoch : 52/200, lr: 0.008423, loss_avg: 0.401215
+Run 1 | Test Orig Epoch : 52/200, Score_CDF90: 2.206945, Score_MSE: 1.254580
+Run 1 | Epoch : 53/200, lr: 0.008365, loss_avg: 0.360916
+Run 1 | Test Orig Epoch : 53/200, Score_CDF90: 3.883980, Score_MSE: 2.317494
+Run 1 | Epoch : 54/200, lr: 0.008307, loss_avg: 0.387727
+Run 1 | Test Orig Epoch : 54/200, Score_CDF90: 0.724267, Score_MSE: 0.430263
+Run 1 | Test Aug1 Epoch : 54/200, Score_CDF90: 1.094623, Score_MSE: 0.643133
+Run 1 | Test Aug2 Epoch : 54/200, Score_CDF90: 1.215495, Score_MSE: 0.683865
+### Model saved! Best test MSE: 0.430263.
+Run 1 | Epoch : 55/200, lr: 0.008247, loss_avg: 0.368587
+Run 1 | Test Orig Epoch : 55/200, Score_CDF90: 2.603159, Score_MSE: 1.512159
+Run 1 | Epoch : 56/200, lr: 0.008187, loss_avg: 0.370317
+Run 1 | Test Orig Epoch : 56/200, Score_CDF90: 5.054899, Score_MSE: 3.010775
+Run 1 | Epoch : 57/200, lr: 0.008126, loss_avg: 0.330937
+Run 1 | Test Orig Epoch : 57/200, Score_CDF90: 2.477885, Score_MSE: 1.320152
+Run 1 | Epoch : 58/200, lr: 0.008065, loss_avg: 0.297060
+Run 1 | Test Orig Epoch : 58/200, Score_CDF90: 1.376311, Score_MSE: 0.775399
+Run 1 | Epoch : 59/200, lr: 0.008002, loss_avg: 0.374535
+Run 1 | Test Orig Epoch : 59/200, Score_CDF90: 0.934280, Score_MSE: 0.585211
+Run 1 | Epoch : 60/200, lr: 0.007939, loss_avg: 0.396091
+Run 1 | Test Orig Epoch : 60/200, Score_CDF90: 2.488117, Score_MSE: 1.214941
+Run 1 | Epoch : 61/200, lr: 0.007875, loss_avg: 0.277691
+Run 1 | Test Orig Epoch : 61/200, Score_CDF90: 1.279570, Score_MSE: 0.853593
+Run 1 | Epoch : 62/200, lr: 0.007810, loss_avg: 0.227024
+Run 1 | Test Orig Epoch : 62/200, Score_CDF90: 0.770575, Score_MSE: 0.479332
+Run 1 | Epoch : 63/200, lr: 0.007745, loss_avg: 0.336430
+Run 1 | Test Orig Epoch : 63/200, Score_CDF90: 2.354565, Score_MSE: 1.071499
+Run 1 | Epoch : 64/200, lr: 0.007679, loss_avg: 0.273180
+Run 1 | Test Orig Epoch : 64/200, Score_CDF90: 2.232857, Score_MSE: 1.488537
+Run 1 | Epoch : 65/200, lr: 0.007612, loss_avg: 0.306857
+Run 1 | Test Orig Epoch : 65/200, Score_CDF90: 2.169648, Score_MSE: 1.413057
+Run 1 | Epoch : 66/200, lr: 0.007545, loss_avg: 0.266136
+Run 1 | Test Orig Epoch : 66/200, Score_CDF90: 1.089702, Score_MSE: 0.623311
+Run 1 | Epoch : 67/200, lr: 0.007477, loss_avg: 0.274832
+Run 1 | Test Orig Epoch : 67/200, Score_CDF90: 0.922338, Score_MSE: 0.520881
+Run 1 | Epoch : 68/200, lr: 0.007409, loss_avg: 0.265152
+Run 1 | Test Orig Epoch : 68/200, Score_CDF90: 1.934399, Score_MSE: 1.241940
+Run 1 | Epoch : 69/200, lr: 0.007340, loss_avg: 0.322915
+Run 1 | Test Orig Epoch : 69/200, Score_CDF90: 1.962939, Score_MSE: 1.357598
+Run 1 | Epoch : 70/200, lr: 0.007270, loss_avg: 0.323433
+Run 1 | Test Orig Epoch : 70/200, Score_CDF90: 1.308282, Score_MSE: 0.886724
+Run 1 | Epoch : 71/200, lr: 0.007200, loss_avg: 0.255941
+Run 1 | Test Orig Epoch : 71/200, Score_CDF90: 1.097368, Score_MSE: 0.703911
+Run 1 | Epoch : 72/200, lr: 0.007129, loss_avg: 0.235029
+Run 1 | Test Orig Epoch : 72/200, Score_CDF90: 2.814328, Score_MSE: 1.886070
+Run 1 | Epoch : 73/200, lr: 0.007058, loss_avg: 0.218135
+Run 1 | Test Orig Epoch : 73/200, Score_CDF90: 0.775101, Score_MSE: 0.453584
+Run 1 | Epoch : 74/200, lr: 0.006986, loss_avg: 0.248680
+Run 1 | Test Orig Epoch : 74/200, Score_CDF90: 1.550557, Score_MSE: 0.914082
+Run 1 | Epoch : 75/200, lr: 0.006913, loss_avg: 0.222201
+Run 1 | Test Orig Epoch : 75/200, Score_CDF90: 2.061450, Score_MSE: 1.427854
+Run 1 | Epoch : 76/200, lr: 0.006841, loss_avg: 0.215690
+Run 1 | Test Orig Epoch : 76/200, Score_CDF90: 1.175845, Score_MSE: 0.740092
+Run 1 | Epoch : 77/200, lr: 0.006767, loss_avg: 0.253883
+Run 1 | Test Orig Epoch : 77/200, Score_CDF90: 2.151470, Score_MSE: 1.464582
+Run 1 | Epoch : 78/200, lr: 0.006694, loss_avg: 0.251248
+Run 1 | Test Orig Epoch : 78/200, Score_CDF90: 0.803521, Score_MSE: 0.474858
+Run 1 | Epoch : 79/200, lr: 0.006620, loss_avg: 0.189779
+Run 1 | Test Orig Epoch : 79/200, Score_CDF90: 1.815440, Score_MSE: 1.221662
+Run 1 | Epoch : 80/200, lr: 0.006545, loss_avg: 0.180858
+Run 1 | Test Orig Epoch : 80/200, Score_CDF90: 1.184562, Score_MSE: 0.766007
+Run 1 | Epoch : 81/200, lr: 0.006470, loss_avg: 0.189902
+Run 1 | Test Orig Epoch : 81/200, Score_CDF90: 0.660314, Score_MSE: 0.369147
+Run 1 | Test Aug1 Epoch : 81/200, Score_CDF90: 0.879664, Score_MSE: 0.536341
+Run 1 | Test Aug2 Epoch : 81/200, Score_CDF90: 1.038966, Score_MSE: 0.583975
+### Model saved! Best test MSE: 0.369147.
+Run 1 | Epoch : 82/200, lr: 0.006395, loss_avg: 0.175227
+Run 1 | Test Orig Epoch : 82/200, Score_CDF90: 0.752694, Score_MSE: 0.398862
+Run 1 | Epoch : 83/200, lr: 0.006319, loss_avg: 0.219530
+Run 1 | Test Orig Epoch : 83/200, Score_CDF90: 0.899707, Score_MSE: 0.563236
+Run 1 | Epoch : 84/200, lr: 0.006243, loss_avg: 0.186299
+Run 1 | Test Orig Epoch : 84/200, Score_CDF90: 0.518805, Score_MSE: 0.316721
+Run 1 | Test Aug1 Epoch : 84/200, Score_CDF90: 0.845503, Score_MSE: 0.495181
+Run 1 | Test Aug2 Epoch : 84/200, Score_CDF90: 0.992714, Score_MSE: 0.549499
+### Model saved! Best test MSE: 0.316721.
+Run 1 | Epoch : 85/200, lr: 0.006167, loss_avg: 0.163531
+Run 1 | Test Orig Epoch : 85/200, Score_CDF90: 0.627791, Score_MSE: 0.364996
+Run 1 | Epoch : 86/200, lr: 0.006091, loss_avg: 0.195267
+Run 1 | Test Orig Epoch : 86/200, Score_CDF90: 0.750256, Score_MSE: 0.422496
+Run 1 | Epoch : 87/200, lr: 0.006014, loss_avg: 0.178449
+Run 1 | Test Orig Epoch : 87/200, Score_CDF90: 0.825281, Score_MSE: 0.476449
+Run 1 | Epoch : 88/200, lr: 0.005937, loss_avg: 0.175180
+Run 1 | Test Orig Epoch : 88/200, Score_CDF90: 0.703845, Score_MSE: 0.438464
+Run 1 | Epoch : 89/200, lr: 0.005860, loss_avg: 0.172571
+Run 1 | Test Orig Epoch : 89/200, Score_CDF90: 0.902272, Score_MSE: 0.559056
+Run 1 | Epoch : 90/200, lr: 0.005782, loss_avg: 0.142425
+Run 1 | Test Orig Epoch : 90/200, Score_CDF90: 1.572185, Score_MSE: 1.096474
+Run 1 | Epoch : 91/200, lr: 0.005705, loss_avg: 0.157595
+Run 1 | Test Orig Epoch : 91/200, Score_CDF90: 1.197083, Score_MSE: 0.693743
+Run 1 | Epoch : 92/200, lr: 0.005627, loss_avg: 0.137257
+Run 1 | Test Orig Epoch : 92/200, Score_CDF90: 1.138212, Score_MSE: 0.725856
+Run 1 | Epoch : 93/200, lr: 0.005549, loss_avg: 0.146910
+Run 1 | Test Orig Epoch : 93/200, Score_CDF90: 0.584118, Score_MSE: 0.357840
+Run 1 | Epoch : 94/200, lr: 0.005471, loss_avg: 0.141200
+Run 1 | Test Orig Epoch : 94/200, Score_CDF90: 1.342135, Score_MSE: 0.740145
+Run 1 | Epoch : 95/200, lr: 0.005392, loss_avg: 0.166712
+Run 1 | Test Orig Epoch : 95/200, Score_CDF90: 0.906610, Score_MSE: 0.528133
+Run 1 | Epoch : 96/200, lr: 0.005314, loss_avg: 0.151366
+Run 1 | Test Orig Epoch : 96/200, Score_CDF90: 0.574523, Score_MSE: 0.351571
+Run 1 | Epoch : 97/200, lr: 0.005236, loss_avg: 0.132577
+Run 1 | Test Orig Epoch : 97/200, Score_CDF90: 0.775907, Score_MSE: 0.451768
+Run 1 | Epoch : 98/200, lr: 0.005157, loss_avg: 0.105731
+Run 1 | Test Orig Epoch : 98/200, Score_CDF90: 0.755915, Score_MSE: 0.455936
+Run 1 | Epoch : 99/200, lr: 0.005079, loss_avg: 0.133483
+Run 1 | Test Orig Epoch : 99/200, Score_CDF90: 0.604764, Score_MSE: 0.362416
+Run 1 | Epoch : 100/200, lr: 0.005000, loss_avg: 0.116708
+Run 1 | Test Orig Epoch : 100/200, Score_CDF90: 0.584343, Score_MSE: 0.353838
+Run 1 | Epoch : 101/200, lr: 0.004921, loss_avg: 0.148992
+Run 1 | Test Orig Epoch : 101/200, Score_CDF90: 0.838204, Score_MSE: 0.524308
+Run 1 | Epoch : 102/200, lr: 0.004843, loss_avg: 0.133804
+Run 1 | Test Orig Epoch : 102/200, Score_CDF90: 1.818874, Score_MSE: 0.952951
+Run 1 | Epoch : 103/200, lr: 0.004764, loss_avg: 0.118043
+Run 1 | Test Orig Epoch : 103/200, Score_CDF90: 1.062706, Score_MSE: 0.588296
+Run 1 | Epoch : 104/200, lr: 0.004686, loss_avg: 0.109025
+Run 1 | Test Orig Epoch : 104/200, Score_CDF90: 0.398435, Score_MSE: 0.219257
+Run 1 | Test Aug1 Epoch : 104/200, Score_CDF90: 0.600363, Score_MSE: 0.343760
+Run 1 | Test Aug2 Epoch : 104/200, Score_CDF90: 0.867766, Score_MSE: 0.465786
+### Model saved! Best test MSE: 0.219257.
+Run 1 | Epoch : 105/200, lr: 0.004608, loss_avg: 0.143629
+Run 1 | Test Orig Epoch : 105/200, Score_CDF90: 1.260714, Score_MSE: 0.867631
+Run 1 | Epoch : 106/200, lr: 0.004529, loss_avg: 0.117361
+Run 1 | Test Orig Epoch : 106/200, Score_CDF90: 0.632314, Score_MSE: 0.359181
+Run 1 | Epoch : 107/200, lr: 0.004451, loss_avg: 0.106359
+Run 1 | Test Orig Epoch : 107/200, Score_CDF90: 0.513483, Score_MSE: 0.304370
+Run 1 | Epoch : 108/200, lr: 0.004373, loss_avg: 0.104038
+Run 1 | Test Orig Epoch : 108/200, Score_CDF90: 0.550667, Score_MSE: 0.328903
+Run 1 | Epoch : 109/200, lr: 0.004295, loss_avg: 0.110482
+Run 1 | Test Orig Epoch : 109/200, Score_CDF90: 0.745548, Score_MSE: 0.459315
+Run 1 | Epoch : 110/200, lr: 0.004218, loss_avg: 0.093338
+Run 1 | Test Orig Epoch : 110/200, Score_CDF90: 0.564245, Score_MSE: 0.350020
+Run 1 | Epoch : 111/200, lr: 0.004140, loss_avg: 0.105593
+Run 1 | Test Orig Epoch : 111/200, Score_CDF90: 0.632901, Score_MSE: 0.381263
+Run 1 | Epoch : 112/200, lr: 0.004063, loss_avg: 0.085020
+Run 1 | Test Orig Epoch : 112/200, Score_CDF90: 0.560297, Score_MSE: 0.368602
+Run 1 | Epoch : 113/200, lr: 0.003986, loss_avg: 0.081281
+Run 1 | Test Orig Epoch : 113/200, Score_CDF90: 0.601813, Score_MSE: 0.371145
+Run 1 | Epoch : 114/200, lr: 0.003909, loss_avg: 0.084289
+Run 1 | Test Orig Epoch : 114/200, Score_CDF90: 0.601252, Score_MSE: 0.432523
+Run 1 | Epoch : 115/200, lr: 0.003833, loss_avg: 0.092841
+Run 1 | Test Orig Epoch : 115/200, Score_CDF90: 0.586894, Score_MSE: 0.315904
+Run 1 | Epoch : 116/200, lr: 0.003757, loss_avg: 0.093522
+Run 1 | Test Orig Epoch : 116/200, Score_CDF90: 0.419954, Score_MSE: 0.253547
+Run 1 | Epoch : 117/200, lr: 0.003681, loss_avg: 0.080960
+Run 1 | Test Orig Epoch : 117/200, Score_CDF90: 0.549115, Score_MSE: 0.329118
+Run 1 | Epoch : 118/200, lr: 0.003605, loss_avg: 0.090758
+Run 1 | Test Orig Epoch : 118/200, Score_CDF90: 0.863416, Score_MSE: 0.548686
+Run 1 | Epoch : 119/200, lr: 0.003530, loss_avg: 0.077567
+Run 1 | Test Orig Epoch : 119/200, Score_CDF90: 0.569272, Score_MSE: 0.323337
+Run 1 | Epoch : 120/200, lr: 0.003455, loss_avg: 0.079054
+Run 1 | Test Orig Epoch : 120/200, Score_CDF90: 0.660530, Score_MSE: 0.458148
+Run 1 | Epoch : 121/200, lr: 0.003380, loss_avg: 0.081041
+Run 1 | Test Orig Epoch : 121/200, Score_CDF90: 0.411030, Score_MSE: 0.241463
+Run 1 | Epoch : 122/200, lr: 0.003306, loss_avg: 0.071683
+Run 1 | Test Orig Epoch : 122/200, Score_CDF90: 0.423379, Score_MSE: 0.234208
+Run 1 | Epoch : 123/200, lr: 0.003233, loss_avg: 0.075120
+Run 1 | Test Orig Epoch : 123/200, Score_CDF90: 0.388218, Score_MSE: 0.237036
+Run 1 | Epoch : 124/200, lr: 0.003159, loss_avg: 0.081269
+Run 1 | Test Orig Epoch : 124/200, Score_CDF90: 0.421247, Score_MSE: 0.252057
+Run 1 | Epoch : 125/200, lr: 0.003087, loss_avg: 0.092322
+Run 1 | Test Orig Epoch : 125/200, Score_CDF90: 0.631794, Score_MSE: 0.382380
+Run 1 | Epoch : 126/200, lr: 0.003014, loss_avg: 0.071278
+Run 1 | Test Orig Epoch : 126/200, Score_CDF90: 0.475743, Score_MSE: 0.267089
+Run 1 | Epoch : 127/200, lr: 0.002942, loss_avg: 0.065897
+Run 1 | Test Orig Epoch : 127/200, Score_CDF90: 0.477127, Score_MSE: 0.255604
+Run 1 | Epoch : 128/200, lr: 0.002871, loss_avg: 0.062621
+Run 1 | Test Orig Epoch : 128/200, Score_CDF90: 0.535895, Score_MSE: 0.272241
+Run 1 | Epoch : 129/200, lr: 0.002800, loss_avg: 0.062005
+Run 1 | Test Orig Epoch : 129/200, Score_CDF90: 0.362984, Score_MSE: 0.212705
+Run 1 | Test Aug1 Epoch : 129/200, Score_CDF90: 0.461479, Score_MSE: 0.264009
+Run 1 | Test Aug2 Epoch : 129/200, Score_CDF90: 0.811915, Score_MSE: 0.438863
+### Model saved! Best test MSE: 0.212705.
+Run 1 | Epoch : 130/200, lr: 0.002730, loss_avg: 0.059801
+Run 1 | Test Orig Epoch : 130/200, Score_CDF90: 0.322152, Score_MSE: 0.193957
+Run 1 | Test Aug1 Epoch : 130/200, Score_CDF90: 0.462053, Score_MSE: 0.290501
+Run 1 | Test Aug2 Epoch : 130/200, Score_CDF90: 0.788179, Score_MSE: 0.427220
+### Model saved! Best test MSE: 0.193957.
+Run 1 | Epoch : 131/200, lr: 0.002660, loss_avg: 0.063313
+Run 1 | Test Orig Epoch : 131/200, Score_CDF90: 0.793128, Score_MSE: 0.485948
+Run 1 | Epoch : 132/200, lr: 0.002591, loss_avg: 0.063506
+Run 1 | Test Orig Epoch : 132/200, Score_CDF90: 0.342052, Score_MSE: 0.200075
+Run 1 | Epoch : 133/200, lr: 0.002523, loss_avg: 0.058266
+Run 1 | Test Orig Epoch : 133/200, Score_CDF90: 0.514217, Score_MSE: 0.348348
+Run 1 | Epoch : 134/200, lr: 0.002455, loss_avg: 0.065514
+Run 1 | Test Orig Epoch : 134/200, Score_CDF90: 0.582087, Score_MSE: 0.366696
+Run 1 | Epoch : 135/200, lr: 0.002388, loss_avg: 0.054787
+Run 1 | Test Orig Epoch : 135/200, Score_CDF90: 0.394446, Score_MSE: 0.208733
+Run 1 | Epoch : 136/200, lr: 0.002321, loss_avg: 0.050564
+Run 1 | Test Orig Epoch : 136/200, Score_CDF90: 0.631946, Score_MSE: 0.314211
+Run 1 | Epoch : 137/200, lr: 0.002255, loss_avg: 0.049038
+Run 1 | Test Orig Epoch : 137/200, Score_CDF90: 0.655624, Score_MSE: 0.418369
+Run 1 | Epoch : 138/200, lr: 0.002190, loss_avg: 0.054273
+Run 1 | Test Orig Epoch : 138/200, Score_CDF90: 0.459912, Score_MSE: 0.265906
+Run 1 | Epoch : 139/200, lr: 0.002125, loss_avg: 0.049541
+Run 1 | Test Orig Epoch : 139/200, Score_CDF90: 0.334319, Score_MSE: 0.185542
+Run 1 | Test Aug1 Epoch : 139/200, Score_CDF90: 0.430164, Score_MSE: 0.248177
+Run 1 | Test Aug2 Epoch : 139/200, Score_CDF90: 0.777993, Score_MSE: 0.417961
+### Model saved! Best test MSE: 0.185542.
+Run 1 | Epoch : 140/200, lr: 0.002061, loss_avg: 0.056407
+Run 1 | Test Orig Epoch : 140/200, Score_CDF90: 0.419876, Score_MSE: 0.234089
+Run 1 | Epoch : 141/200, lr: 0.001998, loss_avg: 0.056179
+Run 1 | Test Orig Epoch : 141/200, Score_CDF90: 0.339238, Score_MSE: 0.204212
+Run 1 | Epoch : 142/200, lr: 0.001935, loss_avg: 0.044858
+Run 1 | Test Orig Epoch : 142/200, Score_CDF90: 0.321476, Score_MSE: 0.189515
+Run 1 | Epoch : 143/200, lr: 0.001874, loss_avg: 0.039553
+Run 1 | Test Orig Epoch : 143/200, Score_CDF90: 0.321152, Score_MSE: 0.194268
+Run 1 | Epoch : 144/200, lr: 0.001813, loss_avg: 0.051236
+Run 1 | Test Orig Epoch : 144/200, Score_CDF90: 0.285899, Score_MSE: 0.162186
+Run 1 | Test Aug1 Epoch : 144/200, Score_CDF90: 0.435690, Score_MSE: 0.249775
+Run 1 | Test Aug2 Epoch : 144/200, Score_CDF90: 0.768072, Score_MSE: 0.405120
+### Model saved! Best test MSE: 0.162186.
+Run 1 | Epoch : 145/200, lr: 0.001753, loss_avg: 0.042753
+Run 1 | Test Orig Epoch : 145/200, Score_CDF90: 0.511413, Score_MSE: 0.308196
+Run 1 | Epoch : 146/200, lr: 0.001693, loss_avg: 0.048368
+Run 1 | Test Orig Epoch : 146/200, Score_CDF90: 0.406292, Score_MSE: 0.232398
+Run 1 | Epoch : 147/200, lr: 0.001635, loss_avg: 0.041792
+Run 1 | Test Orig Epoch : 147/200, Score_CDF90: 0.282629, Score_MSE: 0.174408
+Run 1 | Epoch : 148/200, lr: 0.001577, loss_avg: 0.037172
+Run 1 | Test Orig Epoch : 148/200, Score_CDF90: 0.584999, Score_MSE: 0.400098
+Run 1 | Epoch : 149/200, lr: 0.001520, loss_avg: 0.037560
+Run 1 | Test Orig Epoch : 149/200, Score_CDF90: 0.265566, Score_MSE: 0.159548
+Run 1 | Test Aug1 Epoch : 149/200, Score_CDF90: 0.360676, Score_MSE: 0.225975
+Run 1 | Test Aug2 Epoch : 149/200, Score_CDF90: 0.749073, Score_MSE: 0.400023
+### Model saved! Best test MSE: 0.159548.
+Run 1 | Epoch : 150/200, lr: 0.001464, loss_avg: 0.039973
+Run 1 | Test Orig Epoch : 150/200, Score_CDF90: 0.346165, Score_MSE: 0.193214
+Run 1 | Epoch : 151/200, lr: 0.001409, loss_avg: 0.041200
+Run 1 | Test Orig Epoch : 151/200, Score_CDF90: 0.371932, Score_MSE: 0.203221
+Run 1 | Epoch : 152/200, lr: 0.001355, loss_avg: 0.035374
+Run 1 | Test Orig Epoch : 152/200, Score_CDF90: 0.315545, Score_MSE: 0.168187
+Run 1 | Epoch : 153/200, lr: 0.001302, loss_avg: 0.034124
+Run 1 | Test Orig Epoch : 153/200, Score_CDF90: 0.352948, Score_MSE: 0.205050
+Run 1 | Epoch : 154/200, lr: 0.001249, loss_avg: 0.033170
+Run 1 | Test Orig Epoch : 154/200, Score_CDF90: 0.412443, Score_MSE: 0.214862
+Run 1 | Epoch : 155/200, lr: 0.001198, loss_avg: 0.034191
+Run 1 | Test Orig Epoch : 155/200, Score_CDF90: 0.265598, Score_MSE: 0.155310
+Run 1 | Test Aug1 Epoch : 155/200, Score_CDF90: 0.293962, Score_MSE: 0.169075
+Run 1 | Test Aug2 Epoch : 155/200, Score_CDF90: 0.758267, Score_MSE: 0.397526
+### Model saved! Best test MSE: 0.155310.
+Run 1 | Epoch : 156/200, lr: 0.001147, loss_avg: 0.037814
+Run 1 | Test Orig Epoch : 156/200, Score_CDF90: 0.282392, Score_MSE: 0.161992
+Run 1 | Epoch : 157/200, lr: 0.001098, loss_avg: 0.030855
+Run 1 | Test Orig Epoch : 157/200, Score_CDF90: 0.291280, Score_MSE: 0.167139
+Run 1 | Epoch : 158/200, lr: 0.001049, loss_avg: 0.030819
+Run 1 | Test Orig Epoch : 158/200, Score_CDF90: 0.376285, Score_MSE: 0.233325
+Run 1 | Epoch : 159/200, lr: 0.001002, loss_avg: 0.032114
+Run 1 | Test Orig Epoch : 159/200, Score_CDF90: 0.411451, Score_MSE: 0.226788
+Run 1 | Epoch : 160/200, lr: 0.000955, loss_avg: 0.029942
+Run 1 | Test Orig Epoch : 160/200, Score_CDF90: 0.330570, Score_MSE: 0.212265
+Run 1 | Epoch : 161/200, lr: 0.000909, loss_avg: 0.029367
+Run 1 | Test Orig Epoch : 161/200, Score_CDF90: 0.229648, Score_MSE: 0.135407
+Run 1 | Test Aug1 Epoch : 161/200, Score_CDF90: 0.293114, Score_MSE: 0.172776
+Run 1 | Test Aug2 Epoch : 161/200, Score_CDF90: 0.730591, Score_MSE: 0.387489
+### Model saved! Best test MSE: 0.135407.
+Run 1 | Epoch : 162/200, lr: 0.000865, loss_avg: 0.027257
+Run 1 | Test Orig Epoch : 162/200, Score_CDF90: 0.244819, Score_MSE: 0.143671
+Run 1 | Epoch : 163/200, lr: 0.000821, loss_avg: 0.028101
+Run 1 | Test Orig Epoch : 163/200, Score_CDF90: 0.382983, Score_MSE: 0.236974
+Run 1 | Epoch : 164/200, lr: 0.000778, loss_avg: 0.027335
+Run 1 | Test Orig Epoch : 164/200, Score_CDF90: 0.302985, Score_MSE: 0.162889
+Run 1 | Epoch : 165/200, lr: 0.000737, loss_avg: 0.026048
+Run 1 | Test Orig Epoch : 165/200, Score_CDF90: 0.261649, Score_MSE: 0.160753
+Run 1 | Epoch : 166/200, lr: 0.000696, loss_avg: 0.026858
+Run 1 | Test Orig Epoch : 166/200, Score_CDF90: 0.307018, Score_MSE: 0.201468
+Run 1 | Epoch : 167/200, lr: 0.000657, loss_avg: 0.026455
+Run 1 | Test Orig Epoch : 167/200, Score_CDF90: 0.276190, Score_MSE: 0.158772
+Run 1 | Epoch : 168/200, lr: 0.000618, loss_avg: 0.026719
+Run 1 | Test Orig Epoch : 168/200, Score_CDF90: 0.411203, Score_MSE: 0.253695
+Run 1 | Epoch : 169/200, lr: 0.000581, loss_avg: 0.025190
+Run 1 | Test Orig Epoch : 169/200, Score_CDF90: 0.205317, Score_MSE: 0.113619
+Run 1 | Test Aug1 Epoch : 169/200, Score_CDF90: 0.253103, Score_MSE: 0.141428
+Run 1 | Test Aug2 Epoch : 169/200, Score_CDF90: 0.726347, Score_MSE: 0.377598
+### Model saved! Best test MSE: 0.113619.
+Run 1 | Epoch : 170/200, lr: 0.000545, loss_avg: 0.021743
+Run 1 | Test Orig Epoch : 170/200, Score_CDF90: 0.263087, Score_MSE: 0.147618
+Run 1 | Epoch : 171/200, lr: 0.000510, loss_avg: 0.022480
+Run 1 | Test Orig Epoch : 171/200, Score_CDF90: 0.271285, Score_MSE: 0.165273
+Run 1 | Epoch : 172/200, lr: 0.000476, loss_avg: 0.024031
+Run 1 | Test Orig Epoch : 172/200, Score_CDF90: 0.225178, Score_MSE: 0.128633
+Run 1 | Epoch : 173/200, lr: 0.000443, loss_avg: 0.023388
+Run 1 | Test Orig Epoch : 173/200, Score_CDF90: 0.207661, Score_MSE: 0.116920
+Run 1 | Epoch : 174/200, lr: 0.000411, loss_avg: 0.022983
+Run 1 | Test Orig Epoch : 174/200, Score_CDF90: 0.287265, Score_MSE: 0.177668
+Run 1 | Epoch : 175/200, lr: 0.000381, loss_avg: 0.021753
+Run 1 | Test Orig Epoch : 175/200, Score_CDF90: 0.270375, Score_MSE: 0.161476
+Run 1 | Epoch : 176/200, lr: 0.000351, loss_avg: 0.020505
+Run 1 | Test Orig Epoch : 176/200, Score_CDF90: 0.336415, Score_MSE: 0.232162
+Run 1 | Epoch : 177/200, lr: 0.000323, loss_avg: 0.021274
+Run 1 | Test Orig Epoch : 177/200, Score_CDF90: 0.211308, Score_MSE: 0.124274
+Run 1 | Epoch : 178/200, lr: 0.000296, loss_avg: 0.018571
+Run 1 | Test Orig Epoch : 178/200, Score_CDF90: 0.205050, Score_MSE: 0.116175
+Run 1 | Epoch : 179/200, lr: 0.000270, loss_avg: 0.020195
+Run 1 | Test Orig Epoch : 179/200, Score_CDF90: 0.220043, Score_MSE: 0.122674
+Run 1 | Epoch : 180/200, lr: 0.000245, loss_avg: 0.020685
+Run 1 | Test Orig Epoch : 180/200, Score_CDF90: 0.272828, Score_MSE: 0.160321
+Run 1 | Epoch : 181/200, lr: 0.000221, loss_avg: 0.018416
+Run 1 | Test Orig Epoch : 181/200, Score_CDF90: 0.233767, Score_MSE: 0.134278
+Run 1 | Epoch : 182/200, lr: 0.000199, loss_avg: 0.018417
+Run 1 | Test Orig Epoch : 182/200, Score_CDF90: 0.198009, Score_MSE: 0.109929
+Run 1 | Test Aug1 Epoch : 182/200, Score_CDF90: 0.246318, Score_MSE: 0.141831
+Run 1 | Test Aug2 Epoch : 182/200, Score_CDF90: 0.722994, Score_MSE: 0.374894
+### Model saved! Best test MSE: 0.109929.
+Run 1 | Epoch : 183/200, lr: 0.000177, loss_avg: 0.018461
+Run 1 | Test Orig Epoch : 183/200, Score_CDF90: 0.240714, Score_MSE: 0.145151
+Run 1 | Epoch : 184/200, lr: 0.000157, loss_avg: 0.017097
+Run 1 | Test Orig Epoch : 184/200, Score_CDF90: 0.250926, Score_MSE: 0.152371
+Run 1 | Epoch : 185/200, lr: 0.000138, loss_avg: 0.018238
+Run 1 | Test Orig Epoch : 185/200, Score_CDF90: 0.220913, Score_MSE: 0.123485
+Run 1 | Epoch : 186/200, lr: 0.000120, loss_avg: 0.017976
+Run 1 | Test Orig Epoch : 186/200, Score_CDF90: 0.238097, Score_MSE: 0.133534
+Run 1 | Epoch : 187/200, lr: 0.000104, loss_avg: 0.016593
+Run 1 | Test Orig Epoch : 187/200, Score_CDF90: 0.183422, Score_MSE: 0.099720
+Run 1 | Test Aug1 Epoch : 187/200, Score_CDF90: 0.216880, Score_MSE: 0.116477
+Run 1 | Test Aug2 Epoch : 187/200, Score_CDF90: 0.727681, Score_MSE: 0.370925
+### Model saved! Best test MSE: 0.099720.
+Run 1 | Epoch : 188/200, lr: 0.000089, loss_avg: 0.016599
+Run 1 | Test Orig Epoch : 188/200, Score_CDF90: 0.223669, Score_MSE: 0.124908
+Run 1 | Epoch : 189/200, lr: 0.000074, loss_avg: 0.016521
+Run 1 | Test Orig Epoch : 189/200, Score_CDF90: 0.210098, Score_MSE: 0.119504
+Run 1 | Epoch : 190/200, lr: 0.000062, loss_avg: 0.017579
+Run 1 | Test Orig Epoch : 190/200, Score_CDF90: 0.205608, Score_MSE: 0.117039
+Run 1 | Epoch : 191/200, lr: 0.000050, loss_avg: 0.015766
+Run 1 | Test Orig Epoch : 191/200, Score_CDF90: 0.227053, Score_MSE: 0.134623
+Run 1 | Epoch : 192/200, lr: 0.000039, loss_avg: 0.016154
+Run 1 | Test Orig Epoch : 192/200, Score_CDF90: 0.221269, Score_MSE: 0.126263
+Run 1 | Epoch : 193/200, lr: 0.000030, loss_avg: 0.015898
+Run 1 | Test Orig Epoch : 193/200, Score_CDF90: 0.232764, Score_MSE: 0.139288
+Run 1 | Epoch : 194/200, lr: 0.000022, loss_avg: 0.015885
+Run 1 | Test Orig Epoch : 194/200, Score_CDF90: 0.218798, Score_MSE: 0.129010
+Run 1 | Epoch : 195/200, lr: 0.000015, loss_avg: 0.015189
+Run 1 | Test Orig Epoch : 195/200, Score_CDF90: 0.203500, Score_MSE: 0.117244
+Run 1 | Epoch : 196/200, lr: 0.000010, loss_avg: 0.015213
+Run 1 | Test Orig Epoch : 196/200, Score_CDF90: 0.212998, Score_MSE: 0.118821
+Run 1 | Epoch : 197/200, lr: 0.000006, loss_avg: 0.015145
+Run 1 | Test Orig Epoch : 197/200, Score_CDF90: 0.188130, Score_MSE: 0.103636
+Run 1 | Epoch : 198/200, lr: 0.000002, loss_avg: 0.014880
+Run 1 | Test Orig Epoch : 198/200, Score_CDF90: 0.223663, Score_MSE: 0.132374
+Run 1 | Epoch : 199/200, lr: 0.000001, loss_avg: 0.015435
+Run 1 | Test Orig Epoch : 199/200, Score_CDF90: 0.184331, Score_MSE: 0.101004
+Run 1 | Epoch : 200/200, lr: 0.000000, loss_avg: 0.015026
+Run 1 | Test Orig Epoch : 200/200, Score_CDF90: 0.216282, Score_MSE: 0.124716
+Run 2 | Epoch : 1/200, lr: 0.009999, loss_avg: 246.697161
+Run 2 | Test Orig Epoch : 1/200, Score_CDF90: 7.141963, Score_MSE: 4.749053
+Run 2 | Test Aug1 Epoch : 1/200, Score_CDF90: 6.955303, Score_MSE: 4.153627
+Run 2 | Test Aug2 Epoch : 1/200, Score_CDF90: 8.427325, Score_MSE: 5.331575
+### Model saved! Best test MSE: 4.749053.
+Run 2 | Epoch : 2/200, lr: 0.009998, loss_avg: 11.762676
+Run 2 | Test Orig Epoch : 2/200, Score_CDF90: 11.396962, Score_MSE: 7.826928
+Run 2 | Epoch : 3/200, lr: 0.009994, loss_avg: 10.886437
+Run 2 | Test Orig Epoch : 3/200, Score_CDF90: 9.260238, Score_MSE: 5.029868
+Run 2 | Epoch : 4/200, lr: 0.009990, loss_avg: 10.797777
+Run 2 | Test Orig Epoch : 4/200, Score_CDF90: 5.488259, Score_MSE: 3.074754
+Run 2 | Test Aug1 Epoch : 4/200, Score_CDF90: 6.613954, Score_MSE: 4.015750
+Run 2 | Test Aug2 Epoch : 4/200, Score_CDF90: 5.688328, Score_MSE: 3.245385
+### Model saved! Best test MSE: 3.074754.
+Run 2 | Epoch : 5/200, lr: 0.009985, loss_avg: 8.680329
+Run 2 | Test Orig Epoch : 5/200, Score_CDF90: 5.047291, Score_MSE: 3.708194
+Run 2 | Epoch : 6/200, lr: 0.009978, loss_avg: 7.622982
+Run 2 | Test Orig Epoch : 6/200, Score_CDF90: 10.594122, Score_MSE: 6.732148
+Run 2 | Epoch : 7/200, lr: 0.009970, loss_avg: 6.542426
+Run 2 | Test Orig Epoch : 7/200, Score_CDF90: 4.002745, Score_MSE: 2.405808
+Run 2 | Test Aug1 Epoch : 7/200, Score_CDF90: 3.546849, Score_MSE: 2.058535
+Run 2 | Test Aug2 Epoch : 7/200, Score_CDF90: 4.321260, Score_MSE: 2.527808
+### Model saved! Best test MSE: 2.405808.
+Run 2 | Epoch : 8/200, lr: 0.009961, loss_avg: 6.536365
+Run 2 | Test Orig Epoch : 8/200, Score_CDF90: 5.128212, Score_MSE: 3.753830
+Run 2 | Epoch : 9/200, lr: 0.009950, loss_avg: 5.338691
+Run 2 | Test Orig Epoch : 9/200, Score_CDF90: 6.439351, Score_MSE: 4.411138
+Run 2 | Epoch : 10/200, lr: 0.009938, loss_avg: 4.649862
+Run 2 | Test Orig Epoch : 10/200, Score_CDF90: 3.540613, Score_MSE: 2.396322
+Run 2 | Test Aug1 Epoch : 10/200, Score_CDF90: 3.926531, Score_MSE: 2.529929
+Run 2 | Test Aug2 Epoch : 10/200, Score_CDF90: 4.108821, Score_MSE: 2.674459
+### Model saved! Best test MSE: 2.396322.
+Run 2 | Epoch : 11/200, lr: 0.009926, loss_avg: 3.840586
+Run 2 | Test Orig Epoch : 11/200, Score_CDF90: 5.495984, Score_MSE: 3.475991
+Run 2 | Epoch : 12/200, lr: 0.009911, loss_avg: 3.596725
+Run 2 | Test Orig Epoch : 12/200, Score_CDF90: 3.007501, Score_MSE: 2.193058
+Run 2 | Test Aug1 Epoch : 12/200, Score_CDF90: 3.757938, Score_MSE: 2.585483
+Run 2 | Test Aug2 Epoch : 12/200, Score_CDF90: 3.397281, Score_MSE: 2.302133
+### Model saved! Best test MSE: 2.193058.
+Run 2 | Epoch : 13/200, lr: 0.009896, loss_avg: 3.239392
+Run 2 | Test Orig Epoch : 13/200, Score_CDF90: 4.165881, Score_MSE: 2.571691
+Run 2 | Epoch : 14/200, lr: 0.009880, loss_avg: 2.366596
+Run 2 | Test Orig Epoch : 14/200, Score_CDF90: 2.829992, Score_MSE: 1.803492
+Run 2 | Test Aug1 Epoch : 14/200, Score_CDF90: 3.055319, Score_MSE: 1.815648
+Run 2 | Test Aug2 Epoch : 14/200, Score_CDF90: 3.407094, Score_MSE: 2.096209
+### Model saved! Best test MSE: 1.803492.
+Run 2 | Epoch : 15/200, lr: 0.009862, loss_avg: 1.633727
+Run 2 | Test Orig Epoch : 15/200, Score_CDF90: 4.898071, Score_MSE: 3.639128
+Run 2 | Epoch : 16/200, lr: 0.009843, loss_avg: 1.412849
+Run 2 | Test Orig Epoch : 16/200, Score_CDF90: 5.511281, Score_MSE: 4.662181
+Run 2 | Epoch : 17/200, lr: 0.009823, loss_avg: 1.386095
+Run 2 | Test Orig Epoch : 17/200, Score_CDF90: 2.052932, Score_MSE: 1.240973
+Run 2 | Test Aug1 Epoch : 17/200, Score_CDF90: 2.141605, Score_MSE: 1.276220
+Run 2 | Test Aug2 Epoch : 17/200, Score_CDF90: 2.392256, Score_MSE: 1.406123
+### Model saved! Best test MSE: 1.240973.
+Run 2 | Epoch : 18/200, lr: 0.009801, loss_avg: 1.155612
+Run 2 | Test Orig Epoch : 18/200, Score_CDF90: 2.067964, Score_MSE: 1.312068
+Run 2 | Epoch : 19/200, lr: 0.009779, loss_avg: 0.979430
+Run 2 | Test Orig Epoch : 19/200, Score_CDF90: 4.288643, Score_MSE: 2.827754
+Run 2 | Epoch : 20/200, lr: 0.009755, loss_avg: 0.933575
+Run 2 | Test Orig Epoch : 20/200, Score_CDF90: 3.100391, Score_MSE: 1.921888
+Run 2 | Epoch : 21/200, lr: 0.009730, loss_avg: 0.899842
+Run 2 | Test Orig Epoch : 21/200, Score_CDF90: 1.273386, Score_MSE: 0.789161
+Run 2 | Test Aug1 Epoch : 21/200, Score_CDF90: 1.759478, Score_MSE: 1.080695
+Run 2 | Test Aug2 Epoch : 21/200, Score_CDF90: 1.857769, Score_MSE: 1.073649
+### Model saved! Best test MSE: 0.789161.
+Run 2 | Epoch : 22/200, lr: 0.009704, loss_avg: 0.931816
+Run 2 | Test Orig Epoch : 22/200, Score_CDF90: 2.680038, Score_MSE: 1.972159
+Run 2 | Epoch : 23/200, lr: 0.009677, loss_avg: 0.724701
+Run 2 | Test Orig Epoch : 23/200, Score_CDF90: 1.948507, Score_MSE: 1.086926
+Run 2 | Epoch : 24/200, lr: 0.009649, loss_avg: 0.845757
+Run 2 | Test Orig Epoch : 24/200, Score_CDF90: 3.498331, Score_MSE: 2.646686
+Run 2 | Epoch : 25/200, lr: 0.009619, loss_avg: 0.873452
+Run 2 | Test Orig Epoch : 25/200, Score_CDF90: 1.446721, Score_MSE: 0.916026
+Run 2 | Epoch : 26/200, lr: 0.009589, loss_avg: 1.013758
+Run 2 | Test Orig Epoch : 26/200, Score_CDF90: 1.866063, Score_MSE: 1.244305
+Run 2 | Epoch : 27/200, lr: 0.009557, loss_avg: 0.823421
+Run 2 | Test Orig Epoch : 27/200, Score_CDF90: 2.328418, Score_MSE: 1.754847
+Run 2 | Epoch : 28/200, lr: 0.009524, loss_avg: 0.811671
+Run 2 | Test Orig Epoch : 28/200, Score_CDF90: 1.985275, Score_MSE: 1.051885
+Run 2 | Epoch : 29/200, lr: 0.009490, loss_avg: 0.735522
+Run 2 | Test Orig Epoch : 29/200, Score_CDF90: 1.717014, Score_MSE: 1.085597
+Run 2 | Epoch : 30/200, lr: 0.009455, loss_avg: 0.746011
+Run 2 | Test Orig Epoch : 30/200, Score_CDF90: 1.803329, Score_MSE: 1.123729
+Run 2 | Epoch : 31/200, lr: 0.009419, loss_avg: 0.594178
+Run 2 | Test Orig Epoch : 31/200, Score_CDF90: 0.955025, Score_MSE: 0.551101
+Run 2 | Test Aug1 Epoch : 31/200, Score_CDF90: 1.584081, Score_MSE: 0.949065
+Run 2 | Test Aug2 Epoch : 31/200, Score_CDF90: 1.489642, Score_MSE: 0.832766
+### Model saved! Best test MSE: 0.551101.
+Run 2 | Epoch : 32/200, lr: 0.009382, loss_avg: 0.699816
+Run 2 | Test Orig Epoch : 32/200, Score_CDF90: 1.447900, Score_MSE: 0.888229
+Run 2 | Epoch : 33/200, lr: 0.009343, loss_avg: 1.181548
+Run 2 | Test Orig Epoch : 33/200, Score_CDF90: 1.927180, Score_MSE: 1.268700
+Run 2 | Epoch : 34/200, lr: 0.009304, loss_avg: 0.669358
+Run 2 | Test Orig Epoch : 34/200, Score_CDF90: 0.997329, Score_MSE: 0.578468
+Run 2 | Epoch : 35/200, lr: 0.009263, loss_avg: 0.432110
+Run 2 | Test Orig Epoch : 35/200, Score_CDF90: 2.081131, Score_MSE: 1.485638
+Run 2 | Epoch : 36/200, lr: 0.009222, loss_avg: 0.551579
+Run 2 | Test Orig Epoch : 36/200, Score_CDF90: 1.374305, Score_MSE: 0.843820
+Run 2 | Epoch : 37/200, lr: 0.009179, loss_avg: 0.892461
+Run 2 | Test Orig Epoch : 37/200, Score_CDF90: 1.093037, Score_MSE: 0.683618
+Run 2 | Epoch : 38/200, lr: 0.009135, loss_avg: 0.437576
+Run 2 | Test Orig Epoch : 38/200, Score_CDF90: 0.916688, Score_MSE: 0.539710
+Run 2 | Test Aug1 Epoch : 38/200, Score_CDF90: 1.917493, Score_MSE: 1.122560
+Run 2 | Test Aug2 Epoch : 38/200, Score_CDF90: 1.436270, Score_MSE: 0.805420
+### Model saved! Best test MSE: 0.539710.
+Run 2 | Epoch : 39/200, lr: 0.009091, loss_avg: 0.400435
+Run 2 | Test Orig Epoch : 39/200, Score_CDF90: 1.060207, Score_MSE: 0.675715
+Run 2 | Epoch : 40/200, lr: 0.009045, loss_avg: 0.389980
+Run 2 | Test Orig Epoch : 40/200, Score_CDF90: 1.438417, Score_MSE: 0.809756
+Run 2 | Epoch : 41/200, lr: 0.008998, loss_avg: 0.593696
+Run 2 | Test Orig Epoch : 41/200, Score_CDF90: 1.259444, Score_MSE: 0.707089
+Run 2 | Epoch : 42/200, lr: 0.008951, loss_avg: 0.370343
+Run 2 | Test Orig Epoch : 42/200, Score_CDF90: 1.407787, Score_MSE: 0.917916
+Run 2 | Epoch : 43/200, lr: 0.008902, loss_avg: 0.470813
+Run 2 | Test Orig Epoch : 43/200, Score_CDF90: 1.752506, Score_MSE: 1.009293
+Run 2 | Epoch : 44/200, lr: 0.008853, loss_avg: 0.435007
+Run 2 | Test Orig Epoch : 44/200, Score_CDF90: 1.551878, Score_MSE: 0.884953
+Run 2 | Epoch : 45/200, lr: 0.008802, loss_avg: 0.399382
+Run 2 | Test Orig Epoch : 45/200, Score_CDF90: 0.739662, Score_MSE: 0.438844
+Run 2 | Test Aug1 Epoch : 45/200, Score_CDF90: 1.066810, Score_MSE: 0.600911
+Run 2 | Test Aug2 Epoch : 45/200, Score_CDF90: 1.251169, Score_MSE: 0.693106
+### Model saved! Best test MSE: 0.438844.
+Run 2 | Epoch : 46/200, lr: 0.008751, loss_avg: 0.420598
+Run 2 | Test Orig Epoch : 46/200, Score_CDF90: 1.311448, Score_MSE: 0.776909
+Run 2 | Epoch : 47/200, lr: 0.008698, loss_avg: 0.362944
+Run 2 | Test Orig Epoch : 47/200, Score_CDF90: 2.069438, Score_MSE: 1.321828
+Run 2 | Epoch : 48/200, lr: 0.008645, loss_avg: 0.317879
+Run 2 | Test Orig Epoch : 48/200, Score_CDF90: 0.848071, Score_MSE: 0.525591
+Run 2 | Epoch : 49/200, lr: 0.008591, loss_avg: 0.435929
+Run 2 | Test Orig Epoch : 49/200, Score_CDF90: 1.053393, Score_MSE: 0.613400
+Run 2 | Epoch : 50/200, lr: 0.008536, loss_avg: 0.330985
+Run 2 | Test Orig Epoch : 50/200, Score_CDF90: 0.851318, Score_MSE: 0.515197
+Run 2 | Epoch : 51/200, lr: 0.008480, loss_avg: 0.387623
+Run 2 | Test Orig Epoch : 51/200, Score_CDF90: 1.155329, Score_MSE: 0.697901
+Run 2 | Epoch : 52/200, lr: 0.008423, loss_avg: 0.356956
+Run 2 | Test Orig Epoch : 52/200, Score_CDF90: 1.368276, Score_MSE: 0.867465
+Run 2 | Epoch : 53/200, lr: 0.008365, loss_avg: 0.434019
+Run 2 | Test Orig Epoch : 53/200, Score_CDF90: 0.917512, Score_MSE: 0.491893
+Run 2 | Epoch : 54/200, lr: 0.008307, loss_avg: 0.290615
+Run 2 | Test Orig Epoch : 54/200, Score_CDF90: 0.807251, Score_MSE: 0.493326
+Run 2 | Epoch : 55/200, lr: 0.008247, loss_avg: 0.336283
+Run 2 | Test Orig Epoch : 55/200, Score_CDF90: 1.069648, Score_MSE: 0.570663
+Run 2 | Epoch : 56/200, lr: 0.008187, loss_avg: 0.354970
+Run 2 | Test Orig Epoch : 56/200, Score_CDF90: 1.641203, Score_MSE: 1.107358
+Run 2 | Epoch : 57/200, lr: 0.008126, loss_avg: 0.284292
+Run 2 | Test Orig Epoch : 57/200, Score_CDF90: 0.775486, Score_MSE: 0.473827
+Run 2 | Epoch : 58/200, lr: 0.008065, loss_avg: 0.333079
+Run 2 | Test Orig Epoch : 58/200, Score_CDF90: 0.916954, Score_MSE: 0.526517
+Run 2 | Epoch : 59/200, lr: 0.008002, loss_avg: 0.270482
+Run 2 | Test Orig Epoch : 59/200, Score_CDF90: 0.686928, Score_MSE: 0.411719
+Run 2 | Test Aug1 Epoch : 59/200, Score_CDF90: 0.856939, Score_MSE: 0.492135
+Run 2 | Test Aug2 Epoch : 59/200, Score_CDF90: 1.149192, Score_MSE: 0.647447
+### Model saved! Best test MSE: 0.411719.
+Run 2 | Epoch : 60/200, lr: 0.007939, loss_avg: 0.274107
+Run 2 | Test Orig Epoch : 60/200, Score_CDF90: 1.115290, Score_MSE: 0.653327
+Run 2 | Epoch : 61/200, lr: 0.007875, loss_avg: 0.228786
+Run 2 | Test Orig Epoch : 61/200, Score_CDF90: 1.259581, Score_MSE: 0.696453
+Run 2 | Epoch : 62/200, lr: 0.007810, loss_avg: 0.310808
+Run 2 | Test Orig Epoch : 62/200, Score_CDF90: 0.840068, Score_MSE: 0.466341
+Run 2 | Epoch : 63/200, lr: 0.007745, loss_avg: 0.281152
+Run 2 | Test Orig Epoch : 63/200, Score_CDF90: 0.675191, Score_MSE: 0.406868
+Run 2 | Test Aug1 Epoch : 63/200, Score_CDF90: 1.128969, Score_MSE: 0.679975
+Run 2 | Test Aug2 Epoch : 63/200, Score_CDF90: 1.114455, Score_MSE: 0.632776
+### Model saved! Best test MSE: 0.406868.
+Run 2 | Epoch : 64/200, lr: 0.007679, loss_avg: 0.248154
+Run 2 | Test Orig Epoch : 64/200, Score_CDF90: 1.107851, Score_MSE: 0.673422
+Run 2 | Epoch : 65/200, lr: 0.007612, loss_avg: 0.229519
+Run 2 | Test Orig Epoch : 65/200, Score_CDF90: 1.205581, Score_MSE: 0.843544
+Run 2 | Epoch : 66/200, lr: 0.007545, loss_avg: 0.205152
+Run 2 | Test Orig Epoch : 66/200, Score_CDF90: 0.746150, Score_MSE: 0.446155
+Run 2 | Epoch : 67/200, lr: 0.007477, loss_avg: 0.294875
+Run 2 | Test Orig Epoch : 67/200, Score_CDF90: 0.746018, Score_MSE: 0.451958
+Run 2 | Epoch : 68/200, lr: 0.007409, loss_avg: 0.205709
+Run 2 | Test Orig Epoch : 68/200, Score_CDF90: 0.695981, Score_MSE: 0.390682
+Run 2 | Test Aug1 Epoch : 68/200, Score_CDF90: 0.814536, Score_MSE: 0.467661
+Run 2 | Test Aug2 Epoch : 68/200, Score_CDF90: 1.113663, Score_MSE: 0.613223
+### Model saved! Best test MSE: 0.390682.
+Run 2 | Epoch : 69/200, lr: 0.007340, loss_avg: 0.243805
+Run 2 | Test Orig Epoch : 69/200, Score_CDF90: 0.714705, Score_MSE: 0.442176
+Run 2 | Epoch : 70/200, lr: 0.007270, loss_avg: 0.201429
+Run 2 | Test Orig Epoch : 70/200, Score_CDF90: 0.586311, Score_MSE: 0.332028
+Run 2 | Test Aug1 Epoch : 70/200, Score_CDF90: 0.773426, Score_MSE: 0.450421
+Run 2 | Test Aug2 Epoch : 70/200, Score_CDF90: 1.044740, Score_MSE: 0.571360
+### Model saved! Best test MSE: 0.332028.
+Run 2 | Epoch : 71/200, lr: 0.007200, loss_avg: 0.202969
+Run 2 | Test Orig Epoch : 71/200, Score_CDF90: 0.647594, Score_MSE: 0.403294
+Run 2 | Epoch : 72/200, lr: 0.007129, loss_avg: 0.193831
+Run 2 | Test Orig Epoch : 72/200, Score_CDF90: 0.657892, Score_MSE: 0.362658
+Run 2 | Epoch : 73/200, lr: 0.007058, loss_avg: 0.170149
+Run 2 | Test Orig Epoch : 73/200, Score_CDF90: 1.280757, Score_MSE: 0.795990
+Run 2 | Epoch : 74/200, lr: 0.006986, loss_avg: 0.210637
+Run 2 | Test Orig Epoch : 74/200, Score_CDF90: 0.806828, Score_MSE: 0.522592
+Run 2 | Epoch : 75/200, lr: 0.006913, loss_avg: 0.157891
+Run 2 | Test Orig Epoch : 75/200, Score_CDF90: 0.586299, Score_MSE: 0.350740
+Run 2 | Epoch : 76/200, lr: 0.006841, loss_avg: 0.190696
+Run 2 | Test Orig Epoch : 76/200, Score_CDF90: 0.673005, Score_MSE: 0.422026
+Run 2 | Epoch : 77/200, lr: 0.006767, loss_avg: 0.190764
+Run 2 | Test Orig Epoch : 77/200, Score_CDF90: 0.759876, Score_MSE: 0.420758
+Run 2 | Epoch : 78/200, lr: 0.006694, loss_avg: 0.162115
+Run 2 | Test Orig Epoch : 78/200, Score_CDF90: 1.095385, Score_MSE: 0.660990
+Run 2 | Epoch : 79/200, lr: 0.006620, loss_avg: 0.215530
+Run 2 | Test Orig Epoch : 79/200, Score_CDF90: 0.571558, Score_MSE: 0.332467
+Run 2 | Epoch : 80/200, lr: 0.006545, loss_avg: 0.154699
+Run 2 | Test Orig Epoch : 80/200, Score_CDF90: 0.469466, Score_MSE: 0.273973
+Run 2 | Test Aug1 Epoch : 80/200, Score_CDF90: 0.596843, Score_MSE: 0.351908
+Run 2 | Test Aug2 Epoch : 80/200, Score_CDF90: 0.933126, Score_MSE: 0.506050
+### Model saved! Best test MSE: 0.273973.
+Run 2 | Epoch : 81/200, lr: 0.006470, loss_avg: 0.189285
+Run 2 | Test Orig Epoch : 81/200, Score_CDF90: 1.019540, Score_MSE: 0.700132
+Run 2 | Epoch : 82/200, lr: 0.006395, loss_avg: 0.137623
+Run 2 | Test Orig Epoch : 82/200, Score_CDF90: 0.615443, Score_MSE: 0.375483
+Run 2 | Epoch : 83/200, lr: 0.006319, loss_avg: 0.147006
+Run 2 | Test Orig Epoch : 83/200, Score_CDF90: 0.632392, Score_MSE: 0.372716
+Run 2 | Epoch : 84/200, lr: 0.006243, loss_avg: 0.173037
+Run 2 | Test Orig Epoch : 84/200, Score_CDF90: 0.972886, Score_MSE: 0.688077
+Run 2 | Epoch : 85/200, lr: 0.006167, loss_avg: 0.150847
+Run 2 | Test Orig Epoch : 85/200, Score_CDF90: 0.534618, Score_MSE: 0.309549
+Run 2 | Epoch : 86/200, lr: 0.006091, loss_avg: 0.131167
+Run 2 | Test Orig Epoch : 86/200, Score_CDF90: 0.635384, Score_MSE: 0.380867
+Run 2 | Epoch : 87/200, lr: 0.006014, loss_avg: 0.143558
+Run 2 | Test Orig Epoch : 87/200, Score_CDF90: 0.661753, Score_MSE: 0.400018
+Run 2 | Epoch : 88/200, lr: 0.005937, loss_avg: 0.143741
+Run 2 | Test Orig Epoch : 88/200, Score_CDF90: 0.565809, Score_MSE: 0.328009
+Run 2 | Epoch : 89/200, lr: 0.005860, loss_avg: 0.135022
+Run 2 | Test Orig Epoch : 89/200, Score_CDF90: 0.789909, Score_MSE: 0.553516
+Run 2 | Epoch : 90/200, lr: 0.005782, loss_avg: 0.125421
+Run 2 | Test Orig Epoch : 90/200, Score_CDF90: 0.897445, Score_MSE: 0.545670
+Run 2 | Epoch : 91/200, lr: 0.005705, loss_avg: 0.153918
+Run 2 | Test Orig Epoch : 91/200, Score_CDF90: 0.682670, Score_MSE: 0.383515
+Run 2 | Epoch : 92/200, lr: 0.005627, loss_avg: 0.112722
+Run 2 | Test Orig Epoch : 92/200, Score_CDF90: 0.528782, Score_MSE: 0.309966
+Run 2 | Epoch : 93/200, lr: 0.005549, loss_avg: 0.134717
+Run 2 | Test Orig Epoch : 93/200, Score_CDF90: 0.782600, Score_MSE: 0.511118
+Run 2 | Epoch : 94/200, lr: 0.005471, loss_avg: 0.116098
+Run 2 | Test Orig Epoch : 94/200, Score_CDF90: 0.535037, Score_MSE: 0.324052
+Run 2 | Epoch : 95/200, lr: 0.005392, loss_avg: 0.149020
+Run 2 | Test Orig Epoch : 95/200, Score_CDF90: 0.926831, Score_MSE: 0.603676
+Run 2 | Epoch : 96/200, lr: 0.005314, loss_avg: 0.151099
+Run 2 | Test Orig Epoch : 96/200, Score_CDF90: 0.575945, Score_MSE: 0.362584
+Run 2 | Epoch : 97/200, lr: 0.005236, loss_avg: 0.101358
+Run 2 | Test Orig Epoch : 97/200, Score_CDF90: 0.443246, Score_MSE: 0.262372
+Run 2 | Test Aug1 Epoch : 97/200, Score_CDF90: 0.586417, Score_MSE: 0.340110
+Run 2 | Test Aug2 Epoch : 97/200, Score_CDF90: 0.859001, Score_MSE: 0.475218
+### Model saved! Best test MSE: 0.262372.
+Run 2 | Epoch : 98/200, lr: 0.005157, loss_avg: 0.097392
+Run 2 | Test Orig Epoch : 98/200, Score_CDF90: 0.989036, Score_MSE: 0.652501
+Run 2 | Epoch : 99/200, lr: 0.005079, loss_avg: 0.124552
+Run 2 | Test Orig Epoch : 99/200, Score_CDF90: 0.488823, Score_MSE: 0.289463
+Run 2 | Epoch : 100/200, lr: 0.005000, loss_avg: 0.133637
+Run 2 | Test Orig Epoch : 100/200, Score_CDF90: 0.694902, Score_MSE: 0.499253
+Run 2 | Epoch : 101/200, lr: 0.004921, loss_avg: 0.090388
+Run 2 | Test Orig Epoch : 101/200, Score_CDF90: 0.513871, Score_MSE: 0.283729
+Run 2 | Epoch : 102/200, lr: 0.004843, loss_avg: 0.098920
+Run 2 | Test Orig Epoch : 102/200, Score_CDF90: 0.521984, Score_MSE: 0.290096
+Run 2 | Epoch : 103/200, lr: 0.004764, loss_avg: 0.106266
+Run 2 | Test Orig Epoch : 103/200, Score_CDF90: 0.679941, Score_MSE: 0.448050
+Run 2 | Epoch : 104/200, lr: 0.004686, loss_avg: 0.110196
+Run 2 | Test Orig Epoch : 104/200, Score_CDF90: 0.762070, Score_MSE: 0.482438
+Run 2 | Epoch : 105/200, lr: 0.004608, loss_avg: 0.113188
+Run 2 | Test Orig Epoch : 105/200, Score_CDF90: 0.683616, Score_MSE: 0.409702
+Run 2 | Epoch : 106/200, lr: 0.004529, loss_avg: 0.088684
+Run 2 | Test Orig Epoch : 106/200, Score_CDF90: 0.509779, Score_MSE: 0.301714
+Run 2 | Epoch : 107/200, lr: 0.004451, loss_avg: 0.092332
+Run 2 | Test Orig Epoch : 107/200, Score_CDF90: 0.406265, Score_MSE: 0.227906
+Run 2 | Test Aug1 Epoch : 107/200, Score_CDF90: 0.610644, Score_MSE: 0.353865
+Run 2 | Test Aug2 Epoch : 107/200, Score_CDF90: 0.835132, Score_MSE: 0.453927
+### Model saved! Best test MSE: 0.227906.
+Run 2 | Epoch : 108/200, lr: 0.004373, loss_avg: 0.094762
+Run 2 | Test Orig Epoch : 108/200, Score_CDF90: 0.468503, Score_MSE: 0.276711
+Run 2 | Epoch : 109/200, lr: 0.004295, loss_avg: 0.077110
+Run 2 | Test Orig Epoch : 109/200, Score_CDF90: 0.631391, Score_MSE: 0.384341
+Run 2 | Epoch : 110/200, lr: 0.004218, loss_avg: 0.083720
+Run 2 | Test Orig Epoch : 110/200, Score_CDF90: 0.473906, Score_MSE: 0.265959
+Run 2 | Epoch : 111/200, lr: 0.004140, loss_avg: 0.083349
+Run 2 | Test Orig Epoch : 111/200, Score_CDF90: 0.473909, Score_MSE: 0.284631
+Run 2 | Epoch : 112/200, lr: 0.004063, loss_avg: 0.089489
+Run 2 | Test Orig Epoch : 112/200, Score_CDF90: 0.472270, Score_MSE: 0.279346
+Run 2 | Epoch : 113/200, lr: 0.003986, loss_avg: 0.082572
+Run 2 | Test Orig Epoch : 113/200, Score_CDF90: 0.567621, Score_MSE: 0.322762
+Run 2 | Epoch : 114/200, lr: 0.003909, loss_avg: 0.082570
+Run 2 | Test Orig Epoch : 114/200, Score_CDF90: 0.510677, Score_MSE: 0.322305
+Run 2 | Epoch : 115/200, lr: 0.003833, loss_avg: 0.087975
+Run 2 | Test Orig Epoch : 115/200, Score_CDF90: 0.548732, Score_MSE: 0.320937
+Run 2 | Epoch : 116/200, lr: 0.003757, loss_avg: 0.075757
+Run 2 | Test Orig Epoch : 116/200, Score_CDF90: 0.481935, Score_MSE: 0.282369
+Run 2 | Epoch : 117/200, lr: 0.003681, loss_avg: 0.067687
+Run 2 | Test Orig Epoch : 117/200, Score_CDF90: 0.336847, Score_MSE: 0.195914
+Run 2 | Test Aug1 Epoch : 117/200, Score_CDF90: 0.540431, Score_MSE: 0.334347
+Run 2 | Test Aug2 Epoch : 117/200, Score_CDF90: 0.806507, Score_MSE: 0.426133
+### Model saved! Best test MSE: 0.195914.
+Run 2 | Epoch : 118/200, lr: 0.003605, loss_avg: 0.067348
+Run 2 | Test Orig Epoch : 118/200, Score_CDF90: 0.502196, Score_MSE: 0.336622
+Run 2 | Epoch : 119/200, lr: 0.003530, loss_avg: 0.073413
+Run 2 | Test Orig Epoch : 119/200, Score_CDF90: 0.407910, Score_MSE: 0.264222
+Run 2 | Epoch : 120/200, lr: 0.003455, loss_avg: 0.068325
+Run 2 | Test Orig Epoch : 120/200, Score_CDF90: 0.550236, Score_MSE: 0.313688
+Run 2 | Epoch : 121/200, lr: 0.003380, loss_avg: 0.083989
+Run 2 | Test Orig Epoch : 121/200, Score_CDF90: 0.555740, Score_MSE: 0.368796
+Run 2 | Epoch : 122/200, lr: 0.003306, loss_avg: 0.074375
+Run 2 | Test Orig Epoch : 122/200, Score_CDF90: 0.451468, Score_MSE: 0.272627
+Run 2 | Epoch : 123/200, lr: 0.003233, loss_avg: 0.054933
+Run 2 | Test Orig Epoch : 123/200, Score_CDF90: 0.540282, Score_MSE: 0.321066
+Run 2 | Epoch : 124/200, lr: 0.003159, loss_avg: 0.061936
+Run 2 | Test Orig Epoch : 124/200, Score_CDF90: 0.403296, Score_MSE: 0.241447
+Run 2 | Epoch : 125/200, lr: 0.003087, loss_avg: 0.059329
+Run 2 | Test Orig Epoch : 125/200, Score_CDF90: 0.408573, Score_MSE: 0.242355
+Run 2 | Epoch : 126/200, lr: 0.003014, loss_avg: 0.052523
+Run 2 | Test Orig Epoch : 126/200, Score_CDF90: 0.600095, Score_MSE: 0.427622
+Run 2 | Epoch : 127/200, lr: 0.002942, loss_avg: 0.055858
+Run 2 | Test Orig Epoch : 127/200, Score_CDF90: 0.352336, Score_MSE: 0.204014
+Run 2 | Epoch : 128/200, lr: 0.002871, loss_avg: 0.053600
+Run 2 | Test Orig Epoch : 128/200, Score_CDF90: 0.558662, Score_MSE: 0.371239
+Run 2 | Epoch : 129/200, lr: 0.002800, loss_avg: 0.052861
+Run 2 | Test Orig Epoch : 129/200, Score_CDF90: 0.364371, Score_MSE: 0.219620
+Run 2 | Epoch : 130/200, lr: 0.002730, loss_avg: 0.053920
+Run 2 | Test Orig Epoch : 130/200, Score_CDF90: 0.417899, Score_MSE: 0.259096
+Run 2 | Epoch : 131/200, lr: 0.002660, loss_avg: 0.049644
+Run 2 | Test Orig Epoch : 131/200, Score_CDF90: 0.345623, Score_MSE: 0.206057
+Run 2 | Epoch : 132/200, lr: 0.002591, loss_avg: 0.051709
+Run 2 | Test Orig Epoch : 132/200, Score_CDF90: 0.415144, Score_MSE: 0.262632
+Run 2 | Epoch : 133/200, lr: 0.002523, loss_avg: 0.049199
+Run 2 | Test Orig Epoch : 133/200, Score_CDF90: 0.306230, Score_MSE: 0.176209
+Run 2 | Test Aug1 Epoch : 133/200, Score_CDF90: 0.366035, Score_MSE: 0.208049
+Run 2 | Test Aug2 Epoch : 133/200, Score_CDF90: 0.764864, Score_MSE: 0.404184
+### Model saved! Best test MSE: 0.176209.
+Run 2 | Epoch : 134/200, lr: 0.002455, loss_avg: 0.055899
+Run 2 | Test Orig Epoch : 134/200, Score_CDF90: 0.423664, Score_MSE: 0.239611
+Run 2 | Epoch : 135/200, lr: 0.002388, loss_avg: 0.048967
+Run 2 | Test Orig Epoch : 135/200, Score_CDF90: 0.467679, Score_MSE: 0.283769
+Run 2 | Epoch : 136/200, lr: 0.002321, loss_avg: 0.041382
+Run 2 | Test Orig Epoch : 136/200, Score_CDF90: 0.398482, Score_MSE: 0.267909
+Run 2 | Epoch : 137/200, lr: 0.002255, loss_avg: 0.044443
+Run 2 | Test Orig Epoch : 137/200, Score_CDF90: 0.386122, Score_MSE: 0.237512
+Run 2 | Epoch : 138/200, lr: 0.002190, loss_avg: 0.041072
+Run 2 | Test Orig Epoch : 138/200, Score_CDF90: 0.373440, Score_MSE: 0.221039
+Run 2 | Epoch : 139/200, lr: 0.002125, loss_avg: 0.044931
+Run 2 | Test Orig Epoch : 139/200, Score_CDF90: 0.431415, Score_MSE: 0.279957
+Run 2 | Epoch : 140/200, lr: 0.002061, loss_avg: 0.037974
+Run 2 | Test Orig Epoch : 140/200, Score_CDF90: 0.429076, Score_MSE: 0.247975
+Run 2 | Epoch : 141/200, lr: 0.001998, loss_avg: 0.039543
+Run 2 | Test Orig Epoch : 141/200, Score_CDF90: 0.486650, Score_MSE: 0.299143
+Run 2 | Epoch : 142/200, lr: 0.001935, loss_avg: 0.038493
+Run 2 | Test Orig Epoch : 142/200, Score_CDF90: 0.272168, Score_MSE: 0.152771
+Run 2 | Test Aug1 Epoch : 142/200, Score_CDF90: 0.331428, Score_MSE: 0.187085
+Run 2 | Test Aug2 Epoch : 142/200, Score_CDF90: 0.718000, Score_MSE: 0.386892
+### Model saved! Best test MSE: 0.152771.
+Run 2 | Epoch : 143/200, lr: 0.001874, loss_avg: 0.035354
+Run 2 | Test Orig Epoch : 143/200, Score_CDF90: 0.291502, Score_MSE: 0.174009
+Run 2 | Epoch : 144/200, lr: 0.001813, loss_avg: 0.048607
+Run 2 | Test Orig Epoch : 144/200, Score_CDF90: 0.450746, Score_MSE: 0.312836
+Run 2 | Epoch : 145/200, lr: 0.001753, loss_avg: 0.034482
+Run 2 | Test Orig Epoch : 145/200, Score_CDF90: 0.269408, Score_MSE: 0.160008
+Run 2 | Epoch : 146/200, lr: 0.001693, loss_avg: 0.032815
+Run 2 | Test Orig Epoch : 146/200, Score_CDF90: 0.357744, Score_MSE: 0.193961
+Run 2 | Epoch : 147/200, lr: 0.001635, loss_avg: 0.034475
+Run 2 | Test Orig Epoch : 147/200, Score_CDF90: 0.275401, Score_MSE: 0.163179
+Run 2 | Epoch : 148/200, lr: 0.001577, loss_avg: 0.034137
+Run 2 | Test Orig Epoch : 148/200, Score_CDF90: 0.294706, Score_MSE: 0.165927
+Run 2 | Epoch : 149/200, lr: 0.001520, loss_avg: 0.031992
+Run 2 | Test Orig Epoch : 149/200, Score_CDF90: 0.327817, Score_MSE: 0.202187
+Run 2 | Epoch : 150/200, lr: 0.001464, loss_avg: 0.031934
+Run 2 | Test Orig Epoch : 150/200, Score_CDF90: 0.258046, Score_MSE: 0.148199
+Run 2 | Test Aug1 Epoch : 150/200, Score_CDF90: 0.303345, Score_MSE: 0.168531
+Run 2 | Test Aug2 Epoch : 150/200, Score_CDF90: 0.739867, Score_MSE: 0.383661
+### Model saved! Best test MSE: 0.148199.
+Run 2 | Epoch : 151/200, lr: 0.001409, loss_avg: 0.029757
+Run 2 | Test Orig Epoch : 151/200, Score_CDF90: 0.253951, Score_MSE: 0.148241
+Run 2 | Epoch : 152/200, lr: 0.001355, loss_avg: 0.032845
+Run 2 | Test Orig Epoch : 152/200, Score_CDF90: 0.355402, Score_MSE: 0.218166
+Run 2 | Epoch : 153/200, lr: 0.001302, loss_avg: 0.030516
+Run 2 | Test Orig Epoch : 153/200, Score_CDF90: 0.330218, Score_MSE: 0.192966
+Run 2 | Epoch : 154/200, lr: 0.001249, loss_avg: 0.030654
+Run 2 | Test Orig Epoch : 154/200, Score_CDF90: 0.250009, Score_MSE: 0.137103
+Run 2 | Test Aug1 Epoch : 154/200, Score_CDF90: 0.283574, Score_MSE: 0.159974
+Run 2 | Test Aug2 Epoch : 154/200, Score_CDF90: 0.728821, Score_MSE: 0.376378
+### Model saved! Best test MSE: 0.137103.
+Run 2 | Epoch : 155/200, lr: 0.001198, loss_avg: 0.027856
+Run 2 | Test Orig Epoch : 155/200, Score_CDF90: 0.245757, Score_MSE: 0.140904
+Run 2 | Epoch : 156/200, lr: 0.001147, loss_avg: 0.028389
+Run 2 | Test Orig Epoch : 156/200, Score_CDF90: 0.344622, Score_MSE: 0.212512
+Run 2 | Epoch : 157/200, lr: 0.001098, loss_avg: 0.024895
+Run 2 | Test Orig Epoch : 157/200, Score_CDF90: 0.286494, Score_MSE: 0.163478
+Run 2 | Epoch : 158/200, lr: 0.001049, loss_avg: 0.024426
+Run 2 | Test Orig Epoch : 158/200, Score_CDF90: 0.269842, Score_MSE: 0.166398
+Run 2 | Epoch : 159/200, lr: 0.001002, loss_avg: 0.022942
+Run 2 | Test Orig Epoch : 159/200, Score_CDF90: 0.296268, Score_MSE: 0.174685
+Run 2 | Epoch : 160/200, lr: 0.000955, loss_avg: 0.026171
+Run 2 | Test Orig Epoch : 160/200, Score_CDF90: 0.291340, Score_MSE: 0.173090
+Run 2 | Epoch : 161/200, lr: 0.000909, loss_avg: 0.024797
+Run 2 | Test Orig Epoch : 161/200, Score_CDF90: 0.321525, Score_MSE: 0.188993
+Run 2 | Epoch : 162/200, lr: 0.000865, loss_avg: 0.022064
+Run 2 | Test Orig Epoch : 162/200, Score_CDF90: 0.334253, Score_MSE: 0.229351
+Run 2 | Epoch : 163/200, lr: 0.000821, loss_avg: 0.024575
+Run 2 | Test Orig Epoch : 163/200, Score_CDF90: 0.227375, Score_MSE: 0.126801
+Run 2 | Test Aug1 Epoch : 163/200, Score_CDF90: 0.282770, Score_MSE: 0.158581
+Run 2 | Test Aug2 Epoch : 163/200, Score_CDF90: 0.712903, Score_MSE: 0.368284
+### Model saved! Best test MSE: 0.126801.
+Run 2 | Epoch : 164/200, lr: 0.000778, loss_avg: 0.023243
+Run 2 | Test Orig Epoch : 164/200, Score_CDF90: 0.246584, Score_MSE: 0.144372
+Run 2 | Epoch : 165/200, lr: 0.000737, loss_avg: 0.022368
+Run 2 | Test Orig Epoch : 165/200, Score_CDF90: 0.243952, Score_MSE: 0.135728
+Run 2 | Epoch : 166/200, lr: 0.000696, loss_avg: 0.022514
+Run 2 | Test Orig Epoch : 166/200, Score_CDF90: 0.279788, Score_MSE: 0.176892
+Run 2 | Epoch : 167/200, lr: 0.000657, loss_avg: 0.019677
+Run 2 | Test Orig Epoch : 167/200, Score_CDF90: 0.229101, Score_MSE: 0.128785
+Run 2 | Epoch : 168/200, lr: 0.000618, loss_avg: 0.021473
+Run 2 | Test Orig Epoch : 168/200, Score_CDF90: 0.241127, Score_MSE: 0.140254
+Run 2 | Epoch : 169/200, lr: 0.000581, loss_avg: 0.019340
+Run 2 | Test Orig Epoch : 169/200, Score_CDF90: 0.304283, Score_MSE: 0.170914
+Run 2 | Epoch : 170/200, lr: 0.000545, loss_avg: 0.020055
+Run 2 | Test Orig Epoch : 170/200, Score_CDF90: 0.286760, Score_MSE: 0.177795
+Run 2 | Epoch : 171/200, lr: 0.000510, loss_avg: 0.019085
+Run 2 | Test Orig Epoch : 171/200, Score_CDF90: 0.217854, Score_MSE: 0.126425
+Run 2 | Test Aug1 Epoch : 171/200, Score_CDF90: 0.261254, Score_MSE: 0.147803
+Run 2 | Test Aug2 Epoch : 171/200, Score_CDF90: 0.713365, Score_MSE: 0.367322
+### Model saved! Best test MSE: 0.126425.
+Run 2 | Epoch : 172/200, lr: 0.000476, loss_avg: 0.018031
+Run 2 | Test Orig Epoch : 172/200, Score_CDF90: 0.296695, Score_MSE: 0.179874
+Run 2 | Epoch : 173/200, lr: 0.000443, loss_avg: 0.017912
+Run 2 | Test Orig Epoch : 173/200, Score_CDF90: 0.207423, Score_MSE: 0.116506
+Run 2 | Test Aug1 Epoch : 173/200, Score_CDF90: 0.267302, Score_MSE: 0.153716
+Run 2 | Test Aug2 Epoch : 173/200, Score_CDF90: 0.717333, Score_MSE: 0.364807
+### Model saved! Best test MSE: 0.116506.
+Run 2 | Epoch : 174/200, lr: 0.000411, loss_avg: 0.017515
+Run 2 | Test Orig Epoch : 174/200, Score_CDF90: 0.242046, Score_MSE: 0.134740
+Run 2 | Epoch : 175/200, lr: 0.000381, loss_avg: 0.018194
+Run 2 | Test Orig Epoch : 175/200, Score_CDF90: 0.261496, Score_MSE: 0.159491
+Run 2 | Epoch : 176/200, lr: 0.000351, loss_avg: 0.015603
+Run 2 | Test Orig Epoch : 176/200, Score_CDF90: 0.219121, Score_MSE: 0.130377
+Run 2 | Epoch : 177/200, lr: 0.000323, loss_avg: 0.016952
+Run 2 | Test Orig Epoch : 177/200, Score_CDF90: 0.219036, Score_MSE: 0.129501
+Run 2 | Epoch : 178/200, lr: 0.000296, loss_avg: 0.016383
+Run 2 | Test Orig Epoch : 178/200, Score_CDF90: 0.209309, Score_MSE: 0.119664
+Run 2 | Epoch : 179/200, lr: 0.000270, loss_avg: 0.015603
+Run 2 | Test Orig Epoch : 179/200, Score_CDF90: 0.250886, Score_MSE: 0.157256
+Run 2 | Epoch : 180/200, lr: 0.000245, loss_avg: 0.016073
+Run 2 | Test Orig Epoch : 180/200, Score_CDF90: 0.206103, Score_MSE: 0.116277
+Run 2 | Test Aug1 Epoch : 180/200, Score_CDF90: 0.250300, Score_MSE: 0.140831
+Run 2 | Test Aug2 Epoch : 180/200, Score_CDF90: 0.709040, Score_MSE: 0.361945
+### Model saved! Best test MSE: 0.116277.
+Run 2 | Epoch : 181/200, lr: 0.000221, loss_avg: 0.014725
+Run 2 | Test Orig Epoch : 181/200, Score_CDF90: 0.212942, Score_MSE: 0.121842
+Run 2 | Epoch : 182/200, lr: 0.000199, loss_avg: 0.016087
+Run 2 | Test Orig Epoch : 182/200, Score_CDF90: 0.209789, Score_MSE: 0.119324
+Run 2 | Epoch : 183/200, lr: 0.000177, loss_avg: 0.014858
+Run 2 | Test Orig Epoch : 183/200, Score_CDF90: 0.265840, Score_MSE: 0.164204
+Run 2 | Epoch : 184/200, lr: 0.000157, loss_avg: 0.014403
+Run 2 | Test Orig Epoch : 184/200, Score_CDF90: 0.203016, Score_MSE: 0.118130
+Run 2 | Epoch : 185/200, lr: 0.000138, loss_avg: 0.014501
+Run 2 | Test Orig Epoch : 185/200, Score_CDF90: 0.233698, Score_MSE: 0.144515
+Run 2 | Epoch : 186/200, lr: 0.000120, loss_avg: 0.014146
+Run 2 | Test Orig Epoch : 186/200, Score_CDF90: 0.188915, Score_MSE: 0.102351
+Run 2 | Test Aug1 Epoch : 186/200, Score_CDF90: 0.226513, Score_MSE: 0.118693
+Run 2 | Test Aug2 Epoch : 186/200, Score_CDF90: 0.702574, Score_MSE: 0.356624
+### Model saved! Best test MSE: 0.102351.
+Run 2 | Epoch : 187/200, lr: 0.000104, loss_avg: 0.013859
+Run 2 | Test Orig Epoch : 187/200, Score_CDF90: 0.194772, Score_MSE: 0.107579
+Run 2 | Epoch : 188/200, lr: 0.000089, loss_avg: 0.013646
+Run 2 | Test Orig Epoch : 188/200, Score_CDF90: 0.213470, Score_MSE: 0.125835
+Run 2 | Epoch : 189/200, lr: 0.000074, loss_avg: 0.013218
+Run 2 | Test Orig Epoch : 189/200, Score_CDF90: 0.205829, Score_MSE: 0.116535
+Run 2 | Epoch : 190/200, lr: 0.000062, loss_avg: 0.013458
+Run 2 | Test Orig Epoch : 190/200, Score_CDF90: 0.227707, Score_MSE: 0.129960
+Run 2 | Epoch : 191/200, lr: 0.000050, loss_avg: 0.013629
+Run 2 | Test Orig Epoch : 191/200, Score_CDF90: 0.206830, Score_MSE: 0.119326
+Run 2 | Epoch : 192/200, lr: 0.000039, loss_avg: 0.012866
+Run 2 | Test Orig Epoch : 192/200, Score_CDF90: 0.187141, Score_MSE: 0.104022
+Run 2 | Epoch : 193/200, lr: 0.000030, loss_avg: 0.012626
+Run 2 | Test Orig Epoch : 193/200, Score_CDF90: 0.187252, Score_MSE: 0.103291
+Run 2 | Epoch : 194/200, lr: 0.000022, loss_avg: 0.013556
+Run 2 | Test Orig Epoch : 194/200, Score_CDF90: 0.204665, Score_MSE: 0.118221
+Run 2 | Epoch : 195/200, lr: 0.000015, loss_avg: 0.013113
+Run 2 | Test Orig Epoch : 195/200, Score_CDF90: 0.220918, Score_MSE: 0.128010
+Run 2 | Epoch : 196/200, lr: 0.000010, loss_avg: 0.011946
+Run 2 | Test Orig Epoch : 196/200, Score_CDF90: 0.197332, Score_MSE: 0.109568
+Run 2 | Epoch : 197/200, lr: 0.000006, loss_avg: 0.012408
+Run 2 | Test Orig Epoch : 197/200, Score_CDF90: 0.212821, Score_MSE: 0.122326
+Run 2 | Epoch : 198/200, lr: 0.000002, loss_avg: 0.012109
+Run 2 | Test Orig Epoch : 198/200, Score_CDF90: 0.209889, Score_MSE: 0.120599
+Run 2 | Epoch : 199/200, lr: 0.000001, loss_avg: 0.012459
+Run 2 | Test Orig Epoch : 199/200, Score_CDF90: 0.190453, Score_MSE: 0.104464
+Run 2 | Epoch : 200/200, lr: 0.000000, loss_avg: 0.012021
+Run 2 | Test Orig Epoch : 200/200, Score_CDF90: 0.208983, Score_MSE: 0.119269
+Run 3 | Epoch : 1/200, lr: 0.009999, loss_avg: 232.783634
+Run 3 | Test Orig Epoch : 1/200, Score_CDF90: 15.488873, Score_MSE: 12.809917
+Run 3 | Test Aug1 Epoch : 1/200, Score_CDF90: 17.919979, Score_MSE: 14.244684
+Run 3 | Test Aug2 Epoch : 1/200, Score_CDF90: 16.137135, Score_MSE: 13.144400
+### Model saved! Best test MSE: 12.809917.
+Run 3 | Epoch : 2/200, lr: 0.009998, loss_avg: 11.568220
+Run 3 | Test Orig Epoch : 2/200, Score_CDF90: 81.349236, Score_MSE: 75.079315
+Run 3 | Epoch : 3/200, lr: 0.009994, loss_avg: 8.815199
+Run 3 | Test Orig Epoch : 3/200, Score_CDF90: 5.852075, Score_MSE: 3.510948
+Run 3 | Test Aug1 Epoch : 3/200, Score_CDF90: 6.591078, Score_MSE: 3.911798
+Run 3 | Test Aug2 Epoch : 3/200, Score_CDF90: 6.387766, Score_MSE: 3.876896
+### Model saved! Best test MSE: 3.510948.
+Run 3 | Epoch : 4/200, lr: 0.009990, loss_avg: 8.759639
+Run 3 | Test Orig Epoch : 4/200, Score_CDF90: 6.004942, Score_MSE: 3.031457
+Run 3 | Test Aug1 Epoch : 4/200, Score_CDF90: 8.092012, Score_MSE: 4.832635
+Run 3 | Test Aug2 Epoch : 4/200, Score_CDF90: 6.729646, Score_MSE: 3.564495
+### Model saved! Best test MSE: 3.031457.
+Run 3 | Epoch : 5/200, lr: 0.009985, loss_avg: 8.733392
+Run 3 | Test Orig Epoch : 5/200, Score_CDF90: 3.853025, Score_MSE: 2.204236
+Run 3 | Test Aug1 Epoch : 5/200, Score_CDF90: 5.131997, Score_MSE: 3.030092
+Run 3 | Test Aug2 Epoch : 5/200, Score_CDF90: 4.455333, Score_MSE: 2.531727
+### Model saved! Best test MSE: 2.204236.
+Run 3 | Epoch : 6/200, lr: 0.009978, loss_avg: 7.028050
+Run 3 | Test Orig Epoch : 6/200, Score_CDF90: 84.282501, Score_MSE: 79.226479
+Run 3 | Epoch : 7/200, lr: 0.009970, loss_avg: 6.132727
+Run 3 | Test Orig Epoch : 7/200, Score_CDF90: 6.231704, Score_MSE: 3.573305
+Run 3 | Epoch : 8/200, lr: 0.009961, loss_avg: 5.605390
+Run 3 | Test Orig Epoch : 8/200, Score_CDF90: 3.073754, Score_MSE: 1.933460
+Run 3 | Test Aug1 Epoch : 8/200, Score_CDF90: 5.911536, Score_MSE: 3.543402
+Run 3 | Test Aug2 Epoch : 8/200, Score_CDF90: 3.820327, Score_MSE: 2.215174
+### Model saved! Best test MSE: 1.933460.
+Run 3 | Epoch : 9/200, lr: 0.009950, loss_avg: 4.411189
+Run 3 | Test Orig Epoch : 9/200, Score_CDF90: 3.532888, Score_MSE: 1.976445
+Run 3 | Epoch : 10/200, lr: 0.009938, loss_avg: 4.657882
+Run 3 | Test Orig Epoch : 10/200, Score_CDF90: 3.647729, Score_MSE: 2.428286
+Run 3 | Epoch : 11/200, lr: 0.009926, loss_avg: 3.409402
+Run 3 | Test Orig Epoch : 11/200, Score_CDF90: 3.520489, Score_MSE: 2.618202
+Run 3 | Epoch : 12/200, lr: 0.009911, loss_avg: 3.850022
+Run 3 | Test Orig Epoch : 12/200, Score_CDF90: 45.285694, Score_MSE: 41.243546
+Run 3 | Epoch : 13/200, lr: 0.009896, loss_avg: 2.902286
+Run 3 | Test Orig Epoch : 13/200, Score_CDF90: 2.361891, Score_MSE: 1.343408
+Run 3 | Test Aug1 Epoch : 13/200, Score_CDF90: 6.057439, Score_MSE: 3.620136
+Run 3 | Test Aug2 Epoch : 13/200, Score_CDF90: 3.135111, Score_MSE: 1.773002
+### Model saved! Best test MSE: 1.343408.
+Run 3 | Epoch : 14/200, lr: 0.009880, loss_avg: 2.362108
+Run 3 | Test Orig Epoch : 14/200, Score_CDF90: 2.400797, Score_MSE: 1.317779
+Run 3 | Test Aug1 Epoch : 14/200, Score_CDF90: 2.598874, Score_MSE: 1.498469
+Run 3 | Test Aug2 Epoch : 14/200, Score_CDF90: 2.818331, Score_MSE: 1.561736
+### Model saved! Best test MSE: 1.317779.
+Run 3 | Epoch : 15/200, lr: 0.009862, loss_avg: 2.079342
+Run 3 | Test Orig Epoch : 15/200, Score_CDF90: 1.785873, Score_MSE: 1.037575
+Run 3 | Test Aug1 Epoch : 15/200, Score_CDF90: 6.864970, Score_MSE: 4.377754
+Run 3 | Test Aug2 Epoch : 15/200, Score_CDF90: 2.534518, Score_MSE: 1.443061
+### Model saved! Best test MSE: 1.037575.
+Run 3 | Epoch : 16/200, lr: 0.009843, loss_avg: 1.535420
+Run 3 | Test Orig Epoch : 16/200, Score_CDF90: 1.889871, Score_MSE: 1.127508
+Run 3 | Epoch : 17/200, lr: 0.009823, loss_avg: 1.571442
+Run 3 | Test Orig Epoch : 17/200, Score_CDF90: 2.286074, Score_MSE: 1.311265
+Run 3 | Epoch : 18/200, lr: 0.009801, loss_avg: 1.175793
+Run 3 | Test Orig Epoch : 18/200, Score_CDF90: 1.394168, Score_MSE: 0.838762
+Run 3 | Test Aug1 Epoch : 18/200, Score_CDF90: 3.909146, Score_MSE: 2.194300
+Run 3 | Test Aug2 Epoch : 18/200, Score_CDF90: 2.090112, Score_MSE: 1.198878
+### Model saved! Best test MSE: 0.838762.
+Run 3 | Epoch : 19/200, lr: 0.009779, loss_avg: 1.218335
+Run 3 | Test Orig Epoch : 19/200, Score_CDF90: 2.693677, Score_MSE: 1.482438
+Run 3 | Epoch : 20/200, lr: 0.009755, loss_avg: 0.916325
+Run 3 | Test Orig Epoch : 20/200, Score_CDF90: 1.569981, Score_MSE: 0.999008
+Run 3 | Epoch : 21/200, lr: 0.009730, loss_avg: 1.012282
+Run 3 | Test Orig Epoch : 21/200, Score_CDF90: 1.355989, Score_MSE: 0.776669
+Run 3 | Test Aug1 Epoch : 21/200, Score_CDF90: 2.146636, Score_MSE: 1.197902
+Run 3 | Test Aug2 Epoch : 21/200, Score_CDF90: 1.926176, Score_MSE: 1.087657
+### Model saved! Best test MSE: 0.776669.
+Run 3 | Epoch : 22/200, lr: 0.009704, loss_avg: 0.870305
+Run 3 | Test Orig Epoch : 22/200, Score_CDF90: 1.007634, Score_MSE: 0.583059
+Run 3 | Test Aug1 Epoch : 22/200, Score_CDF90: 1.596923, Score_MSE: 0.844222
+Run 3 | Test Aug2 Epoch : 22/200, Score_CDF90: 1.617876, Score_MSE: 0.903111
+### Model saved! Best test MSE: 0.583059.
+Run 3 | Epoch : 23/200, lr: 0.009677, loss_avg: 1.007398
+Run 3 | Test Orig Epoch : 23/200, Score_CDF90: 2.061512, Score_MSE: 1.285588
+Run 3 | Epoch : 24/200, lr: 0.009649, loss_avg: 1.098918
+Run 3 | Test Orig Epoch : 24/200, Score_CDF90: 2.655992, Score_MSE: 1.797959
+Run 3 | Epoch : 25/200, lr: 0.009619, loss_avg: 0.804875
+Run 3 | Test Orig Epoch : 25/200, Score_CDF90: 2.827380, Score_MSE: 1.862426
+Run 3 | Epoch : 26/200, lr: 0.009589, loss_avg: 0.685258
+Run 3 | Test Orig Epoch : 26/200, Score_CDF90: 1.815514, Score_MSE: 1.117159
+Run 3 | Epoch : 27/200, lr: 0.009557, loss_avg: 0.767103
+Run 3 | Test Orig Epoch : 27/200, Score_CDF90: 1.980899, Score_MSE: 1.130432
+Run 3 | Epoch : 28/200, lr: 0.009524, loss_avg: 0.876088
+Run 3 | Test Orig Epoch : 28/200, Score_CDF90: 2.229148, Score_MSE: 1.666595
+Run 3 | Epoch : 29/200, lr: 0.009490, loss_avg: 0.913751
+Run 3 | Test Orig Epoch : 29/200, Score_CDF90: 2.428024, Score_MSE: 1.375202
+Run 3 | Epoch : 30/200, lr: 0.009455, loss_avg: 0.644912
+Run 3 | Test Orig Epoch : 30/200, Score_CDF90: 1.608597, Score_MSE: 1.077527
+Run 3 | Epoch : 31/200, lr: 0.009419, loss_avg: 0.599780
+Run 3 | Test Orig Epoch : 31/200, Score_CDF90: 2.289036, Score_MSE: 1.488573
+Run 3 | Epoch : 32/200, lr: 0.009382, loss_avg: 0.572441
+Run 3 | Test Orig Epoch : 32/200, Score_CDF90: 1.150347, Score_MSE: 0.667382
+Run 3 | Epoch : 33/200, lr: 0.009343, loss_avg: 0.542015
+Run 3 | Test Orig Epoch : 33/200, Score_CDF90: 2.278515, Score_MSE: 1.644179
+Run 3 | Epoch : 34/200, lr: 0.009304, loss_avg: 0.522431
+Run 3 | Test Orig Epoch : 34/200, Score_CDF90: 1.238182, Score_MSE: 0.709029
+Run 3 | Epoch : 35/200, lr: 0.009263, loss_avg: 0.754918
+Run 3 | Test Orig Epoch : 35/200, Score_CDF90: 24.802055, Score_MSE: 16.245567
+Run 3 | Epoch : 36/200, lr: 0.009222, loss_avg: 0.547735
+Run 3 | Test Orig Epoch : 36/200, Score_CDF90: 1.395414, Score_MSE: 0.801081
+Run 3 | Epoch : 37/200, lr: 0.009179, loss_avg: 0.463206
+Run 3 | Test Orig Epoch : 37/200, Score_CDF90: 1.767000, Score_MSE: 1.065226
+Run 3 | Epoch : 38/200, lr: 0.009135, loss_avg: 0.610143
+Run 3 | Test Orig Epoch : 38/200, Score_CDF90: 1.169043, Score_MSE: 0.662242
+Run 3 | Epoch : 39/200, lr: 0.009091, loss_avg: 0.475126
+Run 3 | Test Orig Epoch : 39/200, Score_CDF90: 2.044240, Score_MSE: 1.385137
+Run 3 | Epoch : 40/200, lr: 0.009045, loss_avg: 0.439378
+Run 3 | Test Orig Epoch : 40/200, Score_CDF90: 2.000719, Score_MSE: 1.377511
+Run 3 | Epoch : 41/200, lr: 0.008998, loss_avg: 0.483468
+Run 3 | Test Orig Epoch : 41/200, Score_CDF90: 1.425062, Score_MSE: 0.832986
+Run 3 | Epoch : 42/200, lr: 0.008951, loss_avg: 0.434366
+Run 3 | Test Orig Epoch : 42/200, Score_CDF90: 1.176586, Score_MSE: 0.720028
+Run 3 | Epoch : 43/200, lr: 0.008902, loss_avg: 0.500419
+Run 3 | Test Orig Epoch : 43/200, Score_CDF90: 1.191320, Score_MSE: 0.691329
+Run 3 | Epoch : 44/200, lr: 0.008853, loss_avg: 0.387763
+Run 3 | Test Orig Epoch : 44/200, Score_CDF90: 1.174987, Score_MSE: 0.675004
+Run 3 | Epoch : 45/200, lr: 0.008802, loss_avg: 0.456744
+Run 3 | Test Orig Epoch : 45/200, Score_CDF90: 1.557344, Score_MSE: 0.842852
+Run 3 | Epoch : 46/200, lr: 0.008751, loss_avg: 0.395041
+Run 3 | Test Orig Epoch : 46/200, Score_CDF90: 1.059469, Score_MSE: 0.619710
+Run 3 | Epoch : 47/200, lr: 0.008698, loss_avg: 0.571354
+Run 3 | Test Orig Epoch : 47/200, Score_CDF90: 1.377083, Score_MSE: 0.788545
+Run 3 | Epoch : 48/200, lr: 0.008645, loss_avg: 0.373838
+Run 3 | Test Orig Epoch : 48/200, Score_CDF90: 1.469759, Score_MSE: 0.895827
+Run 3 | Epoch : 49/200, lr: 0.008591, loss_avg: 0.453220
+Run 3 | Test Orig Epoch : 49/200, Score_CDF90: 0.932928, Score_MSE: 0.570073
+Run 3 | Test Aug1 Epoch : 49/200, Score_CDF90: 1.368632, Score_MSE: 0.809129
+Run 3 | Test Aug2 Epoch : 49/200, Score_CDF90: 1.406485, Score_MSE: 0.807042
+### Model saved! Best test MSE: 0.570073.
+Run 3 | Epoch : 50/200, lr: 0.008536, loss_avg: 0.363748
+Run 3 | Test Orig Epoch : 50/200, Score_CDF90: 1.080121, Score_MSE: 0.661451
+Run 3 | Epoch : 51/200, lr: 0.008480, loss_avg: 0.282861
+Run 3 | Test Orig Epoch : 51/200, Score_CDF90: 1.144241, Score_MSE: 0.653168
+Run 3 | Epoch : 52/200, lr: 0.008423, loss_avg: 0.277993
+Run 3 | Test Orig Epoch : 52/200, Score_CDF90: 0.976369, Score_MSE: 0.559089
+Run 3 | Test Aug1 Epoch : 52/200, Score_CDF90: 1.110212, Score_MSE: 0.621285
+Run 3 | Test Aug2 Epoch : 52/200, Score_CDF90: 1.382969, Score_MSE: 0.790215
+### Model saved! Best test MSE: 0.559089.
+Run 3 | Epoch : 53/200, lr: 0.008365, loss_avg: 0.429632
+Run 3 | Test Orig Epoch : 53/200, Score_CDF90: 1.035133, Score_MSE: 0.629303
+Run 3 | Epoch : 54/200, lr: 0.008307, loss_avg: 0.281627
+Run 3 | Test Orig Epoch : 54/200, Score_CDF90: 0.996354, Score_MSE: 0.636462
+Run 3 | Epoch : 55/200, lr: 0.008247, loss_avg: 0.380056
+Run 3 | Test Orig Epoch : 55/200, Score_CDF90: 1.014924, Score_MSE: 0.629978
+Run 3 | Epoch : 56/200, lr: 0.008187, loss_avg: 0.305218
+Run 3 | Test Orig Epoch : 56/200, Score_CDF90: 0.757021, Score_MSE: 0.440860
+Run 3 | Test Aug1 Epoch : 56/200, Score_CDF90: 1.272132, Score_MSE: 0.717819
+Run 3 | Test Aug2 Epoch : 56/200, Score_CDF90: 1.222795, Score_MSE: 0.684166
+### Model saved! Best test MSE: 0.440860.
+Run 3 | Epoch : 57/200, lr: 0.008126, loss_avg: 0.298068
+Run 3 | Test Orig Epoch : 57/200, Score_CDF90: 0.783016, Score_MSE: 0.459565
+Run 3 | Epoch : 58/200, lr: 0.008065, loss_avg: 0.292202
+Run 3 | Test Orig Epoch : 58/200, Score_CDF90: 1.094551, Score_MSE: 0.678512
+Run 3 | Epoch : 59/200, lr: 0.008002, loss_avg: 0.409344
+Run 3 | Test Orig Epoch : 59/200, Score_CDF90: 1.574006, Score_MSE: 0.990459
+Run 3 | Epoch : 60/200, lr: 0.007939, loss_avg: 0.251975
+Run 3 | Test Orig Epoch : 60/200, Score_CDF90: 0.770492, Score_MSE: 0.429938
+Run 3 | Test Aug1 Epoch : 60/200, Score_CDF90: 1.794030, Score_MSE: 1.141706
+Run 3 | Test Aug2 Epoch : 60/200, Score_CDF90: 1.224346, Score_MSE: 0.678864
+### Model saved! Best test MSE: 0.429938.
+Run 3 | Epoch : 61/200, lr: 0.007875, loss_avg: 0.271408
+Run 3 | Test Orig Epoch : 61/200, Score_CDF90: 0.872254, Score_MSE: 0.539945
+Run 3 | Epoch : 62/200, lr: 0.007810, loss_avg: 0.266254
+Run 3 | Test Orig Epoch : 62/200, Score_CDF90: 0.604135, Score_MSE: 0.357800
+Run 3 | Test Aug1 Epoch : 62/200, Score_CDF90: 0.908712, Score_MSE: 0.552362
+Run 3 | Test Aug2 Epoch : 62/200, Score_CDF90: 1.119439, Score_MSE: 0.620656
+### Model saved! Best test MSE: 0.357800.
+Run 3 | Epoch : 63/200, lr: 0.007745, loss_avg: 0.275448
+Run 3 | Test Orig Epoch : 63/200, Score_CDF90: 1.009972, Score_MSE: 0.633049
+Run 3 | Epoch : 64/200, lr: 0.007679, loss_avg: 0.271150
+Run 3 | Test Orig Epoch : 64/200, Score_CDF90: 0.885349, Score_MSE: 0.532737
+Run 3 | Epoch : 65/200, lr: 0.007612, loss_avg: 0.211531
+Run 3 | Test Orig Epoch : 65/200, Score_CDF90: 1.068090, Score_MSE: 0.609950
+Run 3 | Epoch : 66/200, lr: 0.007545, loss_avg: 0.218660
+Run 3 | Test Orig Epoch : 66/200, Score_CDF90: 1.049618, Score_MSE: 0.601009
+Run 3 | Epoch : 67/200, lr: 0.007477, loss_avg: 0.269238
+Run 3 | Test Orig Epoch : 67/200, Score_CDF90: 1.222701, Score_MSE: 0.792360
+Run 3 | Epoch : 68/200, lr: 0.007409, loss_avg: 0.192926
+Run 3 | Test Orig Epoch : 68/200, Score_CDF90: 0.681388, Score_MSE: 0.407381
+Run 3 | Epoch : 69/200, lr: 0.007340, loss_avg: 0.247678
+Run 3 | Test Orig Epoch : 69/200, Score_CDF90: 1.134662, Score_MSE: 0.655470
+Run 3 | Epoch : 70/200, lr: 0.007270, loss_avg: 0.219680
+Run 3 | Test Orig Epoch : 70/200, Score_CDF90: 0.834026, Score_MSE: 0.539048
+Run 3 | Epoch : 71/200, lr: 0.007200, loss_avg: 0.208102
+Run 3 | Test Orig Epoch : 71/200, Score_CDF90: 0.660071, Score_MSE: 0.389783
+Run 3 | Epoch : 72/200, lr: 0.007129, loss_avg: 0.211256
+Run 3 | Test Orig Epoch : 72/200, Score_CDF90: 1.568642, Score_MSE: 0.900557
+Run 3 | Epoch : 73/200, lr: 0.007058, loss_avg: 0.210147
+Run 3 | Test Orig Epoch : 73/200, Score_CDF90: 0.863214, Score_MSE: 0.533808
+Run 3 | Epoch : 74/200, lr: 0.006986, loss_avg: 0.202585
+Run 3 | Test Orig Epoch : 74/200, Score_CDF90: 0.786463, Score_MSE: 0.501397
+Run 3 | Epoch : 75/200, lr: 0.006913, loss_avg: 0.236776
+Run 3 | Test Orig Epoch : 75/200, Score_CDF90: 1.111215, Score_MSE: 0.730026
+Run 3 | Epoch : 76/200, lr: 0.006841, loss_avg: 0.180778
+Run 3 | Test Orig Epoch : 76/200, Score_CDF90: 0.638114, Score_MSE: 0.387971
+Run 3 | Epoch : 77/200, lr: 0.006767, loss_avg: 0.166983
+Run 3 | Test Orig Epoch : 77/200, Score_CDF90: 0.746787, Score_MSE: 0.436660
+Run 3 | Epoch : 78/200, lr: 0.006694, loss_avg: 0.184111
+Run 3 | Test Orig Epoch : 78/200, Score_CDF90: 1.000753, Score_MSE: 0.516671
+Run 3 | Epoch : 79/200, lr: 0.006620, loss_avg: 0.198203
+Run 3 | Test Orig Epoch : 79/200, Score_CDF90: 1.043406, Score_MSE: 0.625043
+Run 3 | Epoch : 80/200, lr: 0.006545, loss_avg: 0.217346
+Run 3 | Test Orig Epoch : 80/200, Score_CDF90: 0.444962, Score_MSE: 0.251005
+Run 3 | Test Aug1 Epoch : 80/200, Score_CDF90: 0.717937, Score_MSE: 0.422768
+Run 3 | Test Aug2 Epoch : 80/200, Score_CDF90: 0.942631, Score_MSE: 0.511046
+### Model saved! Best test MSE: 0.251005.
+Run 3 | Epoch : 81/200, lr: 0.006470, loss_avg: 0.193808
+Run 3 | Test Orig Epoch : 81/200, Score_CDF90: 0.878807, Score_MSE: 0.564679
+Run 3 | Epoch : 82/200, lr: 0.006395, loss_avg: 0.142339
+Run 3 | Test Orig Epoch : 82/200, Score_CDF90: 0.745927, Score_MSE: 0.466918
+Run 3 | Epoch : 83/200, lr: 0.006319, loss_avg: 0.183369
+Run 3 | Test Orig Epoch : 83/200, Score_CDF90: 0.874471, Score_MSE: 0.555320
+Run 3 | Epoch : 84/200, lr: 0.006243, loss_avg: 0.165219
+Run 3 | Test Orig Epoch : 84/200, Score_CDF90: 0.921267, Score_MSE: 0.612471
+Run 3 | Epoch : 85/200, lr: 0.006167, loss_avg: 0.184328
+Run 3 | Test Orig Epoch : 85/200, Score_CDF90: 1.495924, Score_MSE: 0.843528
+Run 3 | Epoch : 86/200, lr: 0.006091, loss_avg: 0.146527
+Run 3 | Test Orig Epoch : 86/200, Score_CDF90: 0.570943, Score_MSE: 0.343309
+Run 3 | Epoch : 87/200, lr: 0.006014, loss_avg: 0.149729
+Run 3 | Test Orig Epoch : 87/200, Score_CDF90: 0.684395, Score_MSE: 0.425037
+Run 3 | Epoch : 88/200, lr: 0.005937, loss_avg: 0.171874
+Run 3 | Test Orig Epoch : 88/200, Score_CDF90: 0.558428, Score_MSE: 0.347223
+Run 3 | Epoch : 89/200, lr: 0.005860, loss_avg: 0.121324
+Run 3 | Test Orig Epoch : 89/200, Score_CDF90: 0.525683, Score_MSE: 0.283897
+Run 3 | Epoch : 90/200, lr: 0.005782, loss_avg: 0.131233
+Run 3 | Test Orig Epoch : 90/200, Score_CDF90: 0.616751, Score_MSE: 0.377915
+Run 3 | Epoch : 91/200, lr: 0.005705, loss_avg: 0.162866
+Run 3 | Test Orig Epoch : 91/200, Score_CDF90: 0.592295, Score_MSE: 0.359860
+Run 3 | Epoch : 92/200, lr: 0.005627, loss_avg: 0.158951
+Run 3 | Test Orig Epoch : 92/200, Score_CDF90: 0.888652, Score_MSE: 0.501305
+Run 3 | Epoch : 93/200, lr: 0.005549, loss_avg: 0.114321
+Run 3 | Test Orig Epoch : 93/200, Score_CDF90: 1.105078, Score_MSE: 0.662929
+Run 3 | Epoch : 94/200, lr: 0.005471, loss_avg: 0.108830
+Run 3 | Test Orig Epoch : 94/200, Score_CDF90: 0.475446, Score_MSE: 0.278754
+Run 3 | Epoch : 95/200, lr: 0.005392, loss_avg: 0.126000
+Run 3 | Test Orig Epoch : 95/200, Score_CDF90: 0.632955, Score_MSE: 0.380681
+Run 3 | Epoch : 96/200, lr: 0.005314, loss_avg: 0.137778
+Run 3 | Test Orig Epoch : 96/200, Score_CDF90: 0.891013, Score_MSE: 0.509118
+Run 3 | Epoch : 97/200, lr: 0.005236, loss_avg: 0.113405
+Run 3 | Test Orig Epoch : 97/200, Score_CDF90: 0.564962, Score_MSE: 0.352422
+Run 3 | Epoch : 98/200, lr: 0.005157, loss_avg: 0.131920
+Run 3 | Test Orig Epoch : 98/200, Score_CDF90: 0.588209, Score_MSE: 0.342599
+Run 3 | Epoch : 99/200, lr: 0.005079, loss_avg: 0.115121
+Run 3 | Test Orig Epoch : 99/200, Score_CDF90: 1.054276, Score_MSE: 0.576356
+Run 3 | Epoch : 100/200, lr: 0.005000, loss_avg: 0.120581
+Run 3 | Test Orig Epoch : 100/200, Score_CDF90: 0.396982, Score_MSE: 0.232489
+Run 3 | Test Aug1 Epoch : 100/200, Score_CDF90: 0.481174, Score_MSE: 0.276901
+Run 3 | Test Aug2 Epoch : 100/200, Score_CDF90: 0.880502, Score_MSE: 0.475918
+### Model saved! Best test MSE: 0.232489.
+Run 3 | Epoch : 101/200, lr: 0.004921, loss_avg: 0.095451
+Run 3 | Test Orig Epoch : 101/200, Score_CDF90: 0.485858, Score_MSE: 0.294187
+Run 3 | Epoch : 102/200, lr: 0.004843, loss_avg: 0.107043
+Run 3 | Test Orig Epoch : 102/200, Score_CDF90: 0.543944, Score_MSE: 0.322427
+Run 3 | Epoch : 103/200, lr: 0.004764, loss_avg: 0.120382
+Run 3 | Test Orig Epoch : 103/200, Score_CDF90: 0.450164, Score_MSE: 0.259399
+Run 3 | Epoch : 104/200, lr: 0.004686, loss_avg: 0.097298
+Run 3 | Test Orig Epoch : 104/200, Score_CDF90: 0.550465, Score_MSE: 0.340377
+Run 3 | Epoch : 105/200, lr: 0.004608, loss_avg: 0.100494
+Run 3 | Test Orig Epoch : 105/200, Score_CDF90: 0.616102, Score_MSE: 0.317925
+Run 3 | Epoch : 106/200, lr: 0.004529, loss_avg: 0.111644
+Run 3 | Test Orig Epoch : 106/200, Score_CDF90: 0.530760, Score_MSE: 0.332369
+Run 3 | Epoch : 107/200, lr: 0.004451, loss_avg: 0.085133
+Run 3 | Test Orig Epoch : 107/200, Score_CDF90: 0.434501, Score_MSE: 0.254413
+Run 3 | Epoch : 108/200, lr: 0.004373, loss_avg: 0.089028
+Run 3 | Test Orig Epoch : 108/200, Score_CDF90: 0.435998, Score_MSE: 0.241345
+Run 3 | Epoch : 109/200, lr: 0.004295, loss_avg: 0.084332
+Run 3 | Test Orig Epoch : 109/200, Score_CDF90: 0.405707, Score_MSE: 0.232123
+Run 3 | Test Aug1 Epoch : 109/200, Score_CDF90: 0.481420, Score_MSE: 0.272088
+Run 3 | Test Aug2 Epoch : 109/200, Score_CDF90: 0.854233, Score_MSE: 0.467951
+### Model saved! Best test MSE: 0.232123.
+Run 3 | Epoch : 110/200, lr: 0.004218, loss_avg: 0.097282
+Run 3 | Test Orig Epoch : 110/200, Score_CDF90: 0.552676, Score_MSE: 0.346963
+Run 3 | Epoch : 111/200, lr: 0.004140, loss_avg: 0.087929
+Run 3 | Test Orig Epoch : 111/200, Score_CDF90: 0.486620, Score_MSE: 0.289169
+Run 3 | Epoch : 112/200, lr: 0.004063, loss_avg: 0.083696
+Run 3 | Test Orig Epoch : 112/200, Score_CDF90: 0.544429, Score_MSE: 0.330666
+Run 3 | Epoch : 113/200, lr: 0.003986, loss_avg: 0.079048
+Run 3 | Test Orig Epoch : 113/200, Score_CDF90: 0.377921, Score_MSE: 0.219230
+Run 3 | Test Aug1 Epoch : 113/200, Score_CDF90: 0.509809, Score_MSE: 0.290470
+Run 3 | Test Aug2 Epoch : 113/200, Score_CDF90: 0.850458, Score_MSE: 0.458839
+### Model saved! Best test MSE: 0.219230.
+Run 3 | Epoch : 114/200, lr: 0.003909, loss_avg: 0.070733
+Run 3 | Test Orig Epoch : 114/200, Score_CDF90: 0.899793, Score_MSE: 0.491809
+Run 3 | Epoch : 115/200, lr: 0.003833, loss_avg: 0.090985
+Run 3 | Test Orig Epoch : 115/200, Score_CDF90: 0.678840, Score_MSE: 0.380526
+Run 3 | Epoch : 116/200, lr: 0.003757, loss_avg: 0.071235
+Run 3 | Test Orig Epoch : 116/200, Score_CDF90: 0.776795, Score_MSE: 0.483827
+Run 3 | Epoch : 117/200, lr: 0.003681, loss_avg: 0.078709
+Run 3 | Test Orig Epoch : 117/200, Score_CDF90: 0.708497, Score_MSE: 0.450366
+Run 3 | Epoch : 118/200, lr: 0.003605, loss_avg: 0.072796
+Run 3 | Test Orig Epoch : 118/200, Score_CDF90: 0.458700, Score_MSE: 0.277321
+Run 3 | Epoch : 119/200, lr: 0.003530, loss_avg: 0.076841
+Run 3 | Test Orig Epoch : 119/200, Score_CDF90: 0.469624, Score_MSE: 0.275676
+Run 3 | Epoch : 120/200, lr: 0.003455, loss_avg: 0.056793
+Run 3 | Test Orig Epoch : 120/200, Score_CDF90: 0.538693, Score_MSE: 0.289998
+Run 3 | Epoch : 121/200, lr: 0.003380, loss_avg: 0.057085
+Run 3 | Test Orig Epoch : 121/200, Score_CDF90: 0.668834, Score_MSE: 0.372678
+Run 3 | Epoch : 122/200, lr: 0.003306, loss_avg: 0.064414
+Run 3 | Test Orig Epoch : 122/200, Score_CDF90: 0.362378, Score_MSE: 0.210230
+Run 3 | Test Aug1 Epoch : 122/200, Score_CDF90: 0.495762, Score_MSE: 0.279539
+Run 3 | Test Aug2 Epoch : 122/200, Score_CDF90: 0.825898, Score_MSE: 0.444707
+### Model saved! Best test MSE: 0.210230.
+Run 3 | Epoch : 123/200, lr: 0.003233, loss_avg: 0.063401
+Run 3 | Test Orig Epoch : 123/200, Score_CDF90: 0.384969, Score_MSE: 0.227786
+Run 3 | Epoch : 124/200, lr: 0.003159, loss_avg: 0.055184
+Run 3 | Test Orig Epoch : 124/200, Score_CDF90: 0.353258, Score_MSE: 0.202319
+Run 3 | Test Aug1 Epoch : 124/200, Score_CDF90: 0.421886, Score_MSE: 0.246215
+Run 3 | Test Aug2 Epoch : 124/200, Score_CDF90: 0.810476, Score_MSE: 0.435050
+### Model saved! Best test MSE: 0.202319.
+Run 3 | Epoch : 125/200, lr: 0.003087, loss_avg: 0.056645
+Run 3 | Test Orig Epoch : 125/200, Score_CDF90: 0.480097, Score_MSE: 0.282575
+Run 3 | Epoch : 126/200, lr: 0.003014, loss_avg: 0.060738
+Run 3 | Test Orig Epoch : 126/200, Score_CDF90: 0.578649, Score_MSE: 0.362936
+Run 3 | Epoch : 127/200, lr: 0.002942, loss_avg: 0.063285
+Run 3 | Test Orig Epoch : 127/200, Score_CDF90: 0.335397, Score_MSE: 0.190490
+Run 3 | Test Aug1 Epoch : 127/200, Score_CDF90: 0.441931, Score_MSE: 0.254472
+Run 3 | Test Aug2 Epoch : 127/200, Score_CDF90: 0.811470, Score_MSE: 0.426640
+### Model saved! Best test MSE: 0.190490.
+Run 3 | Epoch : 128/200, lr: 0.002871, loss_avg: 0.065854
+Run 3 | Test Orig Epoch : 128/200, Score_CDF90: 0.422470, Score_MSE: 0.241944
+Run 3 | Epoch : 129/200, lr: 0.002800, loss_avg: 0.054928
+Run 3 | Test Orig Epoch : 129/200, Score_CDF90: 0.416664, Score_MSE: 0.239898
+Run 3 | Epoch : 130/200, lr: 0.002730, loss_avg: 0.050674
+Run 3 | Test Orig Epoch : 130/200, Score_CDF90: 0.706883, Score_MSE: 0.494878
+Run 3 | Epoch : 131/200, lr: 0.002660, loss_avg: 0.050386
+Run 3 | Test Orig Epoch : 131/200, Score_CDF90: 0.444262, Score_MSE: 0.276314
+Run 3 | Epoch : 132/200, lr: 0.002591, loss_avg: 0.056681
+Run 3 | Test Orig Epoch : 132/200, Score_CDF90: 0.464978, Score_MSE: 0.309977
+Run 3 | Epoch : 133/200, lr: 0.002523, loss_avg: 0.043679
+Run 3 | Test Orig Epoch : 133/200, Score_CDF90: 0.371107, Score_MSE: 0.217105
+Run 3 | Epoch : 134/200, lr: 0.002455, loss_avg: 0.046972
+Run 3 | Test Orig Epoch : 134/200, Score_CDF90: 0.316246, Score_MSE: 0.182781
+Run 3 | Test Aug1 Epoch : 134/200, Score_CDF90: 0.408069, Score_MSE: 0.238176
+Run 3 | Test Aug2 Epoch : 134/200, Score_CDF90: 0.797505, Score_MSE: 0.419644
+### Model saved! Best test MSE: 0.182781.
+Run 3 | Epoch : 135/200, lr: 0.002388, loss_avg: 0.046754
+Run 3 | Test Orig Epoch : 135/200, Score_CDF90: 0.529472, Score_MSE: 0.291291
+Run 3 | Epoch : 136/200, lr: 0.002321, loss_avg: 0.044186
+Run 3 | Test Orig Epoch : 136/200, Score_CDF90: 0.361407, Score_MSE: 0.201866
+Run 3 | Epoch : 137/200, lr: 0.002255, loss_avg: 0.043361
+Run 3 | Test Orig Epoch : 137/200, Score_CDF90: 0.452749, Score_MSE: 0.273018
+Run 3 | Epoch : 138/200, lr: 0.002190, loss_avg: 0.048199
+Run 3 | Test Orig Epoch : 138/200, Score_CDF90: 0.365159, Score_MSE: 0.212609
+Run 3 | Epoch : 139/200, lr: 0.002125, loss_avg: 0.041829
+Run 3 | Test Orig Epoch : 139/200, Score_CDF90: 0.311898, Score_MSE: 0.189747
+Run 3 | Epoch : 140/200, lr: 0.002061, loss_avg: 0.040535
+Run 3 | Test Orig Epoch : 140/200, Score_CDF90: 0.291750, Score_MSE: 0.177020
+Run 3 | Test Aug1 Epoch : 140/200, Score_CDF90: 0.341541, Score_MSE: 0.194017
+Run 3 | Test Aug2 Epoch : 140/200, Score_CDF90: 0.770918, Score_MSE: 0.409493
+### Model saved! Best test MSE: 0.177020.
+Run 3 | Epoch : 141/200, lr: 0.001998, loss_avg: 0.038683
+Run 3 | Test Orig Epoch : 141/200, Score_CDF90: 0.327737, Score_MSE: 0.190284
+Run 3 | Epoch : 142/200, lr: 0.001935, loss_avg: 0.038118
+Run 3 | Test Orig Epoch : 142/200, Score_CDF90: 0.520784, Score_MSE: 0.278605
+Run 3 | Epoch : 143/200, lr: 0.001874, loss_avg: 0.040188
+Run 3 | Test Orig Epoch : 143/200, Score_CDF90: 0.320396, Score_MSE: 0.189857
+Run 3 | Epoch : 144/200, lr: 0.001813, loss_avg: 0.040924
+Run 3 | Test Orig Epoch : 144/200, Score_CDF90: 0.397808, Score_MSE: 0.236078
+Run 3 | Epoch : 145/200, lr: 0.001753, loss_avg: 0.032433
+Run 3 | Test Orig Epoch : 145/200, Score_CDF90: 0.292811, Score_MSE: 0.170567
+Run 3 | Test Aug1 Epoch : 145/200, Score_CDF90: 0.326446, Score_MSE: 0.186853
+Run 3 | Test Aug2 Epoch : 145/200, Score_CDF90: 0.772952, Score_MSE: 0.405445
+### Model saved! Best test MSE: 0.170567.
+Run 3 | Epoch : 146/200, lr: 0.001693, loss_avg: 0.035994
+Run 3 | Test Orig Epoch : 146/200, Score_CDF90: 0.388478, Score_MSE: 0.239222
+Run 3 | Epoch : 147/200, lr: 0.001635, loss_avg: 0.035884
+Run 3 | Test Orig Epoch : 147/200, Score_CDF90: 0.288375, Score_MSE: 0.166390
+Run 3 | Test Aug1 Epoch : 147/200, Score_CDF90: 0.378716, Score_MSE: 0.220517
+Run 3 | Test Aug2 Epoch : 147/200, Score_CDF90: 0.771199, Score_MSE: 0.408114
+### Model saved! Best test MSE: 0.166390.
+Run 3 | Epoch : 148/200, lr: 0.001577, loss_avg: 0.032360
+Run 3 | Test Orig Epoch : 148/200, Score_CDF90: 0.290265, Score_MSE: 0.172199
+Run 3 | Epoch : 149/200, lr: 0.001520, loss_avg: 0.034440
+Run 3 | Test Orig Epoch : 149/200, Score_CDF90: 0.223294, Score_MSE: 0.123894
+Run 3 | Test Aug1 Epoch : 149/200, Score_CDF90: 0.317768, Score_MSE: 0.175418
+Run 3 | Test Aug2 Epoch : 149/200, Score_CDF90: 0.756234, Score_MSE: 0.384678
+### Model saved! Best test MSE: 0.123894.
+Run 3 | Epoch : 150/200, lr: 0.001464, loss_avg: 0.031489
+Run 3 | Test Orig Epoch : 150/200, Score_CDF90: 0.334065, Score_MSE: 0.214841
+Run 3 | Epoch : 151/200, lr: 0.001409, loss_avg: 0.036367
+Run 3 | Test Orig Epoch : 151/200, Score_CDF90: 0.267025, Score_MSE: 0.157046
+Run 3 | Epoch : 152/200, lr: 0.001355, loss_avg: 0.030440
+Run 3 | Test Orig Epoch : 152/200, Score_CDF90: 0.252678, Score_MSE: 0.147740
+Run 3 | Epoch : 153/200, lr: 0.001302, loss_avg: 0.032067
+Run 3 | Test Orig Epoch : 153/200, Score_CDF90: 0.592409, Score_MSE: 0.340790
+Run 3 | Epoch : 154/200, lr: 0.001249, loss_avg: 0.033316
+Run 3 | Test Orig Epoch : 154/200, Score_CDF90: 0.302847, Score_MSE: 0.184753
+Run 3 | Epoch : 155/200, lr: 0.001198, loss_avg: 0.027838
+Run 3 | Test Orig Epoch : 155/200, Score_CDF90: 0.315901, Score_MSE: 0.179897
+Run 3 | Epoch : 156/200, lr: 0.001147, loss_avg: 0.032725
+Run 3 | Test Orig Epoch : 156/200, Score_CDF90: 0.297149, Score_MSE: 0.174426
+Run 3 | Epoch : 157/200, lr: 0.001098, loss_avg: 0.027128
+Run 3 | Test Orig Epoch : 157/200, Score_CDF90: 0.246352, Score_MSE: 0.142386
+Run 3 | Epoch : 158/200, lr: 0.001049, loss_avg: 0.026347
+Run 3 | Test Orig Epoch : 158/200, Score_CDF90: 0.261155, Score_MSE: 0.155830
+Run 3 | Epoch : 159/200, lr: 0.001002, loss_avg: 0.026967
+Run 3 | Test Orig Epoch : 159/200, Score_CDF90: 0.261115, Score_MSE: 0.150927
+Run 3 | Epoch : 160/200, lr: 0.000955, loss_avg: 0.024151
+Run 3 | Test Orig Epoch : 160/200, Score_CDF90: 0.233759, Score_MSE: 0.139852
+Run 3 | Epoch : 161/200, lr: 0.000909, loss_avg: 0.024759
+Run 3 | Test Orig Epoch : 161/200, Score_CDF90: 0.257937, Score_MSE: 0.147144
+Run 3 | Epoch : 162/200, lr: 0.000865, loss_avg: 0.022279
+Run 3 | Test Orig Epoch : 162/200, Score_CDF90: 0.261769, Score_MSE: 0.155498
+Run 3 | Epoch : 163/200, lr: 0.000821, loss_avg: 0.024127
+Run 3 | Test Orig Epoch : 163/200, Score_CDF90: 0.237684, Score_MSE: 0.138472
+Run 3 | Epoch : 164/200, lr: 0.000778, loss_avg: 0.023657
+Run 3 | Test Orig Epoch : 164/200, Score_CDF90: 0.243896, Score_MSE: 0.135617
+Run 3 | Epoch : 165/200, lr: 0.000737, loss_avg: 0.022565
+Run 3 | Test Orig Epoch : 165/200, Score_CDF90: 0.255557, Score_MSE: 0.140368
+Run 3 | Epoch : 166/200, lr: 0.000696, loss_avg: 0.023302
+Run 3 | Test Orig Epoch : 166/200, Score_CDF90: 0.268552, Score_MSE: 0.168937
+Run 3 | Epoch : 167/200, lr: 0.000657, loss_avg: 0.020539
+Run 3 | Test Orig Epoch : 167/200, Score_CDF90: 0.250455, Score_MSE: 0.135222
+Run 3 | Epoch : 168/200, lr: 0.000618, loss_avg: 0.020128
+Run 3 | Test Orig Epoch : 168/200, Score_CDF90: 0.240396, Score_MSE: 0.137737
+Run 3 | Epoch : 169/200, lr: 0.000581, loss_avg: 0.020231
+Run 3 | Test Orig Epoch : 169/200, Score_CDF90: 0.313674, Score_MSE: 0.199399
+Run 3 | Epoch : 170/200, lr: 0.000545, loss_avg: 0.019643
+Run 3 | Test Orig Epoch : 170/200, Score_CDF90: 0.209336, Score_MSE: 0.119581
+Run 3 | Test Aug1 Epoch : 170/200, Score_CDF90: 0.244495, Score_MSE: 0.137935
+Run 3 | Test Aug2 Epoch : 170/200, Score_CDF90: 0.737075, Score_MSE: 0.377536
+### Model saved! Best test MSE: 0.119581.
+Run 3 | Epoch : 171/200, lr: 0.000510, loss_avg: 0.019265
+Run 3 | Test Orig Epoch : 171/200, Score_CDF90: 0.223558, Score_MSE: 0.127720
+Run 3 | Epoch : 172/200, lr: 0.000476, loss_avg: 0.019340
+Run 3 | Test Orig Epoch : 172/200, Score_CDF90: 0.284878, Score_MSE: 0.162006
+Run 3 | Epoch : 173/200, lr: 0.000443, loss_avg: 0.018423
+Run 3 | Test Orig Epoch : 173/200, Score_CDF90: 0.288079, Score_MSE: 0.186850
+Run 3 | Epoch : 174/200, lr: 0.000411, loss_avg: 0.019332
+Run 3 | Test Orig Epoch : 174/200, Score_CDF90: 0.220909, Score_MSE: 0.125149
+Run 3 | Epoch : 175/200, lr: 0.000381, loss_avg: 0.018834
+Run 3 | Test Orig Epoch : 175/200, Score_CDF90: 0.210641, Score_MSE: 0.117429
+Run 3 | Test Aug1 Epoch : 175/200, Score_CDF90: 0.249739, Score_MSE: 0.136759
+Run 3 | Test Aug2 Epoch : 175/200, Score_CDF90: 0.733742, Score_MSE: 0.375543
+### Model saved! Best test MSE: 0.117429.
+Run 3 | Epoch : 176/200, lr: 0.000351, loss_avg: 0.019126
+Run 3 | Test Orig Epoch : 176/200, Score_CDF90: 0.204469, Score_MSE: 0.116235
+Run 3 | Test Aug1 Epoch : 176/200, Score_CDF90: 0.244805, Score_MSE: 0.133805
+Run 3 | Test Aug2 Epoch : 176/200, Score_CDF90: 0.735171, Score_MSE: 0.375726
+### Model saved! Best test MSE: 0.116235.
+Run 3 | Epoch : 177/200, lr: 0.000323, loss_avg: 0.017809
+Run 3 | Test Orig Epoch : 177/200, Score_CDF90: 0.242349, Score_MSE: 0.149292
+Run 3 | Epoch : 178/200, lr: 0.000296, loss_avg: 0.017531
+Run 3 | Test Orig Epoch : 178/200, Score_CDF90: 0.202304, Score_MSE: 0.111149
+Run 3 | Test Aug1 Epoch : 178/200, Score_CDF90: 0.229343, Score_MSE: 0.123312
+Run 3 | Test Aug2 Epoch : 178/200, Score_CDF90: 0.732448, Score_MSE: 0.372922
+### Model saved! Best test MSE: 0.111149.
+Run 3 | Epoch : 179/200, lr: 0.000270, loss_avg: 0.017316
+Run 3 | Test Orig Epoch : 179/200, Score_CDF90: 0.207391, Score_MSE: 0.118461
+Run 3 | Epoch : 180/200, lr: 0.000245, loss_avg: 0.016656
+Run 3 | Test Orig Epoch : 180/200, Score_CDF90: 0.241780, Score_MSE: 0.142000
+Run 3 | Epoch : 181/200, lr: 0.000221, loss_avg: 0.016564
+Run 3 | Test Orig Epoch : 181/200, Score_CDF90: 0.196543, Score_MSE: 0.109874
+Run 3 | Test Aug1 Epoch : 181/200, Score_CDF90: 0.221569, Score_MSE: 0.122388
+Run 3 | Test Aug2 Epoch : 181/200, Score_CDF90: 0.732092, Score_MSE: 0.372848
+### Model saved! Best test MSE: 0.109874.
+Run 3 | Epoch : 182/200, lr: 0.000199, loss_avg: 0.015483
+Run 3 | Test Orig Epoch : 182/200, Score_CDF90: 0.199117, Score_MSE: 0.114157
+Run 3 | Epoch : 183/200, lr: 0.000177, loss_avg: 0.015330
+Run 3 | Test Orig Epoch : 183/200, Score_CDF90: 0.189051, Score_MSE: 0.104446
+Run 3 | Test Aug1 Epoch : 183/200, Score_CDF90: 0.220805, Score_MSE: 0.117660
+Run 3 | Test Aug2 Epoch : 183/200, Score_CDF90: 0.732972, Score_MSE: 0.370473
+### Model saved! Best test MSE: 0.104446.
+Run 3 | Epoch : 184/200, lr: 0.000157, loss_avg: 0.015021
+Run 3 | Test Orig Epoch : 184/200, Score_CDF90: 0.191135, Score_MSE: 0.105863
+Run 3 | Epoch : 185/200, lr: 0.000138, loss_avg: 0.015769
+Run 3 | Test Orig Epoch : 185/200, Score_CDF90: 0.189488, Score_MSE: 0.102177
+Run 3 | Test Aug1 Epoch : 185/200, Score_CDF90: 0.211289, Score_MSE: 0.113147
+Run 3 | Test Aug2 Epoch : 185/200, Score_CDF90: 0.731627, Score_MSE: 0.369287
+### Model saved! Best test MSE: 0.102177.
+Run 3 | Epoch : 186/200, lr: 0.000120, loss_avg: 0.014806
+Run 3 | Test Orig Epoch : 186/200, Score_CDF90: 0.206437, Score_MSE: 0.121508
+Run 3 | Epoch : 187/200, lr: 0.000104, loss_avg: 0.015132
+Run 3 | Test Orig Epoch : 187/200, Score_CDF90: 0.211398, Score_MSE: 0.126051
+Run 3 | Epoch : 188/200, lr: 0.000089, loss_avg: 0.014504
+Run 3 | Test Orig Epoch : 188/200, Score_CDF90: 0.197088, Score_MSE: 0.110909
+Run 3 | Epoch : 189/200, lr: 0.000074, loss_avg: 0.013822
+Run 3 | Test Orig Epoch : 189/200, Score_CDF90: 0.199271, Score_MSE: 0.114262
+Run 3 | Epoch : 190/200, lr: 0.000062, loss_avg: 0.014643
+Run 3 | Test Orig Epoch : 190/200, Score_CDF90: 0.191369, Score_MSE: 0.108073
+Run 3 | Epoch : 191/200, lr: 0.000050, loss_avg: 0.014200
+Run 3 | Test Orig Epoch : 191/200, Score_CDF90: 0.191519, Score_MSE: 0.106513
+Run 3 | Epoch : 192/200, lr: 0.000039, loss_avg: 0.013787
+Run 3 | Test Orig Epoch : 192/200, Score_CDF90: 0.203193, Score_MSE: 0.115386
+Run 3 | Epoch : 193/200, lr: 0.000030, loss_avg: 0.013206
+Run 3 | Test Orig Epoch : 193/200, Score_CDF90: 0.217135, Score_MSE: 0.126782
+Run 3 | Epoch : 194/200, lr: 0.000022, loss_avg: 0.013901
+Run 3 | Test Orig Epoch : 194/200, Score_CDF90: 0.196282, Score_MSE: 0.110867
+Run 3 | Epoch : 195/200, lr: 0.000015, loss_avg: 0.013304
+Run 3 | Test Orig Epoch : 195/200, Score_CDF90: 0.183495, Score_MSE: 0.100886
+Run 3 | Test Aug1 Epoch : 195/200, Score_CDF90: 0.212895, Score_MSE: 0.113831
+Run 3 | Test Aug2 Epoch : 195/200, Score_CDF90: 0.730797, Score_MSE: 0.368665
+### Model saved! Best test MSE: 0.100886.
+Run 3 | Epoch : 196/200, lr: 0.000010, loss_avg: 0.013429
+Run 3 | Test Orig Epoch : 196/200, Score_CDF90: 0.197305, Score_MSE: 0.110546
+Run 3 | Epoch : 197/200, lr: 0.000006, loss_avg: 0.013158
+Run 3 | Test Orig Epoch : 197/200, Score_CDF90: 0.195258, Score_MSE: 0.110212
+Run 3 | Epoch : 198/200, lr: 0.000002, loss_avg: 0.013332
+Run 3 | Test Orig Epoch : 198/200, Score_CDF90: 0.227837, Score_MSE: 0.134099
+Run 3 | Epoch : 199/200, lr: 0.000001, loss_avg: 0.013164
+Run 3 | Test Orig Epoch : 199/200, Score_CDF90: 0.193644, Score_MSE: 0.110794
+Run 3 | Epoch : 200/200, lr: 0.000000, loss_avg: 0.013048
+Run 3 | Test Orig Epoch : 200/200, Score_CDF90: 0.206269, Score_MSE: 0.120176
+Run 4 | Epoch : 1/200, lr: 0.009999, loss_avg: 256.075558
+Run 4 | Test Orig Epoch : 1/200, Score_CDF90: 42.516571, Score_MSE: 37.014923
+Run 4 | Test Aug1 Epoch : 1/200, Score_CDF90: 52.861946, Score_MSE: 42.230938
+Run 4 | Test Aug2 Epoch : 1/200, Score_CDF90: 43.015068, Score_MSE: 36.894146
+### Model saved! Best test MSE: 37.014923.
+Run 4 | Epoch : 2/200, lr: 0.009998, loss_avg: 12.784245
+Run 4 | Test Orig Epoch : 2/200, Score_CDF90: 7.489873, Score_MSE: 5.047401
+Run 4 | Test Aug1 Epoch : 2/200, Score_CDF90: 6.887591, Score_MSE: 4.215277
+Run 4 | Test Aug2 Epoch : 2/200, Score_CDF90: 7.874410, Score_MSE: 5.077243
+### Model saved! Best test MSE: 5.047401.
+Run 4 | Epoch : 3/200, lr: 0.009994, loss_avg: 10.412716
+Run 4 | Test Orig Epoch : 3/200, Score_CDF90: 6.644961, Score_MSE: 4.203394
+Run 4 | Test Aug1 Epoch : 3/200, Score_CDF90: 5.053017, Score_MSE: 3.096081
+Run 4 | Test Aug2 Epoch : 3/200, Score_CDF90: 6.754189, Score_MSE: 4.307158
+### Model saved! Best test MSE: 4.203394.
+Run 4 | Epoch : 4/200, lr: 0.009990, loss_avg: 9.312472
+Run 4 | Test Orig Epoch : 4/200, Score_CDF90: 8.088229, Score_MSE: 6.441103
+Run 4 | Epoch : 5/200, lr: 0.009985, loss_avg: 8.290502
+Run 4 | Test Orig Epoch : 5/200, Score_CDF90: 42.278084, Score_MSE: 40.132217
+Run 4 | Epoch : 6/200, lr: 0.009978, loss_avg: 7.933196
+Run 4 | Test Orig Epoch : 6/200, Score_CDF90: 4.388773, Score_MSE: 2.946883
+Run 4 | Test Aug1 Epoch : 6/200, Score_CDF90: 7.430686, Score_MSE: 4.600993
+Run 4 | Test Aug2 Epoch : 6/200, Score_CDF90: 5.372863, Score_MSE: 3.446703
+### Model saved! Best test MSE: 2.946883.
+Run 4 | Epoch : 7/200, lr: 0.009970, loss_avg: 6.696204
+Run 4 | Test Orig Epoch : 7/200, Score_CDF90: 11.717576, Score_MSE: 10.369058
+Run 4 | Epoch : 8/200, lr: 0.009961, loss_avg: 5.934774
+Run 4 | Test Orig Epoch : 8/200, Score_CDF90: 24.614250, Score_MSE: 20.679506
+Run 4 | Epoch : 9/200, lr: 0.009950, loss_avg: 5.026917
+Run 4 | Test Orig Epoch : 9/200, Score_CDF90: 53.923767, Score_MSE: 50.283337
+Run 4 | Epoch : 10/200, lr: 0.009938, loss_avg: 5.063141
+Run 4 | Test Orig Epoch : 10/200, Score_CDF90: 46.602543, Score_MSE: 43.049919
+Run 4 | Epoch : 11/200, lr: 0.009926, loss_avg: 4.084753
+Run 4 | Test Orig Epoch : 11/200, Score_CDF90: 2.507078, Score_MSE: 1.390803
+Run 4 | Test Aug1 Epoch : 11/200, Score_CDF90: 3.564710, Score_MSE: 2.078966
+Run 4 | Test Aug2 Epoch : 11/200, Score_CDF90: 3.205739, Score_MSE: 1.796906
+### Model saved! Best test MSE: 1.390803.
+Run 4 | Epoch : 12/200, lr: 0.009911, loss_avg: 3.654108
+Run 4 | Test Orig Epoch : 12/200, Score_CDF90: 6.944451, Score_MSE: 4.816723
+Run 4 | Epoch : 13/200, lr: 0.009896, loss_avg: 3.128113
+Run 4 | Test Orig Epoch : 13/200, Score_CDF90: 42.596783, Score_MSE: 37.715195
+Run 4 | Epoch : 14/200, lr: 0.009880, loss_avg: 2.969808
+Run 4 | Test Orig Epoch : 14/200, Score_CDF90: 19.005920, Score_MSE: 15.327959
+Run 4 | Epoch : 15/200, lr: 0.009862, loss_avg: 2.600993
+Run 4 | Test Orig Epoch : 15/200, Score_CDF90: 45.361847, Score_MSE: 41.059845
+Run 4 | Epoch : 16/200, lr: 0.009843, loss_avg: 2.462663
+Run 4 | Test Orig Epoch : 16/200, Score_CDF90: 5.539939, Score_MSE: 4.168423
+Run 4 | Epoch : 17/200, lr: 0.009823, loss_avg: 2.391072
+Run 4 | Test Orig Epoch : 17/200, Score_CDF90: 3.589129, Score_MSE: 2.223517
+Run 4 | Epoch : 18/200, lr: 0.009801, loss_avg: 2.001690
+Run 4 | Test Orig Epoch : 18/200, Score_CDF90: 2.061767, Score_MSE: 1.219397
+Run 4 | Test Aug1 Epoch : 18/200, Score_CDF90: 3.041190, Score_MSE: 1.803331
+Run 4 | Test Aug2 Epoch : 18/200, Score_CDF90: 2.571249, Score_MSE: 1.486153
+### Model saved! Best test MSE: 1.219397.
+Run 4 | Epoch : 19/200, lr: 0.009779, loss_avg: 1.868099
+Run 4 | Test Orig Epoch : 19/200, Score_CDF90: 3.168296, Score_MSE: 2.179714
+Run 4 | Epoch : 20/200, lr: 0.009755, loss_avg: 1.713773
+Run 4 | Test Orig Epoch : 20/200, Score_CDF90: 1.732488, Score_MSE: 1.136160
+Run 4 | Test Aug1 Epoch : 20/200, Score_CDF90: 1.923774, Score_MSE: 1.099961
+Run 4 | Test Aug2 Epoch : 20/200, Score_CDF90: 2.336188, Score_MSE: 1.402420
+### Model saved! Best test MSE: 1.136160.
+Run 4 | Epoch : 21/200, lr: 0.009730, loss_avg: 1.449389
+Run 4 | Test Orig Epoch : 21/200, Score_CDF90: 13.679304, Score_MSE: 10.255979
+Run 4 | Epoch : 22/200, lr: 0.009704, loss_avg: 1.878588
+Run 4 | Test Orig Epoch : 22/200, Score_CDF90: 1.320464, Score_MSE: 0.754012
+Run 4 | Test Aug1 Epoch : 22/200, Score_CDF90: 1.726352, Score_MSE: 0.974257
+Run 4 | Test Aug2 Epoch : 22/200, Score_CDF90: 1.992755, Score_MSE: 1.124847
+### Model saved! Best test MSE: 0.754012.
+Run 4 | Epoch : 23/200, lr: 0.009677, loss_avg: 1.480649
+Run 4 | Test Orig Epoch : 23/200, Score_CDF90: 4.708858, Score_MSE: 3.090446
+Run 4 | Epoch : 24/200, lr: 0.009649, loss_avg: 1.333836
+Run 4 | Test Orig Epoch : 24/200, Score_CDF90: 11.258097, Score_MSE: 9.461535
+Run 4 | Epoch : 25/200, lr: 0.009619, loss_avg: 1.230208
+Run 4 | Test Orig Epoch : 25/200, Score_CDF90: 3.117575, Score_MSE: 1.965022
+Run 4 | Epoch : 26/200, lr: 0.009589, loss_avg: 1.175850
+Run 4 | Test Orig Epoch : 26/200, Score_CDF90: 2.389071, Score_MSE: 1.565570
+Run 4 | Epoch : 27/200, lr: 0.009557, loss_avg: 1.232246
+Run 4 | Test Orig Epoch : 27/200, Score_CDF90: 4.994903, Score_MSE: 3.300172
+Run 4 | Epoch : 28/200, lr: 0.009524, loss_avg: 1.027163
+Run 4 | Test Orig Epoch : 28/200, Score_CDF90: 3.096150, Score_MSE: 2.140667
+Run 4 | Epoch : 29/200, lr: 0.009490, loss_avg: 0.871943
+Run 4 | Test Orig Epoch : 29/200, Score_CDF90: 7.769198, Score_MSE: 6.476244
+Run 4 | Epoch : 30/200, lr: 0.009455, loss_avg: 0.928812
+Run 4 | Test Orig Epoch : 30/200, Score_CDF90: 2.408719, Score_MSE: 1.491065
+Run 4 | Epoch : 31/200, lr: 0.009419, loss_avg: 0.889813
+Run 4 | Test Orig Epoch : 31/200, Score_CDF90: 1.432332, Score_MSE: 0.852405
+Run 4 | Epoch : 32/200, lr: 0.009382, loss_avg: 0.764482
+Run 4 | Test Orig Epoch : 32/200, Score_CDF90: 6.846253, Score_MSE: 4.955637
+Run 4 | Epoch : 33/200, lr: 0.009343, loss_avg: 0.699679
+Run 4 | Test Orig Epoch : 33/200, Score_CDF90: 2.316928, Score_MSE: 1.433114
+Run 4 | Epoch : 34/200, lr: 0.009304, loss_avg: 0.753686
+Run 4 | Test Orig Epoch : 34/200, Score_CDF90: 3.612012, Score_MSE: 2.664187
+Run 4 | Epoch : 35/200, lr: 0.009263, loss_avg: 0.637130
+Run 4 | Test Orig Epoch : 35/200, Score_CDF90: 2.319674, Score_MSE: 1.692897
+Run 4 | Epoch : 36/200, lr: 0.009222, loss_avg: 0.816849
+Run 4 | Test Orig Epoch : 36/200, Score_CDF90: 4.207812, Score_MSE: 3.321331
+Run 4 | Epoch : 37/200, lr: 0.009179, loss_avg: 0.723448
+Run 4 | Test Orig Epoch : 37/200, Score_CDF90: 5.746960, Score_MSE: 4.008711
+Run 4 | Epoch : 38/200, lr: 0.009135, loss_avg: 0.605786
+Run 4 | Test Orig Epoch : 38/200, Score_CDF90: 4.880905, Score_MSE: 3.549390
+Run 4 | Epoch : 39/200, lr: 0.009091, loss_avg: 0.611713
+Run 4 | Test Orig Epoch : 39/200, Score_CDF90: 21.630398, Score_MSE: 18.681353
+Run 4 | Epoch : 40/200, lr: 0.009045, loss_avg: 0.550438
+Run 4 | Test Orig Epoch : 40/200, Score_CDF90: 2.253540, Score_MSE: 1.536728
+Run 4 | Epoch : 41/200, lr: 0.008998, loss_avg: 0.526597
+Run 4 | Test Orig Epoch : 41/200, Score_CDF90: 3.859577, Score_MSE: 2.562085
+Run 4 | Epoch : 42/200, lr: 0.008951, loss_avg: 0.533635
+Run 4 | Test Orig Epoch : 42/200, Score_CDF90: 1.502082, Score_MSE: 0.774440
+Run 4 | Epoch : 43/200, lr: 0.008902, loss_avg: 0.493946
+Run 4 | Test Orig Epoch : 43/200, Score_CDF90: 1.708782, Score_MSE: 1.026263
+Run 4 | Epoch : 44/200, lr: 0.008853, loss_avg: 0.529490
+Run 4 | Test Orig Epoch : 44/200, Score_CDF90: 3.301927, Score_MSE: 2.345024
+Run 4 | Epoch : 45/200, lr: 0.008802, loss_avg: 0.653500
+Run 4 | Test Orig Epoch : 45/200, Score_CDF90: 6.717871, Score_MSE: 4.396253
+Run 4 | Epoch : 46/200, lr: 0.008751, loss_avg: 0.500894
+Run 4 | Test Orig Epoch : 46/200, Score_CDF90: 1.108449, Score_MSE: 0.638800
+Run 4 | Test Aug1 Epoch : 46/200, Score_CDF90: 1.576637, Score_MSE: 0.939661
+Run 4 | Test Aug2 Epoch : 46/200, Score_CDF90: 1.562683, Score_MSE: 0.885384
+### Model saved! Best test MSE: 0.638800.
+Run 4 | Epoch : 47/200, lr: 0.008698, loss_avg: 0.420673
+Run 4 | Test Orig Epoch : 47/200, Score_CDF90: 1.104901, Score_MSE: 0.690683
+Run 4 | Epoch : 48/200, lr: 0.008645, loss_avg: 0.446064
+Run 4 | Test Orig Epoch : 48/200, Score_CDF90: 1.940660, Score_MSE: 1.454710
+Run 4 | Epoch : 49/200, lr: 0.008591, loss_avg: 0.419641
+Run 4 | Test Orig Epoch : 49/200, Score_CDF90: 1.120085, Score_MSE: 0.634520
+Run 4 | Test Aug1 Epoch : 49/200, Score_CDF90: 1.206746, Score_MSE: 0.698948
+Run 4 | Test Aug2 Epoch : 49/200, Score_CDF90: 1.558802, Score_MSE: 0.879718
+### Model saved! Best test MSE: 0.634520.
+Run 4 | Epoch : 50/200, lr: 0.008536, loss_avg: 0.521658
+Run 4 | Test Orig Epoch : 50/200, Score_CDF90: 1.792614, Score_MSE: 1.126956
+Run 4 | Epoch : 51/200, lr: 0.008480, loss_avg: 0.610093
+Run 4 | Test Orig Epoch : 51/200, Score_CDF90: 1.034360, Score_MSE: 0.668061
+Run 4 | Epoch : 52/200, lr: 0.008423, loss_avg: 0.406335
+Run 4 | Test Orig Epoch : 52/200, Score_CDF90: 1.125275, Score_MSE: 0.753680
+Run 4 | Epoch : 53/200, lr: 0.008365, loss_avg: 0.320707
+Run 4 | Test Orig Epoch : 53/200, Score_CDF90: 1.024496, Score_MSE: 0.613379
+Run 4 | Test Aug1 Epoch : 53/200, Score_CDF90: 1.636776, Score_MSE: 0.936692
+Run 4 | Test Aug2 Epoch : 53/200, Score_CDF90: 1.494577, Score_MSE: 0.855082
+### Model saved! Best test MSE: 0.613379.
+Run 4 | Epoch : 54/200, lr: 0.008307, loss_avg: 0.421756
+Run 4 | Test Orig Epoch : 54/200, Score_CDF90: 1.067949, Score_MSE: 0.694741
+Run 4 | Epoch : 55/200, lr: 0.008247, loss_avg: 0.326929
+Run 4 | Test Orig Epoch : 55/200, Score_CDF90: 5.523385, Score_MSE: 3.673676
+Run 4 | Epoch : 56/200, lr: 0.008187, loss_avg: 0.441547
+Run 4 | Test Orig Epoch : 56/200, Score_CDF90: 1.336276, Score_MSE: 0.765411
+Run 4 | Epoch : 57/200, lr: 0.008126, loss_avg: 0.360021
+Run 4 | Test Orig Epoch : 57/200, Score_CDF90: 1.119899, Score_MSE: 0.669787
+Run 4 | Epoch : 58/200, lr: 0.008065, loss_avg: 0.369877
+Run 4 | Test Orig Epoch : 58/200, Score_CDF90: 1.106552, Score_MSE: 0.707246
+Run 4 | Epoch : 59/200, lr: 0.008002, loss_avg: 0.384877
+Run 4 | Test Orig Epoch : 59/200, Score_CDF90: 1.203941, Score_MSE: 0.800026
+Run 4 | Epoch : 60/200, lr: 0.007939, loss_avg: 0.309477
+Run 4 | Test Orig Epoch : 60/200, Score_CDF90: 3.592456, Score_MSE: 2.454764
+Run 4 | Epoch : 61/200, lr: 0.007875, loss_avg: 0.312650
+Run 4 | Test Orig Epoch : 61/200, Score_CDF90: 1.311650, Score_MSE: 0.841963
+Run 4 | Epoch : 62/200, lr: 0.007810, loss_avg: 0.298759
+Run 4 | Test Orig Epoch : 62/200, Score_CDF90: 1.804649, Score_MSE: 0.983999
+Run 4 | Epoch : 63/200, lr: 0.007745, loss_avg: 0.398983
+Run 4 | Test Orig Epoch : 63/200, Score_CDF90: 2.923001, Score_MSE: 2.055025
+Run 4 | Epoch : 64/200, lr: 0.007679, loss_avg: 0.306879
+Run 4 | Test Orig Epoch : 64/200, Score_CDF90: 1.565062, Score_MSE: 1.075127
+Run 4 | Epoch : 65/200, lr: 0.007612, loss_avg: 0.287624
+Run 4 | Test Orig Epoch : 65/200, Score_CDF90: 1.603796, Score_MSE: 0.903952
+Run 4 | Epoch : 66/200, lr: 0.007545, loss_avg: 0.396395
+Run 4 | Test Orig Epoch : 66/200, Score_CDF90: 0.576722, Score_MSE: 0.329380
+Run 4 | Test Aug1 Epoch : 66/200, Score_CDF90: 0.768406, Score_MSE: 0.435712
+Run 4 | Test Aug2 Epoch : 66/200, Score_CDF90: 1.084144, Score_MSE: 0.596500
+### Model saved! Best test MSE: 0.329380.
+Run 4 | Epoch : 67/200, lr: 0.007477, loss_avg: 0.234223
+Run 4 | Test Orig Epoch : 67/200, Score_CDF90: 0.929611, Score_MSE: 0.622492
+Run 4 | Epoch : 68/200, lr: 0.007409, loss_avg: 0.308948
+Run 4 | Test Orig Epoch : 68/200, Score_CDF90: 2.692840, Score_MSE: 1.658029
+Run 4 | Epoch : 69/200, lr: 0.007340, loss_avg: 0.294336
+Run 4 | Test Orig Epoch : 69/200, Score_CDF90: 1.420179, Score_MSE: 0.796024
+Run 4 | Epoch : 70/200, lr: 0.007270, loss_avg: 0.332569
+Run 4 | Test Orig Epoch : 70/200, Score_CDF90: 0.610604, Score_MSE: 0.370082
+Run 4 | Epoch : 71/200, lr: 0.007200, loss_avg: 0.259901
+Run 4 | Test Orig Epoch : 71/200, Score_CDF90: 0.836336, Score_MSE: 0.470322
+Run 4 | Epoch : 72/200, lr: 0.007129, loss_avg: 0.252159
+Run 4 | Test Orig Epoch : 72/200, Score_CDF90: 0.785339, Score_MSE: 0.499387
+Run 4 | Epoch : 73/200, lr: 0.007058, loss_avg: 0.283082
+Run 4 | Test Orig Epoch : 73/200, Score_CDF90: 0.793269, Score_MSE: 0.436397
+Run 4 | Epoch : 74/200, lr: 0.006986, loss_avg: 0.267204
+Run 4 | Test Orig Epoch : 74/200, Score_CDF90: 1.063161, Score_MSE: 0.662701
+Run 4 | Epoch : 75/200, lr: 0.006913, loss_avg: 0.214854
+Run 4 | Test Orig Epoch : 75/200, Score_CDF90: 0.652968, Score_MSE: 0.388402
+Run 4 | Epoch : 76/200, lr: 0.006841, loss_avg: 0.290197
+Run 4 | Test Orig Epoch : 76/200, Score_CDF90: 0.877438, Score_MSE: 0.536337
+Run 4 | Epoch : 77/200, lr: 0.006767, loss_avg: 0.258494
+Run 4 | Test Orig Epoch : 77/200, Score_CDF90: 0.963071, Score_MSE: 0.533926
+Run 4 | Epoch : 78/200, lr: 0.006694, loss_avg: 0.192926
+Run 4 | Test Orig Epoch : 78/200, Score_CDF90: 1.700139, Score_MSE: 1.204031
+Run 4 | Epoch : 79/200, lr: 0.006620, loss_avg: 0.238549
+Run 4 | Test Orig Epoch : 79/200, Score_CDF90: 0.676786, Score_MSE: 0.408713
+Run 4 | Epoch : 80/200, lr: 0.006545, loss_avg: 0.220458
+Run 4 | Test Orig Epoch : 80/200, Score_CDF90: 0.845560, Score_MSE: 0.545339
+Run 4 | Epoch : 81/200, lr: 0.006470, loss_avg: 0.226712
+Run 4 | Test Orig Epoch : 81/200, Score_CDF90: 0.675271, Score_MSE: 0.413213
+Run 4 | Epoch : 82/200, lr: 0.006395, loss_avg: 0.213007
+Run 4 | Test Orig Epoch : 82/200, Score_CDF90: 0.906570, Score_MSE: 0.638301
+Run 4 | Epoch : 83/200, lr: 0.006319, loss_avg: 0.251767
+Run 4 | Test Orig Epoch : 83/200, Score_CDF90: 0.754996, Score_MSE: 0.487741
+Run 4 | Epoch : 84/200, lr: 0.006243, loss_avg: 0.207628
+Run 4 | Test Orig Epoch : 84/200, Score_CDF90: 1.278115, Score_MSE: 0.826670
+Run 4 | Epoch : 85/200, lr: 0.006167, loss_avg: 0.216331
+Run 4 | Test Orig Epoch : 85/200, Score_CDF90: 2.290841, Score_MSE: 1.601486
+Run 4 | Epoch : 86/200, lr: 0.006091, loss_avg: 0.198512
+Run 4 | Test Orig Epoch : 86/200, Score_CDF90: 0.712190, Score_MSE: 0.473673
+Run 4 | Epoch : 87/200, lr: 0.006014, loss_avg: 0.181636
+Run 4 | Test Orig Epoch : 87/200, Score_CDF90: 0.604338, Score_MSE: 0.344562
+Run 4 | Epoch : 88/200, lr: 0.005937, loss_avg: 0.227103
+Run 4 | Test Orig Epoch : 88/200, Score_CDF90: 0.760473, Score_MSE: 0.437595
+Run 4 | Epoch : 89/200, lr: 0.005860, loss_avg: 0.213344
+Run 4 | Test Orig Epoch : 89/200, Score_CDF90: 0.685911, Score_MSE: 0.420072
+Run 4 | Epoch : 90/200, lr: 0.005782, loss_avg: 0.194385
+Run 4 | Test Orig Epoch : 90/200, Score_CDF90: 1.084521, Score_MSE: 0.632654
+Run 4 | Epoch : 91/200, lr: 0.005705, loss_avg: 0.207479
+Run 4 | Test Orig Epoch : 91/200, Score_CDF90: 0.940926, Score_MSE: 0.609404
+Run 4 | Epoch : 92/200, lr: 0.005627, loss_avg: 0.157752
+Run 4 | Test Orig Epoch : 92/200, Score_CDF90: 0.677624, Score_MSE: 0.418335
+Run 4 | Epoch : 93/200, lr: 0.005549, loss_avg: 0.168913
+Run 4 | Test Orig Epoch : 93/200, Score_CDF90: 0.913709, Score_MSE: 0.512547
+Run 4 | Epoch : 94/200, lr: 0.005471, loss_avg: 0.151252
+Run 4 | Test Orig Epoch : 94/200, Score_CDF90: 0.755704, Score_MSE: 0.477314
+Run 4 | Epoch : 95/200, lr: 0.005392, loss_avg: 0.167630
+Run 4 | Test Orig Epoch : 95/200, Score_CDF90: 1.063553, Score_MSE: 0.650842
+Run 4 | Epoch : 96/200, lr: 0.005314, loss_avg: 0.174748
+Run 4 | Test Orig Epoch : 96/200, Score_CDF90: 1.227008, Score_MSE: 0.851311
+Run 4 | Epoch : 97/200, lr: 0.005236, loss_avg: 0.164414
+Run 4 | Test Orig Epoch : 97/200, Score_CDF90: 0.688868, Score_MSE: 0.365805
+Run 4 | Epoch : 98/200, lr: 0.005157, loss_avg: 0.151275
+Run 4 | Test Orig Epoch : 98/200, Score_CDF90: 0.631369, Score_MSE: 0.378849
+Run 4 | Epoch : 99/200, lr: 0.005079, loss_avg: 0.131712
+Run 4 | Test Orig Epoch : 99/200, Score_CDF90: 0.553549, Score_MSE: 0.322185
+Run 4 | Test Aug1 Epoch : 99/200, Score_CDF90: 0.709749, Score_MSE: 0.399288
+Run 4 | Test Aug2 Epoch : 99/200, Score_CDF90: 0.964706, Score_MSE: 0.535836
+### Model saved! Best test MSE: 0.322185.
+Run 4 | Epoch : 100/200, lr: 0.005000, loss_avg: 0.132686
+Run 4 | Test Orig Epoch : 100/200, Score_CDF90: 0.419734, Score_MSE: 0.238002
+Run 4 | Test Aug1 Epoch : 100/200, Score_CDF90: 0.656831, Score_MSE: 0.384202
+Run 4 | Test Aug2 Epoch : 100/200, Score_CDF90: 0.896129, Score_MSE: 0.485939
+### Model saved! Best test MSE: 0.238002.
+Run 4 | Epoch : 101/200, lr: 0.004921, loss_avg: 0.131941
+Run 4 | Test Orig Epoch : 101/200, Score_CDF90: 0.567862, Score_MSE: 0.336539
+Run 4 | Epoch : 102/200, lr: 0.004843, loss_avg: 0.153099
+Run 4 | Test Orig Epoch : 102/200, Score_CDF90: 0.767170, Score_MSE: 0.498974
+Run 4 | Epoch : 103/200, lr: 0.004764, loss_avg: 0.156399
+Run 4 | Test Orig Epoch : 103/200, Score_CDF90: 0.695469, Score_MSE: 0.377741
+Run 4 | Epoch : 104/200, lr: 0.004686, loss_avg: 0.162499
+Run 4 | Test Orig Epoch : 104/200, Score_CDF90: 0.696655, Score_MSE: 0.403368
+Run 4 | Epoch : 105/200, lr: 0.004608, loss_avg: 0.174018
+Run 4 | Test Orig Epoch : 105/200, Score_CDF90: 0.487852, Score_MSE: 0.274211
+Run 4 | Epoch : 106/200, lr: 0.004529, loss_avg: 0.108108
+Run 4 | Test Orig Epoch : 106/200, Score_CDF90: 0.544951, Score_MSE: 0.324160
+Run 4 | Epoch : 107/200, lr: 0.004451, loss_avg: 0.120589
+Run 4 | Test Orig Epoch : 107/200, Score_CDF90: 0.518211, Score_MSE: 0.293556
+Run 4 | Epoch : 108/200, lr: 0.004373, loss_avg: 0.116643
+Run 4 | Test Orig Epoch : 108/200, Score_CDF90: 0.771250, Score_MSE: 0.498270
+Run 4 | Epoch : 109/200, lr: 0.004295, loss_avg: 0.129932
+Run 4 | Test Orig Epoch : 109/200, Score_CDF90: 0.866582, Score_MSE: 0.560472
+Run 4 | Epoch : 110/200, lr: 0.004218, loss_avg: 0.172166
+Run 4 | Test Orig Epoch : 110/200, Score_CDF90: 0.642419, Score_MSE: 0.389471
+Run 4 | Epoch : 111/200, lr: 0.004140, loss_avg: 0.107228
+Run 4 | Test Orig Epoch : 111/200, Score_CDF90: 0.455390, Score_MSE: 0.275912
+Run 4 | Epoch : 112/200, lr: 0.004063, loss_avg: 0.115732
+Run 4 | Test Orig Epoch : 112/200, Score_CDF90: 0.607069, Score_MSE: 0.400599
+Run 4 | Epoch : 113/200, lr: 0.003986, loss_avg: 0.126929
+Run 4 | Test Orig Epoch : 113/200, Score_CDF90: 0.636147, Score_MSE: 0.337722
+Run 4 | Epoch : 114/200, lr: 0.003909, loss_avg: 0.125665
+Run 4 | Test Orig Epoch : 114/200, Score_CDF90: 0.512734, Score_MSE: 0.295158
+Run 4 | Epoch : 115/200, lr: 0.003833, loss_avg: 0.097465
+Run 4 | Test Orig Epoch : 115/200, Score_CDF90: 0.484306, Score_MSE: 0.316853
+Run 4 | Epoch : 116/200, lr: 0.003757, loss_avg: 0.112185
+Run 4 | Test Orig Epoch : 116/200, Score_CDF90: 0.920276, Score_MSE: 0.625909
+Run 4 | Epoch : 117/200, lr: 0.003681, loss_avg: 0.100257
+Run 4 | Test Orig Epoch : 117/200, Score_CDF90: 0.454771, Score_MSE: 0.274832
+Run 4 | Epoch : 118/200, lr: 0.003605, loss_avg: 0.099370
+Run 4 | Test Orig Epoch : 118/200, Score_CDF90: 0.463877, Score_MSE: 0.264375
+Run 4 | Epoch : 119/200, lr: 0.003530, loss_avg: 0.095016
+Run 4 | Test Orig Epoch : 119/200, Score_CDF90: 0.718623, Score_MSE: 0.414960
+Run 4 | Epoch : 120/200, lr: 0.003455, loss_avg: 0.098474
+Run 4 | Test Orig Epoch : 120/200, Score_CDF90: 0.532155, Score_MSE: 0.338637
+Run 4 | Epoch : 121/200, lr: 0.003380, loss_avg: 0.078876
+Run 4 | Test Orig Epoch : 121/200, Score_CDF90: 0.757382, Score_MSE: 0.398623
+Run 4 | Epoch : 122/200, lr: 0.003306, loss_avg: 0.108124
+Run 4 | Test Orig Epoch : 122/200, Score_CDF90: 0.496987, Score_MSE: 0.290507
+Run 4 | Epoch : 123/200, lr: 0.003233, loss_avg: 0.087806
+Run 4 | Test Orig Epoch : 123/200, Score_CDF90: 0.787827, Score_MSE: 0.462384
+Run 4 | Epoch : 124/200, lr: 0.003159, loss_avg: 0.096543
+Run 4 | Test Orig Epoch : 124/200, Score_CDF90: 0.511979, Score_MSE: 0.325062
+Run 4 | Epoch : 125/200, lr: 0.003087, loss_avg: 0.078919
+Run 4 | Test Orig Epoch : 125/200, Score_CDF90: 0.639003, Score_MSE: 0.368403
+Run 4 | Epoch : 126/200, lr: 0.003014, loss_avg: 0.080973
+Run 4 | Test Orig Epoch : 126/200, Score_CDF90: 0.436154, Score_MSE: 0.259452
+Run 4 | Epoch : 127/200, lr: 0.002942, loss_avg: 0.073743
+Run 4 | Test Orig Epoch : 127/200, Score_CDF90: 0.469260, Score_MSE: 0.278886
+Run 4 | Epoch : 128/200, lr: 0.002871, loss_avg: 0.079093
+Run 4 | Test Orig Epoch : 128/200, Score_CDF90: 0.658302, Score_MSE: 0.415542
+Run 4 | Epoch : 129/200, lr: 0.002800, loss_avg: 0.075553
+Run 4 | Test Orig Epoch : 129/200, Score_CDF90: 0.413275, Score_MSE: 0.247449
+Run 4 | Epoch : 130/200, lr: 0.002730, loss_avg: 0.080865
+Run 4 | Test Orig Epoch : 130/200, Score_CDF90: 0.400983, Score_MSE: 0.242253
+Run 4 | Epoch : 131/200, lr: 0.002660, loss_avg: 0.063480
+Run 4 | Test Orig Epoch : 131/200, Score_CDF90: 0.412978, Score_MSE: 0.261265
+Run 4 | Epoch : 132/200, lr: 0.002591, loss_avg: 0.068122
+Run 4 | Test Orig Epoch : 132/200, Score_CDF90: 0.448197, Score_MSE: 0.286996
+Run 4 | Epoch : 133/200, lr: 0.002523, loss_avg: 0.064481
+Run 4 | Test Orig Epoch : 133/200, Score_CDF90: 0.350820, Score_MSE: 0.203831
+Run 4 | Test Aug1 Epoch : 133/200, Score_CDF90: 0.418867, Score_MSE: 0.235743
+Run 4 | Test Aug2 Epoch : 133/200, Score_CDF90: 0.813743, Score_MSE: 0.437690
+### Model saved! Best test MSE: 0.203831.
+Run 4 | Epoch : 134/200, lr: 0.002455, loss_avg: 0.076172
+Run 4 | Test Orig Epoch : 134/200, Score_CDF90: 0.525513, Score_MSE: 0.352946
+Run 4 | Epoch : 135/200, lr: 0.002388, loss_avg: 0.067528
+Run 4 | Test Orig Epoch : 135/200, Score_CDF90: 0.390647, Score_MSE: 0.213085
+Run 4 | Epoch : 136/200, lr: 0.002321, loss_avg: 0.065481
+Run 4 | Test Orig Epoch : 136/200, Score_CDF90: 0.306085, Score_MSE: 0.180341
+Run 4 | Test Aug1 Epoch : 136/200, Score_CDF90: 0.386263, Score_MSE: 0.214855
+Run 4 | Test Aug2 Epoch : 136/200, Score_CDF90: 0.787224, Score_MSE: 0.416531
+### Model saved! Best test MSE: 0.180341.
+Run 4 | Epoch : 137/200, lr: 0.002255, loss_avg: 0.071082
+Run 4 | Test Orig Epoch : 137/200, Score_CDF90: 0.592632, Score_MSE: 0.309937
+Run 4 | Epoch : 138/200, lr: 0.002190, loss_avg: 0.061649
+Run 4 | Test Orig Epoch : 138/200, Score_CDF90: 0.442544, Score_MSE: 0.282880
+Run 4 | Epoch : 139/200, lr: 0.002125, loss_avg: 0.061038
+Run 4 | Test Orig Epoch : 139/200, Score_CDF90: 0.483698, Score_MSE: 0.290467
+Run 4 | Epoch : 140/200, lr: 0.002061, loss_avg: 0.062303
+Run 4 | Test Orig Epoch : 140/200, Score_CDF90: 0.402724, Score_MSE: 0.238661
+Run 4 | Epoch : 141/200, lr: 0.001998, loss_avg: 0.063779
+Run 4 | Test Orig Epoch : 141/200, Score_CDF90: 0.338191, Score_MSE: 0.191859
+Run 4 | Epoch : 142/200, lr: 0.001935, loss_avg: 0.054684
+Run 4 | Test Orig Epoch : 142/200, Score_CDF90: 0.330911, Score_MSE: 0.192223
+Run 4 | Epoch : 143/200, lr: 0.001874, loss_avg: 0.057520
+Run 4 | Test Orig Epoch : 143/200, Score_CDF90: 0.385026, Score_MSE: 0.217854
+Run 4 | Epoch : 144/200, lr: 0.001813, loss_avg: 0.054555
+Run 4 | Test Orig Epoch : 144/200, Score_CDF90: 0.304346, Score_MSE: 0.167080
+Run 4 | Test Aug1 Epoch : 144/200, Score_CDF90: 0.468442, Score_MSE: 0.243913
+Run 4 | Test Aug2 Epoch : 144/200, Score_CDF90: 0.783932, Score_MSE: 0.414196
+### Model saved! Best test MSE: 0.167080.
+Run 4 | Epoch : 145/200, lr: 0.001753, loss_avg: 0.056905
+Run 4 | Test Orig Epoch : 145/200, Score_CDF90: 0.319169, Score_MSE: 0.187713
+Run 4 | Epoch : 146/200, lr: 0.001693, loss_avg: 0.051043
+Run 4 | Test Orig Epoch : 146/200, Score_CDF90: 0.423793, Score_MSE: 0.271456
+Run 4 | Epoch : 147/200, lr: 0.001635, loss_avg: 0.050991
+Run 4 | Test Orig Epoch : 147/200, Score_CDF90: 0.473449, Score_MSE: 0.280945
+Run 4 | Epoch : 148/200, lr: 0.001577, loss_avg: 0.048705
+Run 4 | Test Orig Epoch : 148/200, Score_CDF90: 0.379897, Score_MSE: 0.231008
+Run 4 | Epoch : 149/200, lr: 0.001520, loss_avg: 0.049602
+Run 4 | Test Orig Epoch : 149/200, Score_CDF90: 0.440609, Score_MSE: 0.273546
+Run 4 | Epoch : 150/200, lr: 0.001464, loss_avg: 0.048213
+Run 4 | Test Orig Epoch : 150/200, Score_CDF90: 0.350517, Score_MSE: 0.213084
+Run 4 | Epoch : 151/200, lr: 0.001409, loss_avg: 0.048245
+Run 4 | Test Orig Epoch : 151/200, Score_CDF90: 0.350843, Score_MSE: 0.203378
+Run 4 | Epoch : 152/200, lr: 0.001355, loss_avg: 0.045532
+Run 4 | Test Orig Epoch : 152/200, Score_CDF90: 0.316632, Score_MSE: 0.181700
+Run 4 | Epoch : 153/200, lr: 0.001302, loss_avg: 0.045849
+Run 4 | Test Orig Epoch : 153/200, Score_CDF90: 0.284482, Score_MSE: 0.165121
+Run 4 | Test Aug1 Epoch : 153/200, Score_CDF90: 0.316572, Score_MSE: 0.175160
+Run 4 | Test Aug2 Epoch : 153/200, Score_CDF90: 0.763013, Score_MSE: 0.402938
+### Model saved! Best test MSE: 0.165121.
+Run 4 | Epoch : 154/200, lr: 0.001249, loss_avg: 0.038209
+Run 4 | Test Orig Epoch : 154/200, Score_CDF90: 0.353355, Score_MSE: 0.209434
+Run 4 | Epoch : 155/200, lr: 0.001198, loss_avg: 0.039474
+Run 4 | Test Orig Epoch : 155/200, Score_CDF90: 0.256431, Score_MSE: 0.145651
+Run 4 | Test Aug1 Epoch : 155/200, Score_CDF90: 0.299926, Score_MSE: 0.167050
+Run 4 | Test Aug2 Epoch : 155/200, Score_CDF90: 0.765402, Score_MSE: 0.394993
+### Model saved! Best test MSE: 0.145651.
+Run 4 | Epoch : 156/200, lr: 0.001147, loss_avg: 0.040707
+Run 4 | Test Orig Epoch : 156/200, Score_CDF90: 0.355172, Score_MSE: 0.202346
+Run 4 | Epoch : 157/200, lr: 0.001098, loss_avg: 0.040808
+Run 4 | Test Orig Epoch : 157/200, Score_CDF90: 0.312229, Score_MSE: 0.189001
+Run 4 | Epoch : 158/200, lr: 0.001049, loss_avg: 0.038562
+Run 4 | Test Orig Epoch : 158/200, Score_CDF90: 0.406205, Score_MSE: 0.269858
+Run 4 | Epoch : 159/200, lr: 0.001002, loss_avg: 0.040592
+Run 4 | Test Orig Epoch : 159/200, Score_CDF90: 0.300717, Score_MSE: 0.180838
+Run 4 | Epoch : 160/200, lr: 0.000955, loss_avg: 0.036699
+Run 4 | Test Orig Epoch : 160/200, Score_CDF90: 0.278006, Score_MSE: 0.157951
+Run 4 | Epoch : 161/200, lr: 0.000909, loss_avg: 0.036782
+Run 4 | Test Orig Epoch : 161/200, Score_CDF90: 0.273895, Score_MSE: 0.154816
+Run 4 | Epoch : 162/200, lr: 0.000865, loss_avg: 0.036258
+Run 4 | Test Orig Epoch : 162/200, Score_CDF90: 0.442661, Score_MSE: 0.299239
+Run 4 | Epoch : 163/200, lr: 0.000821, loss_avg: 0.033263
+Run 4 | Test Orig Epoch : 163/200, Score_CDF90: 0.289056, Score_MSE: 0.163071
+Run 4 | Epoch : 164/200, lr: 0.000778, loss_avg: 0.032231
+Run 4 | Test Orig Epoch : 164/200, Score_CDF90: 0.293863, Score_MSE: 0.173260
+Run 4 | Epoch : 165/200, lr: 0.000737, loss_avg: 0.033765
+Run 4 | Test Orig Epoch : 165/200, Score_CDF90: 0.297212, Score_MSE: 0.177499
+Run 4 | Epoch : 166/200, lr: 0.000696, loss_avg: 0.030084
+Run 4 | Test Orig Epoch : 166/200, Score_CDF90: 0.335060, Score_MSE: 0.206093
+Run 4 | Epoch : 167/200, lr: 0.000657, loss_avg: 0.033184
+Run 4 | Test Orig Epoch : 167/200, Score_CDF90: 0.293665, Score_MSE: 0.175741
+Run 4 | Epoch : 168/200, lr: 0.000618, loss_avg: 0.031362
+Run 4 | Test Orig Epoch : 168/200, Score_CDF90: 0.251516, Score_MSE: 0.140570
+Run 4 | Test Aug1 Epoch : 168/200, Score_CDF90: 0.301685, Score_MSE: 0.165059
+Run 4 | Test Aug2 Epoch : 168/200, Score_CDF90: 0.748301, Score_MSE: 0.388180
+### Model saved! Best test MSE: 0.140570.
+Run 4 | Epoch : 169/200, lr: 0.000581, loss_avg: 0.029887
+Run 4 | Test Orig Epoch : 169/200, Score_CDF90: 0.315291, Score_MSE: 0.190957
+Run 4 | Epoch : 170/200, lr: 0.000545, loss_avg: 0.028859
+Run 4 | Test Orig Epoch : 170/200, Score_CDF90: 0.311209, Score_MSE: 0.196358
+Run 4 | Epoch : 171/200, lr: 0.000510, loss_avg: 0.031238
+Run 4 | Test Orig Epoch : 171/200, Score_CDF90: 0.272417, Score_MSE: 0.161592
+Run 4 | Epoch : 172/200, lr: 0.000476, loss_avg: 0.028963
+Run 4 | Test Orig Epoch : 172/200, Score_CDF90: 0.240079, Score_MSE: 0.135700
+Run 4 | Test Aug1 Epoch : 172/200, Score_CDF90: 0.286356, Score_MSE: 0.160264
+Run 4 | Test Aug2 Epoch : 172/200, Score_CDF90: 0.753370, Score_MSE: 0.388169
+### Model saved! Best test MSE: 0.135700.
+Run 4 | Epoch : 173/200, lr: 0.000443, loss_avg: 0.029874
+Run 4 | Test Orig Epoch : 173/200, Score_CDF90: 0.266876, Score_MSE: 0.153079
+Run 4 | Epoch : 174/200, lr: 0.000411, loss_avg: 0.026928
+Run 4 | Test Orig Epoch : 174/200, Score_CDF90: 0.236082, Score_MSE: 0.133259
+Run 4 | Test Aug1 Epoch : 174/200, Score_CDF90: 0.298325, Score_MSE: 0.163848
+Run 4 | Test Aug2 Epoch : 174/200, Score_CDF90: 0.746967, Score_MSE: 0.385493
+### Model saved! Best test MSE: 0.133259.
+Run 4 | Epoch : 175/200, lr: 0.000381, loss_avg: 0.027334
+Run 4 | Test Orig Epoch : 175/200, Score_CDF90: 0.251677, Score_MSE: 0.142468
+Run 4 | Epoch : 176/200, lr: 0.000351, loss_avg: 0.027746
+Run 4 | Test Orig Epoch : 176/200, Score_CDF90: 0.288328, Score_MSE: 0.164494
+Run 4 | Epoch : 177/200, lr: 0.000323, loss_avg: 0.027465
+Run 4 | Test Orig Epoch : 177/200, Score_CDF90: 0.233428, Score_MSE: 0.133725
+Run 4 | Epoch : 178/200, lr: 0.000296, loss_avg: 0.025714
+Run 4 | Test Orig Epoch : 178/200, Score_CDF90: 0.236008, Score_MSE: 0.133568
+Run 4 | Epoch : 179/200, lr: 0.000270, loss_avg: 0.026054
+Run 4 | Test Orig Epoch : 179/200, Score_CDF90: 0.257954, Score_MSE: 0.151355
+Run 4 | Epoch : 180/200, lr: 0.000245, loss_avg: 0.025527
+Run 4 | Test Orig Epoch : 180/200, Score_CDF90: 0.218287, Score_MSE: 0.121158
+Run 4 | Test Aug1 Epoch : 180/200, Score_CDF90: 0.264634, Score_MSE: 0.142527
+Run 4 | Test Aug2 Epoch : 180/200, Score_CDF90: 0.736276, Score_MSE: 0.380072
+### Model saved! Best test MSE: 0.121158.
+Run 4 | Epoch : 181/200, lr: 0.000221, loss_avg: 0.024104
+Run 4 | Test Orig Epoch : 181/200, Score_CDF90: 0.260444, Score_MSE: 0.160517
+Run 4 | Epoch : 182/200, lr: 0.000199, loss_avg: 0.024735
+Run 4 | Test Orig Epoch : 182/200, Score_CDF90: 0.208834, Score_MSE: 0.114718
+Run 4 | Test Aug1 Epoch : 182/200, Score_CDF90: 0.256957, Score_MSE: 0.136574
+Run 4 | Test Aug2 Epoch : 182/200, Score_CDF90: 0.735064, Score_MSE: 0.378011
+### Model saved! Best test MSE: 0.114718.
+Run 4 | Epoch : 183/200, lr: 0.000177, loss_avg: 0.022611
+Run 4 | Test Orig Epoch : 183/200, Score_CDF90: 0.261377, Score_MSE: 0.149644
+Run 4 | Epoch : 184/200, lr: 0.000157, loss_avg: 0.024368
+Run 4 | Test Orig Epoch : 184/200, Score_CDF90: 0.240942, Score_MSE: 0.138512
+Run 4 | Epoch : 185/200, lr: 0.000138, loss_avg: 0.023121
+Run 4 | Test Orig Epoch : 185/200, Score_CDF90: 0.229103, Score_MSE: 0.129203
+Run 4 | Epoch : 186/200, lr: 0.000120, loss_avg: 0.022022
+Run 4 | Test Orig Epoch : 186/200, Score_CDF90: 0.233160, Score_MSE: 0.130287
+Run 4 | Epoch : 187/200, lr: 0.000104, loss_avg: 0.023506
+Run 4 | Test Orig Epoch : 187/200, Score_CDF90: 0.212420, Score_MSE: 0.115356
+Run 4 | Epoch : 188/200, lr: 0.000089, loss_avg: 0.022843
+Run 4 | Test Orig Epoch : 188/200, Score_CDF90: 0.239793, Score_MSE: 0.135463
+Run 4 | Epoch : 189/200, lr: 0.000074, loss_avg: 0.021919
+Run 4 | Test Orig Epoch : 189/200, Score_CDF90: 0.223319, Score_MSE: 0.124282
+Run 4 | Epoch : 190/200, lr: 0.000062, loss_avg: 0.021830
+Run 4 | Test Orig Epoch : 190/200, Score_CDF90: 0.277481, Score_MSE: 0.162675
+Run 4 | Epoch : 191/200, lr: 0.000050, loss_avg: 0.021710
+Run 4 | Test Orig Epoch : 191/200, Score_CDF90: 0.206910, Score_MSE: 0.112696
+Run 4 | Test Aug1 Epoch : 191/200, Score_CDF90: 0.255072, Score_MSE: 0.134710
+Run 4 | Test Aug2 Epoch : 191/200, Score_CDF90: 0.734552, Score_MSE: 0.376359
+### Model saved! Best test MSE: 0.112696.
+Run 4 | Epoch : 192/200, lr: 0.000039, loss_avg: 0.020549
+Run 4 | Test Orig Epoch : 192/200, Score_CDF90: 0.208365, Score_MSE: 0.113513
+Run 4 | Epoch : 193/200, lr: 0.000030, loss_avg: 0.022064
+Run 4 | Test Orig Epoch : 193/200, Score_CDF90: 0.227476, Score_MSE: 0.125716
+Run 4 | Epoch : 194/200, lr: 0.000022, loss_avg: 0.021029
+Run 4 | Test Orig Epoch : 194/200, Score_CDF90: 0.240931, Score_MSE: 0.137365
+Run 4 | Epoch : 195/200, lr: 0.000015, loss_avg: 0.020687
+Run 4 | Test Orig Epoch : 195/200, Score_CDF90: 0.226366, Score_MSE: 0.125372
+Run 4 | Epoch : 196/200, lr: 0.000010, loss_avg: 0.020406
+Run 4 | Test Orig Epoch : 196/200, Score_CDF90: 0.229928, Score_MSE: 0.129427
+Run 4 | Epoch : 197/200, lr: 0.000006, loss_avg: 0.020923
+Run 4 | Test Orig Epoch : 197/200, Score_CDF90: 0.217765, Score_MSE: 0.120806
+Run 4 | Epoch : 198/200, lr: 0.000002, loss_avg: 0.020530
+Run 4 | Test Orig Epoch : 198/200, Score_CDF90: 0.236616, Score_MSE: 0.136226
+Run 4 | Epoch : 199/200, lr: 0.000001, loss_avg: 0.020372
+Run 4 | Test Orig Epoch : 199/200, Score_CDF90: 0.219376, Score_MSE: 0.121456
+Run 4 | Epoch : 200/200, lr: 0.000000, loss_avg: 0.020382
+Run 4 | Test Orig Epoch : 200/200, Score_CDF90: 0.230475, Score_MSE: 0.129652
+
+Performance:
+MSE_orig,CDF90_orig,MSE_aug1,CDF90_aug1,MSE_aug2,CDF90_aug2
+0.0898,0.1697,0.1079,0.2051,0.3482,0.6735,
+0.0997,0.1834,0.1165,0.2169,0.3709,0.7277,
+0.1024,0.1889,0.1187,0.2265,0.3566,0.7026,
+0.1009,0.1835,0.1138,0.2129,0.3687,0.7308,
+0.1127,0.2069,0.1347,0.2551,0.3764,0.7346,

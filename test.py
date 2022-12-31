@@ -127,11 +127,11 @@ def test(idx, epoch, model, test_loader, info):
     Diff = np.sqrt(np.sum((np.square(y_test - y)), 1))  # Euclidean distance
     Order = np.sort(Diff)
     Score_CDF90 = Order[int(y_test.shape[0] * 0.9)]
-    Score_MSE = np.mean(Order)
+    Score_MRSE = np.mean(Order)
 
-    print('Run %d | %s Epoch : %d/%d, Score_CDF90: %.6f, Score_MSE: %.6f' % (
-        idx, info, epoch + 1, cfg.epoch, Score_CDF90, Score_MSE))
-    return Score_MSE, Score_CDF90
+    print('Run %d | %s Epoch : %d/%d, Score_CDF90: %.6f, Score_MRSE: %.6f' % (
+        idx, info, epoch + 1, cfg.epoch, Score_CDF90, Score_MRSE))
+    return Score_MRSE, Score_CDF90
 
 
 if __name__ == '__main__':
@@ -168,16 +168,16 @@ if __name__ == '__main__':
         model.load_state_dict(model_state_dict)
         model = model.cuda()
 
-        test_MSE_orig, test_CDF90_orig = test(idx, cfg.epoch, model, test_loader, 'Test Orig')
-        test_MSE_aug1, test_CDF90_aug1 = test(idx, cfg.epoch, model, test_loader_aug1, 'Test Aug1')
-        test_MSE_aug2, test_CDF90_aug2 = test(idx, cfg.epoch, model, test_loader_aug2, 'Test Aug2')
+        test_MRSE_orig, test_CDF90_orig = test(idx, cfg.epoch, model, test_loader, 'Test Orig')
+        test_MRSE_aug1, test_CDF90_aug1 = test(idx, cfg.epoch, model, test_loader_aug1, 'Test Aug1')
+        test_MRSE_aug2, test_CDF90_aug2 = test(idx, cfg.epoch, model, test_loader_aug2, 'Test Aug2')
 
-        mean_Perf.append([test_MSE_orig, test_CDF90_orig,
-                          test_MSE_aug1, test_CDF90_aug1,
-                          test_MSE_aug2, test_CDF90_aug2])
+        mean_Perf.append([test_MRSE_orig, test_CDF90_orig,
+                          test_MRSE_aug1, test_CDF90_aug1,
+                          test_MRSE_aug2, test_CDF90_aug2])
 
     print('\nPerformance:')
-    print('MSE_orig,CDF90_orig,MSE_aug1,CDF90_aug1,MSE_aug2,CDF90_aug2')
+    print('MRSE_orig,CDF90_orig,MRSE_aug1,CDF90_aug1,MRSE_aug2,CDF90_aug2')
     for data in mean_Perf:
         for x in data:
             print('{:.4f}'.format(x), end=',')

@@ -31,7 +31,7 @@ def plot_signal(data, saveName):
     surf = sub.plot_surface(X, Y, Z, cmap=plt.cm.terrain)  # 绘制曲面,cmap=plt.cm.brg并设置颜色cmap
     # cb = fig.colorbar(surf, shrink=0.8, aspect=15)  # 设置颜色棒
 
-    sub.set_xlabel('Subcarrier')
+    sub.set_xlabel('Time')
     sub.set_ylabel('Antenna')
     sub.set_zlabel('Amplitude')
     # plt.show()

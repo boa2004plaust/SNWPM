@@ -1,5 +1,5 @@
 # SNWPM
- The Code of ``SNWPM: A Siamese Network based Wireless Positioning Model
+ The Code of ''SNWPM: A Siamese Network based Wireless Positioning Model
 Resilient to Partial Base Stations Unavailable''
 
 # DATA Preparation
@@ -8,9 +8,13 @@ You can download the data from [2022 WAIC Competition] (https://www.datafountain
 # Training and Testing
 
 ## 1. Configuration
+
 Python-3.7
+
 Pytorch-1.7.1
+
 numpy-1.24.1
+
 scipy-1.7.3
 
 You need a CUDA with 11GB to train the model.

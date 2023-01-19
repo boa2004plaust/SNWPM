@@ -1,5 +1,6 @@
-# SNPM
- The Code of Generalization Ability of 5G Indoor Positioning Model under Restricted Conditions
+# SNWPM
+ The Code of ``SNWPM: A Siamese Network based Wireless Positioning Model
+Resilient to Partial Base Stations Unavailable''
 
 # DATA Preparation
 You can download the data from [2022 WAIC Competition] (https://www.datafountain.cn/competitions/575).

@@ -10,7 +10,7 @@ from copy import deepcopy as DP
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from models.model import Model
+from models.SNWPM import Model
 from utils import Logger, create_exp_dir
 
 
@@ -34,7 +34,7 @@ class MyTestset(Dataset):
 def parser_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--exp-dir', type=str, default='log')
-    parser.add_argument('--arch', type=str, default='SRPM10', help='[SRPM5, SRPM10, SRPM15]')
+    parser.add_argument('--arch', type=str, default='SNWPM', help='[SNWPM5, SNWPM10, SNWPM15]')
     parser.add_argument('--name', type=str, default='using_orig')
     parser.add_argument('--mode', type=str, default='orig')
     parser.add_argument('--epoch', type=int, default=200)

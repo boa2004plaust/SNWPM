@@ -2,7 +2,7 @@
 # Build documentation for display in web browser.
 
 LOG=log
-ARCH=SRPM_FAAM
+ARCH=SNWPM_FAAM
 MODE=orig
 NAME=using_orig
 EPOCH=200
